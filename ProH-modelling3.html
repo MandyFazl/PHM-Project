@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" style="width: 1440px; height: 1024px;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin-top: 100px;
+            padding: 0;
+            background-image: url('pro1.jpg');
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        input {
+            width: 100px;
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+            position: absolute;
+            border: hidden;
+            border-radius: 20px;
+        }
+
+        #textbox1 { top: 120px; left: 26%; }
+        #textbox2 { top: 220px; left: 23%; }
+        #textbox3 { top: 221px; left: 47%; }
+        #textbox4 { top: 243px; left: 66%; }
+        #textbox5 { top: 321px; left: 74.7%; }
+
+        .green { background-color: #8af28a; }
+        .red { background-color: #ff8a8a; }
+        .highlight { background-color: yellow; }
+
+        button {
+            background-color: #399d3c;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            position: absolute;
+            top: 100px;
+            left: 85%;
+            width: 150px;
+        }
+
+        button:hover { background-color: #226625; }
+        #hintButton {
+            background-color: #007BFF; /* Blue background color for hint button */
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            margin-top: 20px;
+            position: absolute;
+            top: 140px;
+            left: 85%;
+    
+        }
+        #hintButton:hover {
+            background-color: #004691;
+            /* Darker Blue on hover */
+        }
+        #resetButton {
+            background-color: #ff3700; /* Blue background color for hint button */
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            margin-top: 20px;
+            position: absolute;
+            top: 190px;
+            left: 85%;
+        }
+        #resetButton:hover {
+            background-color: #9c2301;
+            /* Darker Blue on hover */
+        }
+    </style>
+    <script>
+        var trueResults = ["identify", "customer", "disscus", "agreed delivery time", "textbox5"];
+
+        function checkInputs() {
+            for (var i = 1; i <= 5; i++) {
+                var userInput = document.getElementById('textbox' + i).value;
+                var inputElement = document.getElementById('textbox' + i);
+
+                if (trueResults.includes(userInput)) {
+                    inputElement.className = 'green';
+                } else {
+                    inputElement.className = 'red';
+                }
+            }
+        }
+
+        function toggleHint() {
+            for (var i = 1; i <= 5; i++) {
+                var inputElement = document.getElementById('textbox' + i);
+
+                if (inputElement.classList.contains('highlight')) {
+                    // Reset to initial state
+                    inputElement.placeholder = '---------------';
+                    inputElement.classList.remove('highlight');
+                } else {
+                    // Highlight and show true value
+                    inputElement.placeholder = trueResults[i - 1];
+                    inputElement.classList.add('highlight');
+                }
+            }
+        }
+
+        function resetPage() {
+            // Reload the page
+            location.reload();
+        }
+    </script>
+</head>
+
+<body style="width: 100%; height: 100%; margin: 0;">
+
+    <div class="container">
+        <input type="text" id="textbox1" placeholder="---------------">
+        <input type="text" id="textbox2" placeholder="---------------">
+        <input type="text" id="textbox3" placeholder="---------------">
+        <input type="text" id="textbox4" placeholder="---------------">
+        <input type="text" id="textbox5" placeholder="---------------">
+
+        <button onclick="checkInputs()">Submit</button>
+        <button id="hintButton" onclick="toggleHint()">Hint</button>
+        <button id="resetButton" onclick="resetPage()">Reset</button>
+    </div>
+
+</body>
+
+</html>
