@@ -1,28 +1,27 @@
 <!DOCTYPE html>
-<html lang="en" style="width: 1440px; height: 1024px;">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="assets/js/color-modes.js"></script>
+    <title>ProH Modelling</title>
 
     <style>
         body {
             margin-top: 100px;
             padding: 0;
-            background-image: url('pro1.jpg');
             background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
             font-family: Arial, sans-serif;
-        }
-
-        .container {
-            position: relative;
-            width: 100%;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
         }
 
         input {
@@ -31,135 +30,188 @@
             margin: 10px 0;
             box-sizing: border-box;
             position: absolute;
+            border-radius: 10px;
+            background-color: #FFFFFF;
+            text-align: center;
+        }
+
+
+        .highlight {
+            background-color: #F3F587;
             border: hidden;
-            border-radius: 20px;
-        }
-
-        #textbox1 {
-            top: 120px;
-            left: 26%;
-        }
-
-        #textbox2 {
-            top: 220px;
-            left: 23%;
-        }
-
-        #textbox3 {
-            top: 221px;
-            left: 47%;
-        }
-
-        #textbox4 {
-            top: 243px;
-            left: 66%;
-        }
-
-        #textbox5 {
-            top: 321px;
-            left: 74.7%;
+            width: 100px;
+            padding: 5px;
+            margin: 10px 0;
+            text-align: center;
         }
 
         .green {
-            background-color: #8af28a;
+            background-color: #9FE59F;
         }
 
         .red {
-            background-color: #ff8a8a;
+            background-color: #EE9C9C;
         }
 
-        .highlight {
-            background-color: yellow;
-        }
 
         button {
             padding: 10px 15px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
             font-size: 16px;
-            transition: background-color 0.3s ease;
-            position: absolute;
             left: 85%;
             width: 150px;
         }
 
-        #SubmitButton {
-            background-color: #5FB460;
-            color: white;
+        .btn-outline-primary-submit {
+            --bs-btn-color: #5FB460;
+            --bs-btn-border-color: #5FB460;
+            --bs-btn-hover-color: #fff;
+            --bs-btn-hover-bg: #5FB460;
+            --bs-btn-hover-border-color: #5FB460;
+            --bs-btn-focus-shadow-rgb: 13, 110, 253;
+            --bs-btn-active-color: #fff;
+            --bs-btn-active-bg: #5FB460;
+            --bs-btn-active-border-color: #5FB460;
+            --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+            --bs-btn-disabled-color: #5FB460;
+            --bs-btn-disabled-bg: transparent;
+            --bs-btn-disabled-border-color: #5FB460;
+            --bs-gradient: none;
             top: 100px;
+            position: absolute;
+            width: 150px;
         }
 
-        #SubmitButton:hover {
-            background-color: #226625;
+
+        .btn-outline-primary-hint {
+            --bs-btn-color: #216EE0;
+            --bs-btn-border-color: #216EE0;
+            --bs-btn-hover-color: #fff;
+            --bs-btn-hover-bg: #216EE0;
+            --bs-btn-hover-border-color: #216EE0;
+            --bs-btn-focus-shadow-rgb: 13, 110, 253;
+            --bs-btn-active-color: #fff;
+            --bs-btn-active-bg: #216EE0;
+            --bs-btn-active-border-color: #216EE0;
+            --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+            --bs-btn-disabled-color: #216EE0;
+            --bs-btn-disabled-bg: transparent;
+            --bs-btn-disabled-border-color: #216EE0;
+            --bs-gradient: none;
+            top: 160px;
+            position: absolute;
+            width: 150px;
         }
 
-        #SipocButton {
-            background-color: #5FB460;
-            color: white;
+        .btn-outline-primary-reset {
+            --bs-btn-color: #E75858;
+            --bs-btn-border-color: #E75858;
+            --bs-btn-hover-color: #fff;
+            --bs-btn-hover-bg: #E75858;
+            --bs-btn-hover-border-color: #E75858;
+            --bs-btn-focus-shadow-rgb: 13, 110, 253;
+            --bs-btn-active-color: #fff;
+            --bs-btn-active-bg: #E75858;
+            --bs-btn-active-border-color: #E75858;
+            --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+            --bs-btn-disabled-color: #E75858;
+            --bs-btn-disabled-bg: transparent;
+            --bs-btn-disabled-border-color: #E75858;
+            --bs-gradient: none;
+            top: 220px;
+            position: absolute;
+
+        }
+
+
+
+
+
+        .btn-outline-primary-sipoc {
+            --bs-btn-color: #5FB460;
+            --bs-btn-border-color: #5FB460;
+            --bs-btn-hover-color: #fff;
+            --bs-btn-hover-bg: #5FB460;
+            --bs-btn-hover-border-color: #5FB460;
+            --bs-btn-focus-shadow-rgb: 13, 110, 253;
+            --bs-btn-active-color: #fff;
+            --bs-btn-active-bg: #5FB460;
+            --bs-btn-active-border-color: #5FB460;
+            --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+            --bs-btn-disabled-color: #5FB460;
+            --bs-btn-disabled-bg: transparent;
+            --bs-btn-disabled-border-color: #5FB460;
+            --bs-gradient: none;
+        }
+
+        .topheader {
+            margin-left: 80px;
+            margin-right: 80px;
             margin-top: 20px;
-            top: 130px;
         }
-
-        #SipocButton:hover {
-            background-color: #226625;
-        }
-
-        #hintButton {
-            background-color: #216EE0;
-            color: white;
-            margin-top: 20px;
-            top: 180px;
-        }
-
-        #hintButton:hover {
-            background-color: #004691;
-        }
-
-        #resetButton {
-            background-color: #E75858;
-            color: white;
-            margin-top: 20px;
-            top: 230px;
-        }
-
-        #resetButton:hover {
-            background-color: #9c2301;
-        }
-
-
     </style>
     <script>
-        var trueResults = ["identify", "customer", "disscus", "agreed delivery time", "textbox5"];
+        var trueResults = [
+            ["agreed delivery time", "capacity"],
+            ["production manager", "operators"],
+            ["material", "design", "quantity"],
+            ["reject", "accept"],
+            ["identify"],
+            ["customer"],
+            ["discuss"],
+            ["produce"],
+            ["receive"],
+            ["rejection notification"],
+            ["evaluate"],
+            ["commercial director"],
+            ["create"],
+            ["make"],
+            ["receive"],
+            ["work"],
+            ["require"],
+            ["create"],
+            ["retailer"],
+            ["manage"],
+            ["evaluate"],
+
+        ];
 
         function checkInputs() {
-            for (var i = 1; i <= 5; i++) {
-                var userInput = document.getElementById('textbox' + i).value;
-                var inputElement = document.getElementById('textbox' + i);
+            for (var j = 0; j < 21; j++) {
+                for (var i = 1; i <= trueResults[j].length; i++) {
+                    var userInput = document.getElementById('zone' + j + 'textbox' + i).value;
+                    var inputElement = document.getElementById('zone' + j + 'textbox' + i);
 
-                if (trueResults.includes(userInput)) {
-                    inputElement.className = 'green';
-                } else {
-                    inputElement.className = 'red';
+                    if (trueResults[j].includes(userInput)) {
+                        inputElement.className = 'green';
+                    } else {
+                        inputElement.className = 'red';
+                    }
                 }
             }
         }
+
+
 
         function toggleHint() {
-            for (var i = 1; i <= 5; i++) {
-                var inputElement = document.getElementById('textbox' + i);
+            for (var j = 0; j < 21; j++) {
+                for (var i = 1; i <= trueResults[j].length; i++) {
+                    var inputElement = document.getElementById('zone' + j + 'textbox' + i);
+                    var labelElement = document.getElementById('zone' + j + 'label' + i);
 
-                if (inputElement.classList.contains('highlight')) {
-                    // Reset to initial state
-                    inputElement.placeholder = '---------------';
-                    inputElement.classList.remove('highlight');
-                } else {
-                    // Highlight and show true value
-                    inputElement.placeholder = trueResults[i - 1];
-                    inputElement.classList.add('highlight');
+                    if (labelElement.style.display === 'none') {
+                        // Show label underneath and highlight
+                        labelElement.style.display = 'block';
+                        labelElement.className = 'highlight';
+                    } else {
+                        // Hide label and remove highlight
+                        labelElement.style.display = 'none';
+
+                    }
                 }
             }
         }
+
+
 
         function resetPage() {
             // Reload the page
@@ -168,21 +220,260 @@
     </script>
 </head>
 
-<body style="width: 100%; height: 100%; margin: 0;">
+<header class="topheader">
+    <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+        <a href="index.html" class="d-flex align-items-center link-body-emphasis text-decoration-none">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="me-2" viewBox="0 0 118 94" role="img">
+                <title>Bootstrap</title>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"
+                    fill="currentColor"></path>
+            </svg>
+            <span class="fs-4">ProH Modelling Games</span>
+        </a>
 
-    <div class="container">
-        <input type="text" id="textbox1" placeholder="---------------">
-        <input type="text" id="textbox2" placeholder="---------------">
-        <input type="text" id="textbox3" placeholder="---------------">
-        <input type="text" id="textbox4" placeholder="---------------">
-        <input type="text" id="textbox5" placeholder="---------------">
+        <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+            <button class="btn btn-outline-primary-sipoc" data-bs-toggle="modal" data-bs-target="#exampleModal">Sipoc
+                Table</button>
+        </nav>
+    </div>
+</header>
+
+<body style="width: 100%; height: 100%; margin: 0;">
+    <div style="width: 1440px; height: 1024px; background-image:url(pro1.jpg);">
+        <div>
+            <div class="zone0">
+                <input type="text" id="zone0textbox1"
+                    style="top: 287px; left: 890px; border-radius: 50%; width: 160px; "
+                    placeholder="----------------------">
+                <input type="text" id="zone0label1" style="top: 295px; left: 1057px; display:none; width: 160px; "placeholder="agreed delivery time">
+
+                <input type="text" id="zone0textbox2" style="top: 394px; left: 1139px; border-radius: 50%; "
+                    placeholder="---------------">
+                <input type="text" id="zone0label2" style="top: 400px; left: 1036px; display:none;"
+                    placeholder="capacity">
+            </div>
+
+            <div class="zone1">
+                <input type="text" id="zone1textbox1" style="top: 615px; left: 651px; border-radius: 50%; "
+                    placeholder="---------------">
+                <input type="text" id="zone1label1" style="top: 576px; left: 653px; display:none;"
+                    placeholder="operators">
+
+                <input type="text" id="zone1textbox2" style="top: 615px; left:810px; width: 162px; border-radius: 50%; "
+                    placeholder="--------------------">
+                <input type="text" id="zone1label2" style="top: 577px; left: 814px; display:none;width: 162px;"
+                    placeholder="production manager">
+            </div>
+
+            <div class="zone2">
+                <input type="text" id="zone2textbox1" style="top: 430px; left: 570px; border-radius: 50%;"
+                    placeholder="---------------">
+                <input type="text" id="zone2label1" style="top: 392px; left: 569px; display:none;" placeholder="design">
+
+                <input type="text" id="zone2textbox2" style="top: 484px; left: 490px;border-radius: 50%;"
+                    placeholder="---------------">
+                <input type="text" id="zone2label2" style="top: 532px; left: 491px; display:none;"
+                    placeholder="quantity">
+
+                <input type="text" id="zone2textbox3" style="top: 429px; left: 413px;border-radius: 50%;"
+                    placeholder="---------------">
+                <input type="text" id="zone2label3" style="top: 393px; left: 412px; display:none;"
+                    placeholder="material">
+            </div>
+
+            <div class="zone3">
+                <input type="text" id="zone3textbox1" style="top: 953px; left: 278px;border-radius: 50%;"
+                    placeholder="---------------">
+                <input type="text" id="zone3label1" style="top: 1004px; left: 283px; display:none;"
+                    placeholder="reject">
+
+
+                <input type="text" id="zone3textbox2" style="top: 871px; left: 185px;border-radius: 50%;"
+                    placeholder="---------------">
+                <input type="text" id="zone3label2" style="top: 833px; left: 188px; display:none;" placeholder="accept">
+            </div>
+
+
+            <div class="zone4">
+                <input type="text" id="zone4textbox1" style="top: 210px; left: 373px;" placeholder="---------------">
+                <input type="text" id="zone4label1" style="top: 163px; left: 373px;display:none;" placeholder="identify">
+            </div>
+            <div class="zone5">
+                <input type="text" id="zone5textbox1" style="top: 323px; left: 330px;" placeholder="---------------">
+                <input type="text" id="zone5label1" style="top: 286px; left: 330px;display:none;" placeholder="customer">
+
+            </div>
+            <div class="zone6">
+                <input type="text" id="zone6textbox1" style="top: 250px; left: 670px;" placeholder="---------------">
+                <input type="text" id="zone6label1" style="top: 210px; left: 670px;display:none;" placeholder="discuss">
+
+            </div>
+            <div class="zone7">
+                <input type="text" id="zone7textbox1" style="top: 410px; left: 270px;" placeholder="---------------">
+                <input type="text" id="zone7label1" style="top: 459px; left: 270px;display:none;" placeholder="produce">
+
+            </div>
+            <div class="zone8">
+                <input type="text" id="zone8textbox1" style="top: 425px; left: 110px" placeholder="---------------">
+                <input type="text" id="zone8label1" style="top: 386px; left: 110px ;display:none;" placeholder="receive">
+            </div>
+            <div class="zone9">
+                <input type="text" id="zone9textbox1" style="top: 547px; left: 174px;width: 160px;"
+                    placeholder="-----------------------">
+                <input type="text" id="zone9label1" style="top: 507px; left: 176px;width: 160px;display:none;"
+                    placeholder="rejection notification">
+            </div>
+            <div class="zone10">
+                <input type="text" id="zone10textbox1" style="top: 574px; left: 361px;" placeholder="---------------">
+                <input type="text" id="zone10label1" style="top: 535px; left: 365px;display:none;" placeholder="evaluate">
+            </div>
+            <div class="zone11">
+                <input type="text" id="zone11textbox1" style="top: 675px; left: 348px;width: 165px;"
+                    placeholder="--------------------------">
+                <input type="text" id="zone11label1" style="top: 640px; left: 349px; width: 160px;display:none;" placeholder="commercial director">
+            </div>
+            <div class="zone12">
+                <input type="text" id="zone12textbox1" style="top: 729px; left: 61px;" placeholder="---------------">
+                <input type="text" id="zone12label1" style="top: 691px; left: 61px;display:none;" placeholder="create">
+            </div>
+            <div class="zone13">
+                <input type="text" id="zone13textbox1" style="top: 762px; left: 247px;" placeholder="---------------">
+                <input type="text" id="zone13label1" style="top: 723px; left: 247px;display:none;" placeholder="make">
+            </div>
+
+            <div class="zone14">
+                <input type="text" id="zone14textbox1" style="top: 665px; left: 515px;" placeholder="---------------">
+                <input type="text" id="zone14label1" style="top: 628px; left: 515px;display:none;" placeholder="receive">
+            </div>
+            <div class="zone15">
+                <input type="text" id="zone15textbox1" style="top: 778px; left: 501px;" placeholder="---------------">
+                <input type="text" id="zone15label1" style="top: 828px; left: 501px;display:none;" placeholder="work">
+            </div>
+            <div class="zone16">
+                <input type="text" id="zone16textbox1" style="top: 755px; left: 1053px;" placeholder="---------------">
+                <input type="text" id="zone16label1" style="top: 718px; left: 1053px; display:none;" placeholder="require">
+            </div>
+            <div class="zone17">
+                <input type="text" id="zone17textbox1" style="top: 905px; left: 461px;" placeholder="---------------">
+                <input type="text" id="zone17label1" style="top: 956px; left: 461px;display:none;" placeholder="create">
+            </div>
+
+            <div class="zone18">
+                <input type="text" id="zone18textbox1" style="top: 853px; left: 1020px;" placeholder="---------------">
+                <input type="text" id="zone18label1" style="top: 859px; left: 1122px;display:none;" placeholder="retailer">
+            </div>
+            <div class="zone19">
+                <input type="text" id="zone19textbox1" style="top: 939px; left: 968px;" placeholder="---------------">
+                <input type="text" id="zone19label1" style="top: 989px; left: 968px;display:none;" placeholder="manage">
+            </div>
+            <div class="zone20">
+                <input type="text" id="zone20textbox1" style="top: 530px; left: 1095px;" placeholder="---------------">
+                <input type="text" id="zone20label1" style="top: 579px; left: 1095px;display:none;" placeholder="evaluate">
+            </div>
+
+        </div>
+
     </div>
 
-    <button id="SubmitButton" onclick="checkInputs()">Submit</button>
-    <button id="SipocButton"  onclick="OpenSipocTable()">Sipoc Table</button>
-    <button id="hintButton"  onclick="toggleHint()">Hint</button>
-    <button id="resetButton"  onclick="resetPage()">Reset</button>
+    <button class="btn btn-outline-primary-submit" onclick="checkInputs()">Submit</button>
+    <button class="btn btn-outline-primary-hint" onclick="toggleHint()">Hint</button>
+    <button class="btn btn-outline-primary-reset" onclick="resetPage()">Reset</button>
+    </div>
 
+    <!-- SipocTable Modal -->
+    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-striped table-hover table-bordered table-sm ">
+                        <thead>
+                            <tr>
+                                <th>PREVIOUS KEY HUMAN RESOURCE AND ACTIVITY: Customer need for new furniture</th>
+                                <th>INPUT</th>
+                                <th>KEY HUMAN RESOURCE</th>
+                                <th>PERFORMS AN ACTIVITY</th>
+                                <th>OUTPUT</th>
+                                <th>NEXT HUMAN RESOURCE AND ACTIVITY: Retailer delivery and installation</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-group-divider">
+                            <tr>
+                                <td>Customer produces order</td>
+                                <td>Order (design), (material), (quantity)</td>
+                                <td>Factory (Production manager) (operators)</td>
+                                <td>Produces furniture</td>
+                                <td>Furniture</td>
+                                <td>Retailer</td>
+                            </tr>
+                            <tr>
+                                <td>Customer produces order</td>
+                                <td>Order (design), (material), (quantity)</td>
+                                <td>Factory (Production manager)</td>
+                                <td>Evaluates production success factors</td>
+                                <td>Production success factors (agreed delivery time) (capacity)</td>
+                                <td>Customer produces order</td>
+                            </tr>
+                            <tr>
+                                <td>Customer produces order</td>
+                                <td>Order (design), (material), (quantity)</td>
+                                <td>Commercial Director</td>
+                                <td>evaluates order specification to finalise bid decision (accept), (reject)</td>
+                                <td>OR: Bid decision (reject)</td>
+                                <td>Commercial Director creates a Rejection Notification</td>
+                            </tr>
+                            <tr>
+                                <td>Customer produces order</td>
+                                <td>Order (design), (material), (quantity)</td>
+                                <td>Commercial Director</td>
+                                <td>evaluates order specification to finalise bid decision (accept), (reject)</td>
+                                <td>OR: Bid decision (accept)</td>
+                                <td>Commercial Director creates a works order</td>
+                            </tr>
+                            <tr>
+                                <td>Commercial Director finalises a bid decision</td>
+                                <td>Bid decision (reject)</td>
+                                <td>Commercial Director</td>
+                                <td>Creates a Rejection Notification</td>
+                                <td>Rejection Notification</td>
+                                <td>Customer receives Rejection Notification</td>
+                            </tr>
+                            <tr>
+                                <td>Commercial Director finalises a bid decision</td>
+                                <td>Bid decision (Accept)</td>
+                                <td>Commercial Director</td>
+                                <td>Creates a works order</td>
+                                <td>works order</td>
+                                <td>Factory receives works order</td>
+                            </tr>
+                            <tr>
+                                <td>Factory (Production manager) evaluates Production success factors (agreed delivery
+                                    time), (capacity)</td>
+                                <td>Production success factors (agreed delivery time), (capacity)</td>
+                                <td>Production manager</td>
+                                <td>discusses production success factors (agreed delivery time), (capacity) to customer
+                                </td>
+                                <td>Agreed delivery times</td>
+                                <td>Customer produces order</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+
+
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
