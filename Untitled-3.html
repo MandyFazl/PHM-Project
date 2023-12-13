@@ -64,7 +64,7 @@
     </style>
     <script>
         var trueResults = [
-            ["identify", "customer", "discuss"],
+            ["identify", "textbox", "discuss"],
             ["delivery", "payment", "review"],
             ["product", "order", "return"],
             ["support", "contact", "feedback"]
@@ -73,8 +73,8 @@
         function checkInputs() {
             for (var j = 0; j < 4; j++) {
                 for (var i = 1; i <= 3; i++) {
-                    var userInput = document.getElementById('zone' + j + 'customer' + i).value;
-                    var inputElement = document.getElementById('zone' + j + 'customer' + i);
+                    var userInput = document.getElementById('zone' + j + 'textbox' + i).value;
+                    var inputElement = document.getElementById('zone' + j + 'textbox' + i);
 
                     if (trueResults[j].includes(userInput)) {
                         inputElement.className = 'green';
@@ -90,7 +90,7 @@
         function toggleHint() {
             for (var j = 0; j < 4; j++) {
                 for (var i = 1; i <= 3; i++) {
-                    var inputElement = document.getElementById('zone' + j + 'customer' + i);
+                    var inputElement = document.getElementById('zone' + j + 'textbox' + i);
                     var labelElement = document.getElementById('zone' + j + 'label' + i);
 
                     if (labelElement.style.display === 'none') {
@@ -113,38 +113,38 @@
 
     <div class="container">
         <div class="zone">
-            <input type="text" id="zone0customer1" placeholder="---------------">
+            <input type="text" id="zone0textbox1" placeholder="---------------">
             <label id="zone0label1"></label>
-            <input type="text" id="zone0customer2" placeholder="---------------">
+            <input type="text" id="zone0textbox2" placeholder="---------------">
             <label id="zone0label2"></label>
-            <input type="text" id="zone0customer3" placeholder="---------------">
+            <input type="text" id="zone0textbox3" placeholder="---------------">
             <label id="zone0label3"></label>
         </div>
 
         <div class="zone">
-            <input type="text" id="zone1customer1" placeholder="---------------">
+            <input type="text" id="zone1textbox1" placeholder="---------------">
             <label id="zone1label1"></label>
-            <input type="text" id="zone1customer2" placeholder="---------------">
+            <input type="text" id="zone1textbox2" placeholder="---------------">
             <label id="zone1label2"></label>
-            <input type="text" id="zone1customer3" placeholder="---------------">
+            <input type="text" id="zone1textbox3" placeholder="---------------">
             <label id="zone1label3"></label>
         </div>
 
         <div class="zone">
-            <input type="text" id="zone2customer1" placeholder="---------------">
+            <input type="text" id="zone2textbox1" placeholder="---------------">
             <label id="zone2label1"></label>
-            <input type="text" id="zone2customer2" placeholder="---------------">
+            <input type="text" id="zone2textbox2" placeholder="---------------">
             <label id="zone2label2"></label>
-            <input type="text" id="zone2customer3" placeholder="---------------">
+            <input type="text" id="zone2textbox3" placeholder="---------------">
             <label id="zone2label3"></label>
         </div>
 
         <div class="zone">
-            <input type="text" id="zone3customer1" placeholder="---------------">
+            <input type="text" id="zone3textbox1" placeholder="---------------">
             <label id="zone3label1"></label>
-            <input type="text" id="zone3customer2" placeholder="---------------">
+            <input type="text" id="zone3textbox2" placeholder="---------------">
             <label id="zone3label2"></label>
-            <input type="text" id="zone3customer3" placeholder="---------------">
+            <input type="text" id="zone3textbox3" placeholder="---------------">
             <label id="zone3label3"></label>
         </div>
 

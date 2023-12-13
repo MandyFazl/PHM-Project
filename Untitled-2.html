@@ -1,169 +1,21 @@
-<!DOCTYPE html>
-<html lang="en" style="width: 1440px; height: 1024px;">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            margin-top: 100px;
-            padding: 0;
-            background-size: contain;
-            background-position: center;
-            background-repeat: no-repeat;
-            font-family: Arial, sans-serif;
-        }
 
-        .container {
-            position: relative;
-            width: 100%;
-            height: 100vh;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-        }
+function toggleHint() {
+    for (var j = 0; j < 6; j++) {
+        for (var i = 1; i <= trueResults[j].length; i++) {
+            var inputElement = document.getElementById('zone' + j + 'textbox' + i);
+            var labelElement = document.getElementById('zone' + j + 'label' + i);
 
-        .zone {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 25%;
-        }
-
-        input {
-            width: 100px;
-            padding: 10px;
-            margin: 10px 0;
-            box-sizing: border-box;
-            position: relative;
-            border: hidden;
-        }
-
-        label {
-            margin-top: 5px;
-            display: none; /* Hide labels by default */
-        }
-
-        .highlight {
-            background-color: yellow;
-        }
-
-        .green {
-            background-color: #8af28a;
-        }
-
-        .red {
-            background-color: #ff8a8a;
-        }
-
-        button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 15px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            transition: background-color 0.3s ease;
-            position: absolute;
-            top: 10%;
-            left: 80%;
-        }
-
-        button:hover {
-            background-color: #45a049;
-        }
-    </style>
-    <script>
-        var trueResults = [
-            ["identify", "user", "profile"],
-            ["deliver", "price", "feedback"],
-            ["item", "purchase", "exchange"],
-            ["help", "phone", "rate"]
-        ];
-
-        function checkInputs() {
-            for (var j = 0; j < 4; j++) {
-                for (var i = 1; i <= 3; i++) {
-                    var userInput = document.getElementById('zone' + j + 'customer' + i).value;
-                    var inputElement = document.getElementById('zone' + j + 'customer' + i);
-
-                    if (trueResults[j].includes(userInput)) {
-                        inputElement.classList.add('green');
-                    } else {
-                        inputElement.classList.remove('green');
-                        inputElement.classList.add('red');
-                    }
-                }
+            if (labelElement.style.display === 'none') {
+                // Show label underneath and highlight
+                labelElement.innerHTML = trueResults[j][i - 1];
+                labelElement.style.display = 'block';
+                labelElement.classList.add('highlight');
+            } else {
+                // Hide label and remove highlight
+                labelElement.style.display = 'none';
+                labelElement.classList.remove('highlight');
             }
         }
-
-        function toggleHint() {
-            for (var j = 0; j < 4; j++) {
-                for (var i = 1; i <= 3; i++) {
-                    var inputElement = document.getElementById('zone' + j + 'customer' + i);
-                    var labelElement = document.getElementById('zone' + j + 'label' + i);
-
-                    if (labelElement.style.display === 'none') {
-                        // Show label and highlight
-                        var randomIndex = Math.floor(Math.random() * 3);
-                        labelElement.innerHTML = trueResults[j][randomIndex];
-                        labelElement.style.display = 'block';
-                        inputElement.classList.add('highlight');
-                    } else {
-                        // Hide label and remove highlight
-                        labelElement.style.display = 'none';
-                        inputElement.classList.remove('highlight');
-                    }
-                }
-            }
-        }
-    </script>
-</head>
-
-<body style="width: 100%; height: 100%; margin: 0;">
-
-    <div class="container">
-        <div class="zone">
-            <input type="text" id="zone0customer1" placeholder="---------------">
-            <label id="zone0label1"></label>
-            <input type="text" id="zone0customer2" placeholder="---------------">
-            <label id="zone0label2"></label>
-            <input type="text" id="zone0customer3" placeholder="---------------">
-            <label id="zone0label3"></label>
-        </div>
-
-        <div class="zone">
-            <input type="text" id="zone1customer1" placeholder="---------------">
-            <label id="zone1label1"></label>
-            <input type="text" id="zone1customer2" placeholder="---------------">
-            <label id="zone1label2"></label>
-            <input type="text" id="zone1customer3" placeholder="---------------">
-            <label id="zone1label3"></label>
-        </div>
-
-        <div class="zone">
-            <input type="text" id="zone2customer1" placeholder="---------------">
-            <label id="zone2label1"></label>
-            <input type="text" id="zone2customer2" placeholder="---------------">
-            <label id="zone2label2"></label>
-            <input type="text" id="zone2customer3" placeholder="---------------">
-            <label id="zone2label3"></label>
-        </div>
-
-        <div class="zone">
-            <input type="text" id="zone3customer1" placeholder="---------------">
-            <label id="zone3label1"></label>
-            <input type="text" id="zone3customer2" placeholder="---------------">
-            <label id="zone3label2"></label>
-            <input type="text" id="zone3customer3" placeholder="---------------">
-            <label id="zone3label3"></label>
-        </div>
-
-        <button onclick="checkInputs()">Submit</button>
-        <button onclick="toggleHint()">Hint</button>
-    </div>
-
-</body>
-
-</html>
+    }
+}
