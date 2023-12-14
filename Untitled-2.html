@@ -1,21 +1,37 @@
+<html>
+
+<body>
+
+<style>
+    .container {
+        width: 300px;
+        
+      }
+      
+      .auto-width {
+        width: auto;
+        background-color: blue;
+      }
+      
+      .max-content-width {
+        width: max-content;
+        background-color: blue;
+      }
+      
+      .min-content-width {
+        width: min-content;
+        background-color: blue;
+      }
+
+    </style>
+    <div class="container">
+        <div class="auto-width">Auto Width Content</div>
+        <div class="max-content-width">Max Content Width Contentjjjjjjjjjjjjjjjjjjjjjjjjjjjj</div>
+        <div class="min-content-width">Min Content Width Content</div>
+      </div>
+      
+      
+</body>
 
 
-function toggleHint() {
-    for (var j = 0; j < 6; j++) {
-        for (var i = 1; i <= trueResults[j].length; i++) {
-            var inputElement = document.getElementById('zone' + j + 'textbox' + i);
-            var labelElement = document.getElementById('zone' + j + 'label' + i);
-
-            if (labelElement.style.display === 'none') {
-                // Show label underneath and highlight
-                labelElement.innerHTML = trueResults[j][i - 1];
-                labelElement.style.display = 'block';
-                labelElement.classList.add('highlight');
-            } else {
-                // Hide label and remove highlight
-                labelElement.style.display = 'none';
-                labelElement.classList.remove('highlight');
-            }
-        }
-    }
-}
+</html>
