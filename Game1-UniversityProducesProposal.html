@@ -11,9 +11,12 @@
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="assets/js/color-modes.js"></script>
-    <title>PrOH Modelling</title>
 
+    <script src="assets/js/color-modes.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <title>PrOH Modelling-UniversityProducesProposal</title>
     <style>
         body {
             margin-top: 100px;
@@ -34,9 +37,8 @@
             background-color: #FFFFFF;
             text-align: center;
             border-color: #A5A5A5;
-            border-style:double;
+            border-style: double;
         }
-
 
         .highlight {
             background-color: #F3F587;
@@ -55,7 +57,6 @@
             background-color: #FBB574;
             border-color: #A5A5A5;
         }
-
 
         button {
             padding: 10px 15px;
@@ -82,8 +83,31 @@
             top: 100px;
             position: absolute;
             width: 150px;
+            padding: 10px 15px;
+            font-size: 16px;
         }
 
+        .btn-outline-primary-tooltip {
+            --bs-btn-color: #5FB460;
+            --bs-btn-border-color: #5FB460;
+            --bs-btn-hover-color: #fff;
+            --bs-btn-hover-bg: #5FB460;
+            --bs-btn-hover-border-color: #5FB460;
+            --bs-btn-focus-shadow-rgb: 13, 110, 253;
+            --bs-btn-active-color: #fff;
+            --bs-btn-active-bg: #5FB460;
+            --bs-btn-active-border-color: #5FB460;
+            --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+            --bs-btn-disabled-color: #5FB460;
+            --bs-btn-disabled-bg: transparent;
+            --bs-btn-disabled-border-color: #5FB460;
+            --bs-gradient: none;
+            top: 100px;
+            position: absolute;
+            margin-left: 160px;
+            width: 50px;
+            border-radius: 50%;
+        }
 
         .btn-outline-primary-hint {
             --bs-btn-color: #216EE0;
@@ -125,10 +149,6 @@
 
         }
 
-
-
-
-
         .btn-outline-primary-sipoc {
             --bs-btn-color: #5FB460;
             --bs-btn-border-color: #5FB460;
@@ -154,19 +174,14 @@
     </style>
     <script>
         var trueResults = [
-
-        
-
-            ["legal and commercial aspects", "learning and teaching guidelines","3th party funding obligations"],
-            ["in-house trainers", "support team","client mgrs"],
-            ["budget options", "t & c's", "tech spec"],
+            ["legal and commercial aspects", "learning and teaching guidelines", "3th party funding obligations"],
+            ["schedule", "cost", "terms and conditions"],
+            ["budget options", "terms and conditions", "technical specifications"],
             ["no bid"],
-            ["in-house trainers","training mgr"],
-            ["dean’s office","head’s of groups"],
-            ["schedule","cost"],
-          
+            ["in-house trainers", "training managers"],
+            ["dean’s office", "head’s of groups"],
+            ["service staff", "service staff managers"],
         ];
-
         function checkInputs() {
             for (var j = 0; j < 7; j++) {
                 for (var i = 1; i <= trueResults[j].length; i++) {
@@ -181,9 +196,6 @@
                 }
             }
         }
-
-
-
         function toggleHint() {
             for (var j = 0; j < 7; j++) {
                 for (var i = 1; i <= trueResults[j].length; i++) {
@@ -197,21 +209,16 @@
                     } else {
                         // Hide label and remove highlight
                         labelElement.style.display = 'none';
-
                     }
                 }
             }
         }
-
-
-
         function resetPage() {
             // Reload the page
             location.reload();
         }
     </script>
 </head>
-
 <header class="topheader">
     <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
         <a href="index.html" class="d-flex align-items-center link-body-emphasis text-decoration-none">
@@ -223,14 +230,14 @@
             </svg>
             <span class="fs-4">PrOH Modelling Games</span>
         </a>
-        <span class="fs-5 text-body-secondary px-3">Win New Business</span>
-        
+        <span class="fs-5 text-body-secondary px-3">University Produces Proposal</span>
+
         <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-            <button class="btn btn-outline-primary-sipoc" data-bs-toggle="modal" data-bs-target="">SIPOC
+            <button class="btn btn-outline-primary-sipoc" data-bs-toggle="modal" data-bs-target="#finishedmodel"
+                style="margin-right: 10px;">Finished Model</button>
+            <button class="btn btn-outline-primary-sipoc" data-bs-toggle="modal" data-bs-target="#sipoctable">SIPOC
                 Table</button>
         </nav>
-
-        
     </div>
 </header>
 
@@ -238,100 +245,108 @@
     <div style="width: 1440px; height: 1024px; background-image:url(pro2.jpg);">
         <div>
             <div class="zone0">
-                <input type="text" id="zone0textbox1"style="top: 310px; left: 997px; border-radius: 50%; width: 230px; height: 60px;"placeholder="----------------------">
-                <input type="text" id="zone0label1" style="top: 325px; left: 1240px; width:230px; display:none; "placeholder="legal and commercial aspects">
+                <input type="text" id="zone0textbox1"
+                    style="top: 310px; left: 997px; border-radius: 50%; width: 230px; height: 60px;"
+                    placeholder="----------------------">
+                <input type="text" id="zone0label1" style="top: 325px; left: 1240px; width:230px; display:none; "
+                    placeholder="legal and commercial aspects">
 
-                <input type="text" id="zone0textbox2" style="top: 394px; left: 997px; border-radius: 50%; width: 245px; height: 60px;"placeholder="---------------">
-                <input type="text" id="zone0label2" style="top: 410px; left: 1240px; width: 245px; display:none;"placeholder="learning and teaching guidelines">
+                <input type="text" id="zone0textbox2"
+                    style="top: 394px; left: 997px; border-radius: 50%; width: 245px; height: 60px;"
+                    placeholder="---------------">
+                <input type="text" id="zone0label2" style="top: 410px; left: 1240px; width: 245px; display:none;"
+                    placeholder="learning and teaching guidelines">
 
-                <input type="text" id="zone0textbox3" style="top: 477px; left: 1012px; border-radius: 50%;width: 225px; height: 60px; "placeholder="---------------">
-                <input type="text" id="zone0label3" style="top: 492px; left: 1240px; width: 225px; display:none;"placeholder="3th party funding obligations">
+                <input type="text" id="zone0textbox3"
+                    style="top: 477px; left: 1012px; border-radius: 50%;width: 225px; height: 60px; "
+                    placeholder="---------------">
+                <input type="text" id="zone0label3" style="top: 492px; left: 1240px; width: 225px; display:none;"
+                    placeholder="3th party funding obligations">
             </div>
-        
             <div class="zone1">
                 <input type="text" id="zone1textbox1" style="top: 717px; left: 841px; border-radius: 50%; "
                     placeholder="---------------">
                 <input type="text" id="zone1label1" style="top: 680px; left: 820px; width:130px; display:none;"
-                    placeholder="in-house trainers">
-
+                    placeholder="schedule">
                 <input type="text" id="zone1textbox2" style="top: 788px; left:781px;  border-radius: 50%; "
                     placeholder="--------------------">
-                <input type="text" id="zone1label2" style="top: 756px; left: 737px; display:none;"
-                    placeholder="support team">
-
-                    <input type="text" id="zone1textbox3" style="top: 788px; left:903px; border-radius: 50%; "
+                <input type="text" id="zone1label2" style="top: 756px; left: 737px; display:none;" placeholder="cost">
+                <input type="text" id="zone1textbox3" style="top: 788px; left:903px; border-radius: 50%; "
                     placeholder="--------------------">
-                <input type="text" id="zone1label3" style="top: 754px; left: 945px; display:none;"
-                    placeholder="client mgrs">
+                <input type="text" id="zone1label3" style="top: 754px; left: 895px;width:160px; display:none;"
+                    placeholder="terms and conditions">
             </div>
-
             <div class="zone2">
                 <input type="text" id="zone2textbox1" style="top: 420px; left: 580px; border-radius: 50%;"
                     placeholder="---------------">
-                <input type="text" id="zone2label1" style="top: 382px; left: 579px; display:none;width:120px;" placeholder="budget options">
-
+                <input type="text" id="zone2label1" style="top: 382px; left: 579px; display:none;width:120px;"
+                    placeholder="budget options">
                 <input type="text" id="zone2textbox2" style="top: 493px; left: 500px;border-radius: 50%;"
                     placeholder="---------------">
                 <input type="text" id="zone2label2" style="top: 541px; left: 500px; display:none;"
-                    placeholder="t & c’s">
-
+                    placeholder="terms and conditions">
                 <input type="text" id="zone2textbox3" style="top: 419px; left: 433px;border-radius: 50%;"
                     placeholder="---------------">
                 <input type="text" id="zone2label3" style="top: 383px; left: 433px; display:none;"
-                    placeholder="tech spec">
+                    placeholder="technical specifications">
             </div>
-
-
             <div class="zone3">
                 <input type="text" id="zone3textbox1" style="top: 559px; left: 133px;border-radius: 50%;"
                     placeholder="---------------">
-                <input type="text" id="zone3label1" style="top: 524px; left: 133px; display:none;"
-                    placeholder="no bid">
-
+                <input type="text" id="zone3label1" style="top: 524px; left: 133px; display:none;" placeholder="no bid">
             </div>
-
-
             <div class="zone4">
-                <input type="text" id="zone4textbox1" style="top: 270px; left: 305px; width:140px;border-radius: 50%; " placeholder="---------------">
+                <input type="text" id="zone4textbox1" style="top: 270px; left: 305px; width:140px;border-radius: 50%; "
+                    placeholder="---------------">
                 <input type="text" id="zone4label1" style="top: 233px; left: 305px;width:140px; display:none;"
                     placeholder="in-house trainers">
-                    <input type="text" id="zone4textbox2" style="top: 356px; left: 320px;border-radius: 50%; " placeholder="---------------">
-                    <input type="text" id="zone4label2" style="top: 320px; left: 320px;display:none;"
-                        placeholder="training mgr">
+                <input type="text" id="zone4textbox2" style="top: 356px; left: 320px;border-radius: 50%; "
+                    placeholder="---------------">
+                <input type="text" id="zone4label2" style="top: 320px; left: 303px;width:145px;display:none;"
+                    placeholder="training managers">
             </div>
-
-
             <div class="zone5">
-                <input type="text" id="zone5textbox1" style="top: 913px; left: 373px;border-radius: 50%; " placeholder="---------------">
+                <input type="text" id="zone5textbox1" style="top: 913px; left: 373px;border-radius: 50%; "
+                    placeholder="---------------">
                 <input type="text" id="zone5label1" style="top: 874px; left: 373px;display:none;"
                     placeholder="dean’s office">
-
-                    <input type="text" id="zone5textbox2" style="top: 816px; left: 373px;border-radius: 50%; " placeholder="---------------">
+                <input type="text" id="zone5textbox2" style="top: 816px; left: 373px;border-radius: 50%; "
+                    placeholder="---------------">
                 <input type="text" id="zone5label2" style="top: 779px; left: 359px;width:130px; display:none;"
                     placeholder="head’s of groups">
-
             </div>
             <div class="zone6">
-                <input type="text" id="zone6textbox1" style="top: 844px; left: 1053px; border-radius: 50%;" placeholder="---------------">
-                <input type="text" id="zone6label1" style="top: 850px; left: 1172px;display:none; " placeholder="schedule">
-
-                <input type="text" id="zone6textbox2" style="top: 917px; left: 1053px; border-radius: 50%;" placeholder="---------------">
-                <input type="text" id="zone6label2" style="top: 922px; left: 1172px;display:none;" placeholder="cost">
-
+                <input type="text" id="zone6textbox1" style="top: 844px; left: 1053px;border-radius: 50%;"
+                    placeholder="---------------">
+                <input type="text" id="zone6label1" style="top: 850px; left: 1172px;display:none; "
+                    placeholder="service staff">
+                <input type="text" id="zone6textbox2" style="top: 917px; left: 1053px; width:140px;border-radius: 50%;"
+                    placeholder="---------------">
+                <input type="text" id="zone6label2" style="top: 922px; left: 1192px;width:140px;display:none;"
+                    placeholder="service staff managers">
             </div>
-            
         </div>
-
     </div>
     <div style="width: 1440px; height: 1024px;">
         <button class="btn btn-outline-primary-submit" onclick="checkInputs()">Submit</button>
+        <button class="btn-outline-primary-tooltip" data-bs-toggle="tooltip"
+        data-bs-html="true" data-bs-custom-class="custom-tooltip" data-bs-title="After Submit: <br> Blue result-->correct <br> Orange result-->Incorrect "><img
+                src="help.svg"></button>
         <button class="btn btn-outline-primary-hint" onclick="toggleHint()">Hint</button>
         <button class="btn btn-outline-primary-reset" onclick="resetPage()">Reset</button>
     </div>
-    
 
+
+
+
+
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+    </div>
     <!-- SipocTable Modal -->
-    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade " id="sipoctable" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-fullscreen">
             <div class="modal-content">
                 <div class="modal-header">
@@ -341,80 +356,88 @@
                     <table class="table table-striped table-hover table-bordered table-sm ">
                         <thead>
                             <tr>
-                                <th>PREVIOUS KEY HUMAN RESOURCE AND ACTIVITY: Customer need for new furniture</th>
+                                <th>PREVIOUS KEY HUMAN RESOURCE AND ACTIVITY</th>
                                 <th>INPUT</th>
                                 <th>KEY HUMAN RESOURCE</th>
                                 <th>PERFORMS AN ACTIVITY</th>
                                 <th>OUTPUT</th>
-                                <th>NEXT HUMAN RESOURCE AND ACTIVITY: Retailer delivery and installation</th>
+                                <th>NEXT HUMAN RESOURCE AND ACTIVITY</th>
                             </tr>
                         </thead>
                         <tbody class="table-group-divider">
                             <tr>
-                                <td>Customer produces order</td>
-                                <td>Order (design), (material), (quantity)</td>
-                                <td>Factory (Production manager) (operators)</td>
-                                <td>Produces furniture</td>
-                                <td>Furniture</td>
-                                <td>Retailer</td>
+                                <td>An organizational requirement for professional development programme: Client's HRM
+                                    Department (in-house trainers)(training managers) produce outline training
+                                    specification</td>
+                                <td>outline training specification (Terms and Conditions)(budget options)(technical
+                                    specifications)</td>
+                                <td>University's Executive Education Department (Client Managers)(Support Team)(In-House
+                                    Trainers)</td>
+                                <td>produces a client proposal (schedule)(cost)(terms and conditions)</td>
+                                <td>client proposal (schedule)(cost)(terms and conditions)</td>
+                                <td>Client's frontline staff (service staff)(service staff managers) benefit from:
+                                    Professional development Programme</td>
                             </tr>
                             <tr>
-                                <td>Customer produces order</td>
-                                <td>Order (design), (material), (quantity)</td>
-                                <td>Factory (Production manager)</td>
-                                <td>Evaluates production success factors</td>
-                                <td>Production success factors (agreed delivery time) (capacity)</td>
-                                <td>Customer produces order</td>
+                                <td></td>
+                                <td></td>
+                                <td>University's Executive Education Department (Client Managers)(Support Team)(In-House
+                                    Trainers)</td>
+                                <td>refer to University's strategy (legal and commercial aspects)(learning and teaching
+                                    guidelines)(3rd party funding obligations)</td>
+                                <td>University's strategy (legal and commercial aspects)(learning and teaching
+                                    guidelines)(3rd party funding obligations)</td>
+                                <td>Client's HRM Department negotiate outline training specification with University's
+                                    Executive Education Department</td>
                             </tr>
                             <tr>
-                                <td>Customer produces order</td>
-                                <td>Order (design), (material), (quantity)</td>
-                                <td>Commercial Director</td>
-                                <td>evaluates order specification to finalise bid decision (accept), (reject)</td>
-                                <td>OR: Bid decision (reject)</td>
-                                <td>Commercial Director creates a Rejection Notification</td>
+                                <td>University's Executive Education Department (Client Managers)(Support Team)(In-House
+                                    Trainers)produces a client proposal (schedule)(cost)(terms and conditions)</td>
+                                <td>client proposal (schedule)(cost)(trms and conditions)</td>
+                                <td>University Snr Management Team (Dean's Office)(Head's of Groups)</td>
+                                <td>review Bid / No Bid Decision (no bid)(submit)(rework)</td>
+                                <td>Bid / No Bid Decision (no bid)</td>
+                                <td>END</td>
                             </tr>
                             <tr>
-                                <td>Customer produces order</td>
-                                <td>Order (design), (material), (quantity)</td>
-                                <td>Commercial Director</td>
-                                <td>evaluates order specification to finalise bid decision (accept), (reject)</td>
-                                <td>OR: Bid decision (accept)</td>
-                                <td>Commercial Director creates a works order</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>Bid / No Bid Decision (submit)</td>
+                                <td>University's Executive Education will finalise a client proposal</td>
                             </tr>
                             <tr>
-                                <td>Commercial Director finalises a bid decision</td>
-                                <td>Bid decision (reject)</td>
-                                <td>Commercial Director</td>
-                                <td>Creates a Rejection Notification</td>
-                                <td>Rejection Notification</td>
-                                <td>Customer receives Rejection Notification</td>
-                            </tr>
-                            <tr>
-                                <td>Commercial Director finalises a bid decision</td>
-                                <td>Bid decision (Accept)</td>
-                                <td>Commercial Director</td>
-                                <td>Creates a works order</td>
-                                <td>works order</td>
-                                <td>Factory receives works order</td>
-                            </tr>
-                            <tr>
-                                <td>Factory (Production manager) evaluates Production success factors (agreed delivery
-                                    time), (capacity)</td>
-                                <td>Production success factors (agreed delivery time), (capacity)</td>
-                                <td>Production manager</td>
-                                <td>discusses production success factors (agreed delivery time), (capacity) to customer
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>Bid / No Bid Decision (rework)</td>
+                                <td>University's Executive Education Department rework outline training specification
                                 </td>
-                                <td>Agreed delivery times</td>
-                                <td>Customer produces order</td>
+                            </tr>
+                            <tr>
+                                <td>University Snr Management Team (Dean's Office)(Head's of Groups) review Bid / No Bid
+                                    Decision (no bid)(submit)(rework)</td>
+                                <td>Bid / No Bid Decision (submit)</td>
+                                <td>University's Executive Education will finalise a client proposal</td>
+                                <td>will finalise a client proposal</td>
+                                <td>client proposal (schedule)(cost)(terms and conditions)</td>
+                                <td>Client's frontline staff (service staff)(service staff managers) require training
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>University Snr Management Team (Dean's Office)(Head's of Groups) review Bid / No Bid
+                                    Decision (no bid)(submit)(rework)</td>
+                                <td>Bid / No Bid Decision (rework)</td>
+                                <td>University's Executive Education Department</td>
+                                <td>rework outline training specification</td>
+                                <td>outline training specification (Terms and Conditions)(budget options)(technical
+                                    specifications)</td>
+                                <td>University's Executive Education produce a client proposal</td>
                             </tr>
                         </tbody>
                     </table>
-
-
-
-
-
 
                 </div>
                 <div class="modal-footer">
@@ -423,9 +446,20 @@
             </div>
         </div>
     </div>
-
-
-
+    <!-- Finished Model Modal -->
+    <div class="modal fade " id="finishedmodel" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"><img src="Game1-Finished.jpg"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

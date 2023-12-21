@@ -34,7 +34,7 @@
             background-color: #FFFFFF;
             text-align: center;
             border-color: #A5A5A5;
-            border-style:double;
+            border-style: double;
         }
 
 
@@ -55,14 +55,12 @@
             background-color: #FBB574;
         }
 
-
         button {
             padding: 10px 15px;
             font-size: 16px;
             left: 85%;
             width: 150px;
         }
-
         .btn-outline-primary-submit {
             --bs-btn-color: #5FB460;
             --bs-btn-border-color: #5FB460;
@@ -81,8 +79,30 @@
             top: 100px;
             position: absolute;
             width: 150px;
+            padding: 10px 15px;
+            font-size: 16px;
         }
-
+        .btn-outline-primary-tooltip {
+            --bs-btn-color: #5FB460;
+            --bs-btn-border-color: #5FB460;
+            --bs-btn-hover-color: #fff;
+            --bs-btn-hover-bg: #5FB460;
+            --bs-btn-hover-border-color: #5FB460;
+            --bs-btn-focus-shadow-rgb: 13, 110, 253;
+            --bs-btn-active-color: #fff;
+            --bs-btn-active-bg: #5FB460;
+            --bs-btn-active-border-color: #5FB460;
+            --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+            --bs-btn-disabled-color: #5FB460;
+            --bs-btn-disabled-bg: transparent;
+            --bs-btn-disabled-border-color: #5FB460;
+            --bs-gradient: none;
+            top: 100px;
+            position: absolute;
+            margin-left: 160px;
+            width: 50px;
+            border-radius: 50%;
+        }
 
         .btn-outline-primary-hint {
             --bs-btn-color: #216EE0;
@@ -124,10 +144,6 @@
 
         }
 
-
-
-
-
         .btn-outline-primary-sipoc {
             --bs-btn-color: #5FB460;
             --bs-btn-border-color: #5FB460;
@@ -153,32 +169,35 @@
     </style>
     <script>
         var trueResults = [
-            ["agreed delivery time", "capacity"],
-            ["production manager", "operators"],
+            ["delivery time"],
+            ["operators"],
             ["material", "design", "quantity"],
-            ["reject", "accept"],
-            ["identify"],
+            ["accept"],
+            ["was identified by a"],
             ["customer"],
-            ["discuss"],
-            ["produce"],
-            ["receive"],
+            ["discussed with"],
+            ["produces"],
+            ["received by"],
             ["rejection notification"],
-            ["evaluate"],
+            ["evaluates"],
             ["commercial director"],
-            ["create"],
-            ["make"],
-            ["receive"],
-            ["work"],
-            ["require"],
-            ["create"],
+            ["creates"],
+            ["makes"],
+            ["received by"],
+            ["works order"],
+            ["required by"],
+            ["creates"],
             ["retailer"],
-            ["manage"],
-            ["evaluate"],
+            ["manages the"],
+            ["evaluates"],
+            ["reject"],
+            ["capacity"],
+            ["production manager"],
 
         ];
 
         function checkInputs() {
-            for (var j = 0; j < 21; j++) {
+            for (var j = 0; j < 25; j++) {
                 for (var i = 1; i <= trueResults[j].length; i++) {
                     var userInput = document.getElementById('zone' + j + 'textbox' + i).value;
                     var inputElement = document.getElementById('zone' + j + 'textbox' + i);
@@ -192,10 +211,8 @@
             }
         }
 
-
-
         function toggleHint() {
-            for (var j = 0; j < 21; j++) {
+            for (var j = 0; j < 25; j++) {
                 for (var i = 1; i <= trueResults[j].length; i++) {
                     var inputElement = document.getElementById('zone' + j + 'textbox' + i);
                     var labelElement = document.getElementById('zone' + j + 'label' + i);
@@ -212,8 +229,6 @@
                 }
             }
         }
-
-
 
         function resetPage() {
             // Reload the page
@@ -234,11 +249,11 @@
             <span class="fs-4">PrOH Modelling Games</span>
         </a>
         <span class="fs-5 text-body-secondary px-3">Factory Produce Furniture</span>
-        
+
         <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-            <button class="btn btn-outline-primary-sipoc" data-bs-toggle="modal" data-bs-target="#exampleModal">SIPOC
-                Table</button>
-        </nav> 
+            <button class="btn btn-outline-primary-sipoc" data-bs-toggle="modal" data-bs-target="#finishedmodel"style="margin-right: 10px;">Finished Model</button>
+            <button class="btn btn-outline-primary-sipoc" data-bs-toggle="modal" data-bs-target="#sipoctable">SIPOC Table</button>
+        </nav>
     </div>
 </header>
 
@@ -250,12 +265,7 @@
                     style="top: 287px; left: 890px; border-radius: 50%; width: 160px; "
                     placeholder="----------------------">
                 <input type="text" id="zone0label1" style="top: 295px; left: 1057px; display:none; width: 160px; "
-                    placeholder="agreed delivery time">
-
-                <input type="text" id="zone0textbox2" style="top: 394px; left: 1139px; border-radius: 50%; "
-                    placeholder="---------------">
-                <input type="text" id="zone0label2" style="top: 400px; left: 1036px; display:none;"
-                    placeholder="capacity">
+                    placeholder="delivery time">
             </div>
 
             <div class="zone1">
@@ -264,10 +274,6 @@
                 <input type="text" id="zone1label1" style="top: 576px; left: 653px; display:none;"
                     placeholder="operators">
 
-                <input type="text" id="zone1textbox2" style="top: 615px; left:810px; width: 162px; border-radius: 50%; "
-                    placeholder="--------------------">
-                <input type="text" id="zone1label2" style="top: 577px; left: 814px; display:none;width: 162px;"
-                    placeholder="production manager">
             </div>
 
             <div class="zone2">
@@ -290,19 +296,13 @@
                 <input type="text" id="zone3textbox1" style="top: 953px; left: 278px;border-radius: 50%;"
                     placeholder="---------------">
                 <input type="text" id="zone3label1" style="top: 1004px; left: 283px; display:none;"
-                    placeholder="reject">
-
-
-                <input type="text" id="zone3textbox2" style="top: 871px; left: 185px;border-radius: 50%;"
-                    placeholder="---------------">
-                <input type="text" id="zone3label2" style="top: 833px; left: 188px; display:none;" placeholder="accept">
+                    placeholder="accept">
             </div>
 
-
             <div class="zone4">
-                <input type="text" id="zone4textbox1" style="top: 210px; left: 373px;" placeholder="---------------">
-                <input type="text" id="zone4label1" style="top: 163px; left: 373px;display:none;"
-                    placeholder="identify">
+                <input type="text" id="zone4textbox1" style="top: 210px; left: 373px;width:145px;" placeholder="---------------">
+                <input type="text" id="zone4label1" style="top: 163px; left: 373px;width:145px;display:none;"
+                    placeholder="was identified by a">
             </div>
             <div class="zone5">
                 <input type="text" id="zone5textbox1" style="top: 323px; left: 330px;" placeholder="---------------">
@@ -311,19 +311,19 @@
 
             </div>
             <div class="zone6">
-                <input type="text" id="zone6textbox1" style="top: 250px; left: 670px;" placeholder="---------------">
-                <input type="text" id="zone6label1" style="top: 210px; left: 670px;display:none;" placeholder="discuss">
+                <input type="text" id="zone6textbox1" style="top: 250px; left: 670px; width: 120px;" placeholder="---------------">
+                <input type="text" id="zone6label1" style="top: 210px; left: 670px;width: 120px; display:none;" placeholder="discussed with">
 
             </div>
             <div class="zone7">
                 <input type="text" id="zone7textbox1" style="top: 410px; left: 270px;" placeholder="---------------">
-                <input type="text" id="zone7label1" style="top: 459px; left: 270px;display:none;" placeholder="produce">
+                <input type="text" id="zone7label1" style="top: 459px; left: 270px;display:none;" placeholder="produces">
 
             </div>
             <div class="zone8">
                 <input type="text" id="zone8textbox1" style="top: 425px; left: 110px" placeholder="---------------">
                 <input type="text" id="zone8label1" style="top: 386px; left: 110px ;display:none;"
-                    placeholder="receive">
+                    placeholder="received by">
             </div>
             <div class="zone9">
                 <input type="text" id="zone9textbox1" style="top: 547px; left: 174px;width: 160px;"
@@ -334,7 +334,7 @@
             <div class="zone10">
                 <input type="text" id="zone10textbox1" style="top: 574px; left: 361px;" placeholder="---------------">
                 <input type="text" id="zone10label1" style="top: 535px; left: 365px;display:none;"
-                    placeholder="evaluate">
+                    placeholder="evaluates">
             </div>
             <div class="zone11">
                 <input type="text" id="zone11textbox1" style="top: 675px; left: 348px;width: 165px;"
@@ -344,30 +344,30 @@
             </div>
             <div class="zone12">
                 <input type="text" id="zone12textbox1" style="top: 729px; left: 61px;" placeholder="---------------">
-                <input type="text" id="zone12label1" style="top: 691px; left: 61px;display:none;" placeholder="create">
+                <input type="text" id="zone12label1" style="top: 691px; left: 61px;display:none;" placeholder="creates">
             </div>
             <div class="zone13">
                 <input type="text" id="zone13textbox1" style="top: 762px; left: 247px;" placeholder="---------------">
-                <input type="text" id="zone13label1" style="top: 723px; left: 247px;display:none;" placeholder="make">
+                <input type="text" id="zone13label1" style="top: 723px; left: 247px;display:none;" placeholder="makes">
             </div>
 
             <div class="zone14">
                 <input type="text" id="zone14textbox1" style="top: 665px; left: 515px;" placeholder="---------------">
                 <input type="text" id="zone14label1" style="top: 628px; left: 515px;display:none;"
-                    placeholder="receive">
+                    placeholder="received by">
             </div>
             <div class="zone15">
                 <input type="text" id="zone15textbox1" style="top: 778px; left: 501px;" placeholder="---------------">
-                <input type="text" id="zone15label1" style="top: 828px; left: 501px;display:none;" placeholder="work">
+                <input type="text" id="zone15label1" style="top: 828px; left: 501px;display:none;" placeholder="works order">
             </div>
             <div class="zone16">
                 <input type="text" id="zone16textbox1" style="top: 755px; left: 1053px;" placeholder="---------------">
                 <input type="text" id="zone16label1" style="top: 718px; left: 1053px; display:none;"
-                    placeholder="require">
+                    placeholder="required by">
             </div>
             <div class="zone17">
-                <input type="text" id="zone17textbox1" style="top: 905px; left: 461px;" placeholder="---------------">
-                <input type="text" id="zone17label1" style="top: 956px; left: 461px;display:none;" placeholder="create">
+                <input type="text" id="zone17textbox1" style="top: 943px; left: 500px;" placeholder="---------------">
+                <input type="text" id="zone17label1" style="top: 996px; left: 500px;display:none;" placeholder="creates">
             </div>
 
             <div class="zone18">
@@ -376,13 +376,33 @@
                     placeholder="retailer">
             </div>
             <div class="zone19">
-                <input type="text" id="zone19textbox1" style="top: 939px; left: 968px;" placeholder="---------------">
-                <input type="text" id="zone19label1" style="top: 989px; left: 968px;display:none;" placeholder="manage">
+                <input type="text" id="zone19textbox1" style="top: 939px; left: 968px;width: 110px;" placeholder="---------------">
+                <input type="text" id="zone19label1" style="top: 989px; left: 968px;width: 110px;display:none;" placeholder="manages the">
             </div>
             <div class="zone20">
                 <input type="text" id="zone20textbox1" style="top: 530px; left: 1095px;" placeholder="---------------">
                 <input type="text" id="zone20label1" style="top: 579px; left: 1095px;display:none;"
-                    placeholder="evaluate">
+                    placeholder="evaluates">
+            </div>
+
+            <div class="zone21">
+                <input type="text" id="zone21textbox1" style="top: 871px; left: 185px;border-radius: 50%;"
+                    placeholder="---------------">
+                <input type="text" id="zone21label1" style="top: 833px; left: 188px; display:none;"
+                    placeholder="reject">
+            </div>
+
+            <div class="zone22">
+                <input type="text" id="zone22textbox1" style="top: 394px; left: 1139px; border-radius: 50%; "
+                placeholder="---------------">
+            <input type="text" id="zone22label1" style="top: 400px; left: 1036px; display:none;" placeholder="capacity">
+            </div>
+
+            <div class="zone23">
+                <input type="text" id="zone23textbox1" style="top: 615px; left:810px; width: 162px; border-radius: 50%; "
+            placeholder="--------------------">
+        <input type="text" id="zone23label1" style="top: 577px; left: 814px; display:none;width: 162px;"
+            placeholder="production manager">
             </div>
 
         </div>
@@ -390,13 +410,19 @@
     </div>
     <div style="width: 1440px; height: 1024px;">
         <button class="btn btn-outline-primary-submit" onclick="checkInputs()">Submit</button>
+        <button class="btn-outline-primary-tooltip" data-bs-toggle="tooltip"
+        data-bs-html="true" data-bs-custom-class="custom-tooltip" data-bs-title="After Submit: <br> Blue result-->correct <br> Orange result-->Incorrect "><img
+                src="help.svg"></button>
         <button class="btn btn-outline-primary-hint" onclick="toggleHint()">Hint</button>
         <button class="btn btn-outline-primary-reset" onclick="resetPage()">Reset</button>
     </div>
-    
 
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
     <!-- SipocTable Modal -->
-    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade " id="sipoctable" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-fullscreen">
             <div class="modal-content">
                 <div class="modal-header">
@@ -476,11 +502,6 @@
                         </tbody>
                     </table>
 
-
-
-
-
-
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -488,6 +509,24 @@
             </div>
         </div>
     </div>
+ <!-- Finished Model Modal -->
+ <div class="modal fade " id="finishedmodel" tabindex="-1"  aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="Game2-Finished.jpg">
+               
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 

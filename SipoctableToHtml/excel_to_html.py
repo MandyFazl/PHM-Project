@@ -13,9 +13,9 @@ def excel_to_html(input_excel, output_html):
 
 if __name__ == "__main__":
     # Replace 'input_excel.xlsx' with the path to your Excel file
-    input_excel_file = 'Excel-format.xlsx'
+    input_excel_file = 'Excel-format2.xlsx'
 
     # Replace 'output_table.html' with the desired output HTML file path
-    output_html_file = 'output_table.html'
+    output_html_file = 'output_table2.html'
 
     excel_to_html(input_excel_file, output_html_file)
