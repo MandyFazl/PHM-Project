@@ -1,0 +1,70 @@
+<table border="1" class="dataframe table table-bordered table-striped">
+  <thead>
+    <tr style="text-align: right;">
+      <th>PREVIOUS KEY HUMAN RESOURCE AND ACTIVITY: Customer need for new furniture</th>
+      <th>INPUT</th>
+      <th>KEY HUMAN RESOURCE</th>
+      <th>PERFORMS AN ACTIVITY</th>
+      <th>OUTPUT</th>
+      <th>NEXT HUMAN RESOURCE AND ACTIVITY: Retailer delivery and installation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Customer produces order</td>
+      <td>Order (design), (material), (quantity)</td>
+      <td>Factory (Production manager) (operators)</td>
+      <td>Produces furniture</td>
+      <td>Furniture</td>
+      <td>Retailer</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Factory (Production manager)</td>
+      <td>Evaluates production success factors</td>
+      <td>Production success factors (agreed delivery time) (capacity)</td>
+      <td>Customer produces order</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Commercial Director</td>
+      <td>evaluates order specification to finalise bid decision (accept), (reject)</td>
+      <td>OR: Bid decision (reject)</td>
+      <td>Commercial Director creates a Rejection Notification</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>OR: Bid decision (accept)</td>
+      <td>Commercial Director creates a works order</td>
+    </tr>
+    <tr>
+      <td>Commercial Director finalises a bid decision</td>
+      <td>Bid decision (reject)</td>
+      <td>NaN</td>
+      <td>Creates a Rejection Notification</td>
+      <td>Rejection Notification</td>
+      <td>Customer receives Rejection Notification</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>Bid decision (Accept)</td>
+      <td>NaN</td>
+      <td>Creates a works order</td>
+      <td>works order</td>
+      <td>Factory receives works order</td>
+    </tr>
+    <tr>
+      <td>Factory (Production manager) evaluates Production success factors (agreed delivery time), (capacity)</td>
+      <td>Production success factors (agreed delivery time), (capacity)</td>
+      <td>Production manager</td>
+      <td>discusses production success factors (agreed delivery time), (capacity) to customer</td>
+      <td>Agreed delivery times</td>
+      <td>Customer produces order</td>
+    </tr>
+  </tbody>
+</table>
