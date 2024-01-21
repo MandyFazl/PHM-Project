@@ -222,22 +222,27 @@
             ["capacity"],
             ["production manager"],
 
-        ];
-
+        ]; 
         function checkInputs() {
-            for (var j = 0; j < 25; j++) {
-                for (var i = 1; i <= trueResults[j].length; i++) {
-                    var userInput = document.getElementById('zone' + j + 'textbox' + i).value;
-                    var inputElement = document.getElementById('zone' + j + 'textbox' + i);
+    for (var j = 0; j < 25; j++) {
+        for (var i = 1; i <= trueResults[j].length; i++) {
+            var userInput = document.getElementById('zone' + j + 'textbox' + i).value.toLowerCase(); // Convert user input to lowercase
+            var inputElement = document.getElementById('zone' + j + 'textbox' + i);
 
-                    if (trueResults[j].includes(userInput)) {
-                        inputElement.className = 'blue';
-                    } else {
-                        inputElement.className = 'Orange';
-                    }
-                }
+            var trueResultsLower = trueResults[j].map(function(item) {
+                return item.toLowerCase();
+            });
+
+            if (trueResultsLower.includes(userInput)) {
+                inputElement.className = 'blue';
+            } else {
+                inputElement.className = 'Orange'; 
             }
         }
+    }
+}
+
+
 
         function toggleHint() {
             for (var j = 0; j < 25; j++) {
@@ -257,6 +262,8 @@
                 }
             }
         }
+
+        
 
         function resetPage() {
             // Reload the page
@@ -506,22 +513,22 @@
                     <table class="table table-striped table-hover table-bordered table-sm ">
                         <thead>
                             <tr style="text-align: left;">
-                                <th>PREVIOUS KEY HUMAN RESOURCE AND ACTIVITY: Customer need for new furniture</th>
+                                <th>PREVIOUS KEY HUMAN RESOURCE AND ACTIVITY</th>
                                 <th>INPUT</th>
                                 <th>KEY HUMAN RESOURCE</th>
                                 <th>PERFORMS AN ACTIVITY</th>
                                 <th>OUTPUT</th>
-                                <th>NEXT HUMAN RESOURCE AND ACTIVITY: Retailer delivery and installation</th>
+                                <th>NEXT HUMAN RESOURCE AND ACTIVITY</th>
                             </tr>
                         </thead>
                         <tbody class="table-group-divider">
                             <tr>
-                                <td>Customer produces order</td>
-                                <td>Order (design), (material), (quantity)</td>
-                                <td>Factory (Production manager) (operators)</td>
-                                <td>Produces furniture</td>
-                                <td>Furniture</td>
-                                <td>Retailer</td>
+                                <td><b>Customer produces order</b></td>
+                                <td><b>Order (design), (material), (quantity)</b></td>
+                                <td><b>Factory (Production manager) (operators)</b></td>
+                                <td><b>Produces furniture</b></td>
+                                <td><b>Furniture</b></td>
+                                <td><b>Retailer</b></td>
                             </tr>
                             <tr>
                                 <td style="background-color: #BCB9B9;"></td>
@@ -550,15 +557,15 @@
                             <tr>
                                 <td>Commercial Director finalises a bid decision</td>
                                 <td>Bid decision (reject)</td>
-                                <td style="background-color: #BCB9B9;"></td>
+                                <td >Commercial Director  </td>
                                 <td>Creates a Rejection Notification</td>
                                 <td>Rejection Notification</td>
                                 <td>Customer receives Rejection Notification</td>
                             </tr>
                             <tr>
-                                <td style="background-color: #BCB9B9;"></td>
+                                <td>Commercial Director finalises a bid decision</td>
                                 <td>Bid decision (Accept)</td>
-                                <td style="background-color: #BCB9B9;"></td>
+                                <td>Commercial Director</td>
                                 <td>Creates a works order</td>
                                 <td>works order</td>
                                 <td>Factory receives works order</td>
@@ -570,7 +577,7 @@
                                 <td>Production manager</td>
                                 <td>discusses production success factors (agreed delivery time), (capacity) to customer
                                 </td>
-                                <td>Agreed delivery times</td>
+                                <td>Production success factors (delivery time), (capacity)</td>
                                 <td>Customer produces order</td>
                             </tr>
                         </tbody>

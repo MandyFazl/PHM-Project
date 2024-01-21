@@ -200,28 +200,33 @@
     </style>
     <script>
         var trueResults = [
-            ["legal and commercial aspects", "learning and teaching guidelines", "3th party funding obligations"],
+            ["legal and commercial aspects", "learning and teaching guidelines", "3rd party funding obligations"],
             ["schedule", "cost", "terms and conditions"],
             ["budget options", "terms and conditions", "technical specifications"],
             ["no bid"],
             ["in-house trainers", "training managers"],
-            ["dean’s office", "head’s of groups"],
+            ["dean’s office", "heads of Groups"],
             ["service staff", "service staff managers"],
         ];
-        function checkInputs() {
-            for (var j = 0; j < 7; j++) {
-                for (var i = 1; i <= trueResults[j].length; i++) {
-                    var userInput = document.getElementById('zone' + j + 'textbox' + i).value;
-                    var inputElement = document.getElementById('zone' + j + 'textbox' + i);
 
-                    if (trueResults[j].includes(userInput)) {
-                        inputElement.className = 'blue';
-                    } else {
-                        inputElement.className = 'Orange';
-                    }
-                }
+        function checkInputs() {
+    for (var j = 0; j < 7; j++) {
+        for (var i = 1; i <= trueResults[j].length; i++) {
+            var userInput = document.getElementById('zone' + j + 'textbox' + i).value.toLowerCase(); // Convert user input to lowercase
+            var inputElement = document.getElementById('zone' + j + 'textbox' + i);
+
+            var trueResultsLower = trueResults[j].map(function(item) {
+                return item.toLowerCase();
+            });
+
+            if (trueResultsLower.includes(userInput)) {
+                inputElement.className = 'blue';
+            } else {
+                inputElement.className = 'Orange'; 
             }
         }
+    }
+}
         function toggleHint() {
             for (var j = 0; j < 7; j++) {
                 for (var i = 1; i <= trueResults[j].length; i++) {
@@ -229,7 +234,7 @@
                     var labelElement = document.getElementById('zone' + j + 'label' + i);
 
                     if (labelElement.style.display === 'none') {
-                        // Show label underneath and highlight
+                        // Show label 
                         labelElement.style.display = 'block';
                         labelElement.className = 'highlight';
                     } else {
@@ -317,7 +322,7 @@
                     style="top: 477px; left: 1012px; border-radius: 50%;width: 225px; height: 60px; "
                     placeholder="---------------">
                 <input type="text" id="zone0label3" style="top: 492px; left: 1240px; width: 225px; display:none;"
-                    placeholder="3th party funding obligations">
+                    placeholder="3rd party funding obligations">
             </div>
             <div class="zone1">
                 <input type="text" id="zone1textbox1" style="top: 717px; left: 841px; border-radius: 50%; "
@@ -340,11 +345,11 @@
                 <input type="text" id="zone2textbox2" style="top: 493px; left:500px;width:160px;border-radius: 50%;"
                     placeholder="---------------">
                 <input type="text" id="zone2label2" style="top: 541px; left: 500px;width:160px; display:none;"
-                    placeholder="terms and conditions">
+                    placeholder="technical specifications">
                 <input type="text" id="zone2textbox3" style="top: 419px; left: 433px;border-radius: 50%;"
                     placeholder="---------------">
                 <input type="text" id="zone2label3" style="top: 383px; left:416px;width:176px; display:none;"
-                    placeholder="technical specifications">
+                    placeholder="terms and conditions">
             </div>
             <div class="zone3">
                 <input type="text" id="zone3textbox1" style="top: 559px; left: 133px;border-radius: 50%;"
@@ -369,7 +374,7 @@
                 <input type="text" id="zone5textbox2" style="top: 816px; left: 373px;border-radius: 50%; "
                     placeholder="---------------">
                 <input type="text" id="zone5label2" style="top: 779px; left: 359px;width:130px; display:none;"
-                    placeholder="head’s of groups">
+                    placeholder="heads of groups">
             </div>
             <div class="zone6">
                 <input type="text" id="zone6textbox1" style="top: 844px; left: 1053px;border-radius: 50%;"
@@ -418,17 +423,17 @@
                         </thead>
                         <tbody class="table-group-divider">
                             <tr>
-                                <td>An organizational requirement for professional development programme: Client's HRM
+                                <td><b>An organizational requirement for professional development programme: Client's HRM
                                     Department (in-house trainers)(training managers) produce outline training
-                                    specification</td>
-                                <td>outline training specification (Terms and Conditions)(budget options)(technical
-                                    specifications)</td>
-                                <td>University's Executive Education Department (Client Managers)(Support Team)(In-House
-                                    Trainers)</td>
-                                <td>produces a client proposal (schedule)(cost)(terms and conditions)</td>
-                                <td>client proposal (schedule)(cost)(terms and conditions)</td>
-                                <td>Client's frontline staff (service staff)(service staff managers) benefit from:
-                                    Professional development Programme</td>
+                                    specification</b></td>
+                                <td><b>outline training specification (Terms and Conditions)(budget options)(technical
+                                    specifications)</b></td>
+                                <td><b>University's Executive Education Department (Client Managers)(Support Team)(In-House
+                                    Trainers)</b></td>
+                                <td><b>produces a client proposal (schedule)(cost)(terms and conditions)</b></td>
+                                <td><b>client proposal (schedule)(cost)(terms and conditions)</b></td>
+                                <td><b>Client's frontline staff (service staff)(service staff managers) benefit from:
+                                    Professional development Programme</b></td>
                             </tr>
                             <tr>
                                 <td style="background-color: #BCB9B9;"></td>
