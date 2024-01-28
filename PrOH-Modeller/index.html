@@ -135,17 +135,14 @@
 
                     </div>
                 </div>
-                <div class="card shadow m-4 col-lg-3">
+                <div class=" m-4 col-lg-3 align-items-center">
                     <div class="card-body px-3 py-5">
-                        <h5>Download All</h5>
+                        
                         <div class="d-grid gap-2 d-md-flex justify-content-center">
-                            <button id="verbscollectionbtn" class="btn btn-primary me-md-2 disabled" type="button"
-                                onclick="downloadvcbtn()">Download</button>
-                        </div><br>
-                        <div style="height: 4px" class="progress">
-                            <div id="progressBarvc" role="progressbar" aria-valuenow="0" aria-valuemin="0"
-                                aria-valuemax="100" style="width: 5%" class="progress-bar bg-success"></div>
-                        </div><br>
+                            <button id="downloadall" class="btn btn-primary me-md-2 disabled" type="button"
+                                onclick="downloadall()">Download All</button><br>
+                        </div>
+                        
 
                     </div>
                 </div>
@@ -165,6 +162,7 @@
                     document.getElementById('Subbubblesbtn').classList.remove('disabled');
                     document.getElementById('decisionnodesbtn').classList.remove('disabled');
                     document.getElementById('verbscollectionbtn').classList.remove('disabled');
+                    document.getElementById('downloadall').classList.remove('disabled');
                     // Trigger the download using a hidden iframe
                     var downloadFrame = document.getElementById('downloadFrame');
                     downloadFrame.src = fileLink;
@@ -228,6 +226,23 @@
             }
             function resetPage() {
                 location.reload();
+            }
+
+            function downloadall(){
+                document.getElementById('downloadall').disabled = true;
+                var fileLink = 'pro1.jpg';
+                setTimeout(function () {
+                    document.getElementById('progressBarpp').style.width = '100%';
+                    document.getElementById('progressBarps').style.width = '100%';
+                    document.getElementById('progressBarsb').style.width = '100%';
+                    document.getElementById('progressBardn').style.width = '100%';
+                    document.getElementById('progressBarvc').style.width = '100%';
+                    document.getElementById('downloadall').textContent = "All Downloaded";
+                    var downloadFrame = document.getElementById('downloadFrame');
+                    downloadFrame.src = fileLink;
+                    window.open(fileLink, '_blank');
+                }, 1000);
+
             }
 
         </script>
