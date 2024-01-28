@@ -39,14 +39,16 @@
 <body>
     <div class="container mx-auto">
 
-            <div class="gap-2 d-md-flex justify-content-md-end">
+            <div class="col-lg-10 mx-auto gap-2 d-md-flex justify-content-md-end">
                 <button id="newbtn" class="btn btn-outline-primary me-md-2" type="button"
                     onclick="resetPage()">New</button>
+                    <button id="newbtn" class="btn btn-outline-primary me-md-2" type="button"
+                    onclick="">Download SIPOC Template</button>
             </div><br>
 
             <div class="row col-lg-10 card shadow mb-3 mx-auto ">
                 <div class="card-body p-5">
-                    <h5>1. Upload Sipoc table</h5>
+                    <h5>1. Upload SIPOC Table (.CSV)</h5>
                     <div id="fileupload" class="mb-3">
                         <input class="form-control" type="file" id="formFile">
                     </div>
@@ -65,7 +67,7 @@
             <div class="row mx-auto justify-content-center">
                 <div class="card shadow m-4 col-lg-3 ">
                     <div class="card-body px-3 py-5">
-                        <h5>2.Download Power point Core Process Statement</h5>
+                        <h5>2. Download Power point Core Process Statement</h5>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-center">
                             <button id="powerpointbtn" class="btn btn-primary me-md-2 disabled" type="button"
                                 onclick="downloadppbtn()">Download</button>
@@ -80,7 +82,7 @@
 
                 <div class="card shadow m-4 col-lg-3">
                     <div class="card-body px-3 py-5">
-                        <h5>3.Download Non-core Process Satatement Bubbles </h5>
+                        <h5>3. Download Non-core Process Satatement Bubbles </h5>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-center">
                             <button id="processstatementbtn" class="btn btn-primary me-md-2 disabled" type="button"
                                 onclick="downloadpsbtn()">Download</button>
@@ -95,7 +97,7 @@
 
                 <div class="card shadow m-4 col-lg-3">
                     <div class="card-body px-3 py-5">
-                        <h5>4.Download Sub-bubbles</h5><br>
+                        <h5>4. Download Sub-bubbles</h5><br>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-center">
                             <button id="Subbubblesbtn" class="btn btn-primary me-md-2 disabled" type="button"
                                 onclick="downloadsbbtn()">Download</button>
@@ -109,7 +111,7 @@
                 </div>
                 <div class="card shadow m-4 col-lg-3">
                     <div class="card-body px-3 py-5">
-                        <h5>5.Download Decision Nodes</h5>
+                        <h5>5. Download Decision Nodes</h5>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-center">
                             <button id="decisionnodesbtn" class="btn btn-primary me-md-2 disabled" type="button"
                                 onclick="downloaddnbtn()">Download</button>
@@ -123,7 +125,7 @@
                 </div>
                 <div class="card shadow m-4 col-lg-3">
                     <div class="card-body px-3 py-5">
-                        <h5>6.Download Verbs Collection</h5>
+                        <h5>6. Download Verbs Collection</h5>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-center">
                             <button id="verbscollectionbtn" class="btn btn-primary me-md-2 disabled" type="button"
                                 onclick="downloadvcbtn()">Download</button>
