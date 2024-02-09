@@ -48,16 +48,14 @@
                     </div><br>
 
 
-                    <form action="/upload" method="post" enctype="multipart/form-data">
+                    <form id="fileupload" class="mb-3 d-flex justify-content-sm-between align-items-center" action="/upload" method="post" enctype="multipart/form-data">
+                        <h6>2. Upload SIPOC Table (.CSV)</h6>
                         <div class="d-flex justify-content-md-end">
                             <input class="form-control" type="file" name="file" style="width: 100%;">
-                            <button class="btn btn-primary" type="submit">Upload</button>
+                            <button id="uploadstbtn" class="btn btn-primary" type="submit" style="width: 115px;" >Upload</button>
                         </div>
                     </form>
-
-
-
-
+                    <!--
                     <div id="fileupload" class="mb-3 d-flex justify-content-sm-between align-items-center">
                         <h6>2. Upload SIPOC Table (.CSV)</h6>
                         <div class="d-flex justify-content-md-end">
@@ -66,6 +64,7 @@
                                 onclick="uploadbtn()">Upload</button>
                         </div>
                     </div>
+                    -->
                     <div style="height: 4px" class="progress">
                         <div id="progressBarst" role="progressbar" aria-label="Success example" aria-valuenow="0"
                             aria-valuemin="0" aria-valuemax="100" style="width: 5%" class="progress-bar bg-success">
