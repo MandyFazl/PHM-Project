@@ -1,496 +1,323 @@
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 12:36:56] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 12:36:58] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 12:37:08] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 12:37:32] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 12:42:36] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 13:05:48] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 13:45:04] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-WARNING:werkzeug: * Debugger is active!
-WARNING:werkzeug: * Debugger is active!
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 13:57:10] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 13:57:11] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 13:57:27] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 13:57:29] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 13:57:33] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 13:57:36] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 10:04:52] "[33mGET /Sipoc-Table-Template.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 10:05:31] "[33mGET /Sipoc-Table-Template.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 10:06:07] "[33mGET /Sipoc-Table-Template.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 10:06:11] "[33mGET /Sipoc-Table-Template.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 10:07:00] "[33mGET /Sipoc-Table-Template.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 10:22:21] "[33mGET /Sipoc-Table-Template.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 10:22:55] "[33mGET /Sipoc-Table-Template.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 10:23:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 10:23:46] "GET /static/Sipoc-Table-Template.csv HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 10:24:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 10:24:23] "GET /static/Sipoc-Table-Template.csv HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 10:25:43] "GET /static/Sipoc-Table-Template.csv HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 10:26:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 10:26:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 10:26:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 10:26:37] "GET /static/Sipoc-Table-Template.csv HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 10:27:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 10:27:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 10:27:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 10:27:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 10:27:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 10:58:51] "[33mGET /Sipoc-Table-Template.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 10:59:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:00:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:00:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:01:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:01:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:01:30] "GET /static/Sipoc-Table-Template.csv HTTP/1.1" 200 -
+INFO:root:PowerPoint file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:03:39] "[36mGET /download_pptx HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:03:55] "GET / HTTP/1.1" 200 -
+INFO:root:PowerPoint file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:04:04] "[36mGET /download_pptx HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:08:02] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:08:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:08:09] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:08:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:09:08] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:10:52] "GET /static/Sipoc-Table-Template.csv HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:11:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:11:54] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:11:56] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:12:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:12:30] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:12:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:13:00] "POST /upload HTTP/1.1" 200 -
 INFO:root:CSV file saved successfully.
 INFO:root:Python script executed successfully.
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:12:31] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:13:13] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:13:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:13:27] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:14:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:14:02] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:15:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:15:43] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:16:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:16:08] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:16:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:16:17] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:16:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:16:21] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:16:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:16:25] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:16:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:17:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:17:11] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:17:13] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:17:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:17:22] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:17:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:17:26] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:17:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:17:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:17:54] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:17:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:17:57] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:18:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:18:08] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:18:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:18:13] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:18:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:18:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:18:40] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:18:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:18:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:18:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:18:57] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:19:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:19:01] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:19:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:20:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:20:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:20:09] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:20:10] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:20:12] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:21:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:21:21] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:21:22] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:21:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:21:25] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:21:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:22:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:22:12] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:22:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:22:18] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:22:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:22:21] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:22:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:22:52] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:22:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:22:57] "POST /upload HTTP/1.1" 200 -
 INFO:root:CSV file saved successfully.
 INFO:root:Python script executed successfully.
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:33:00] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:23:08] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:23:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:23:16] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:23:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:23:42] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:23:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:23:44] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:24:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:24:19] "POST /upload HTTP/1.1" 200 -
 INFO:root:CSV file saved successfully.
 INFO:root:Python script executed successfully.
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:33:04] "POST /upload HTTP/1.1" 200 -
-INFO:root:CSV file saved successfully.
-INFO:root:Python script executed successfully.
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:48:29] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:53:56] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:53:56] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:53:56] "[33mGET /assets/dist/css/bootstrap.min.css HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:53:56] "[33mGET /assets/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:54:00] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:54:00] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:54:00] "[33mGET /assets/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:54:00] "[33mGET /assets/dist/css/bootstrap.min.css HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:54:17] "POST /upload HTTP/1.1" 200 -
-INFO:root:CSV file saved successfully.
-INFO:root:Python script executed successfully.
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:54:27] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:58:23] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:58:23] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:58:23] "[33mGET /assets/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:58:23] "[33mGET /assets/dist/css/bootstrap.min.css HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:58:26] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:58:26] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:58:26] "[33mGET /assets/dist/css/bootstrap.min.css HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:58:26] "[33mGET /assets/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:58:27] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:58:27] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:58:27] "[33mGET /assets/dist/css/bootstrap.min.css HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:58:27] "[33mGET /assets/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:58:28] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:58:28] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:58:28] "[33mGET /assets/dist/css/bootstrap.min.css HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:58:28] "[33mGET /assets/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:58:30] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:58:30] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:58:30] "[33mGET /assets/dist/css/bootstrap.min.css HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:58:30] "[33mGET /assets/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:59:47] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:59:47] "[33mGET /templates/assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:59:47] "[33mGET /templates/assets/dist/css/bootstrap.min.css HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:59:47] "[33mGET /templates/assets/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:59:48] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:59:48] "[33mGET /templates/assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:59:48] "[33mGET /templates/assets/dist/css/bootstrap.min.css HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:59:48] "[33mGET /templates/assets/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:59:49] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:59:49] "[33mGET /templates/assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:59:49] "[33mGET /templates/assets/dist/css/bootstrap.min.css HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 14:59:49] "[33mGET /templates/assets/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:06:09] "[33mGET /index.html HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:06:32] "[33mGET /index.html HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:06:35] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:06:35] "[33mGET /templates/assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:06:35] "[33mGET /templates/assets/dist/css/bootstrap.min.css HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:06:35] "[33mGET /templates/assets/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:06:36] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:06:36] "[33mGET /templates/assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:06:36] "[33mGET /templates/assets/dist/css/bootstrap.min.css HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:06:36] "[33mGET /templates/assets/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:06:37] "[33mGET /templates/index.html HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:06:46] "[33mGET /templates/index.html HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:07:06] "[33mGET /templates/index.html HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:13:42] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:13:42] "[33mGET /assets/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:13:42] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:15:10] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:15:10] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:15:10] "[33mGET /assets/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:15:11] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:15:11] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:15:11] "[33mGET /assets/dist/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:15:12] "POST /upload HTTP/1.1" 200 -
-INFO:root:CSV file saved successfully.
-INFO:root:Python script executed successfully.
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:15:53] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:24:34] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:30:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:30:27] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:30:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:31:12] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:41:11] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:41:13] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:49:55] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:50:02] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:50:21] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:56:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:56:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:56:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:56:47] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:56:49] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:58:38] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 11:58:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 12:02:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 12:02:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 12:02:53] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 12:03:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 12:03:28] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 12:03:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 12:03:32] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 12:06:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 12:06:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 12:06:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 12:07:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 12:08:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 12:08:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 12:08:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 12:08:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 12:08:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 12:08:28] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 12:08:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 12:08:32] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 12:08:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 12:09:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 12:09:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 12:09:08] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 12:09:09] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 12:09:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 12:09:12] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 12:09:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 13:43:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 13:43:50] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 13:43:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 13:47:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 13:47:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 13:47:42] "POST /upload HTTP/1.1" 200 -
 INFO:root:CSV file saved successfully.
 INFO:root:Python script executed successfully.
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:50:37] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 13:47:54] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 13:58:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 13:58:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 13:59:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 13:59:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 13:59:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 13:59:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 13:59:58] "POST /upload HTTP/1.1" 200 -
 INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:55:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:16:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:16:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:16:36] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:16:38] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:16:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:16:42] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
 INFO:root:CSV file saved successfully.
 INFO:root:Python script executed successfully.
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:55:34] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:55:39] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:55:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:17:04] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:21:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:21:11] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:26:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:26:07] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:26:23] "GET / HTTP/1.1" 200 -
+INFO:root:CSV file saved successfully.
+ERROR:root:An error occurred: [Errno 2] No such file or directory: 'uploads/sipoc_table2.csv'
+INFO:root:Python script executed successfully.
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:26:31] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\sipoc-to-pptx-4-Flask.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:27:46] "GET / HTTP/1.1" 200 -
 INFO:root:CSV file saved successfully.
 INFO:root:Python script executed successfully.
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:55:44] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-ERROR:root:An error occurred: 'function' object has no attribute 'html'
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:56:51] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:56:56] "GET / HTTP/1.1" 200 -
-ERROR:root:An error occurred: 'function' object has no attribute 'html'
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 15:56:57] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:01:37] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:01:38] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:01:39] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:01:42] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:01:43] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:27:54] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:30:41] "GET / HTTP/1.1" 200 -
 INFO:root:CSV file saved successfully.
 INFO:root:Python script executed successfully.
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:02:05] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:03:13] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:03:15] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:06:01] "GET / HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:06:41] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:06:44] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:06:45] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:06:49] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:06:51] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:30:50] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:35:32] "GET / HTTP/1.1" 200 -
+INFO:root:CSV file saved successfully.
+ERROR:root:An error occurred: 'charmap' codec can't decode byte 0x9d in position 54: character maps to <undefined>
+INFO:root:Python script executed successfully.
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:35:42] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:36:28] "GET / HTTP/1.1" 200 -
+INFO:root:CSV file saved successfully.
+ERROR:root:An error occurred: 'charmap' codec can't decode byte 0x9d in position 54: character maps to <undefined>
+INFO:root:Python script executed successfully.
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:36:36] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:36:55] "GET / HTTP/1.1" 200 -
 INFO:root:CSV file saved successfully.
 INFO:root:Python script executed successfully.
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:07:01] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:37:11] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:37:41] "GET / HTTP/1.1" 200 -
 INFO:root:CSV file saved successfully.
 INFO:root:Python script executed successfully.
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:08:13] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:21:00] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:21:04] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:21:34] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:21:36] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:37:53] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:38:13] "GET / HTTP/1.1" 200 -
+INFO:root:CSV file saved successfully.
+ERROR:root:An error occurred: 'charmap' codec can't decode byte 0x9d in position 54: character maps to <undefined>
+INFO:root:Python script executed successfully.
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:38:22] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:38:45] "GET / HTTP/1.1" 200 -
 INFO:root:CSV file saved successfully.
 INFO:root:Python script executed successfully.
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:22:08] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:38:57] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:39:36] "GET / HTTP/1.1" 200 -
+INFO:root:CSV file saved successfully.
+ERROR:root:An error occurred: 'charmap' codec can't decode byte 0x9d in position 54: character maps to <undefined>
+INFO:root:Python script executed successfully.
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:40:02] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:40:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:40:21] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:40:28] "GET / HTTP/1.1" 200 -
+INFO:root:CSV file saved successfully.
+ERROR:root:An error occurred: 'charmap' codec can't decode byte 0x9d in position 54: character maps to <undefined>
+INFO:root:Python script executed successfully.
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:40:35] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:42:41] "GET / HTTP/1.1" 200 -
 INFO:root:CSV file saved successfully.
 INFO:root:Python script executed successfully.
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:23:29] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:24:29] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:42:52] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:44:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:44:05] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:44:07] "GET / HTTP/1.1" 200 -
 INFO:root:CSV file saved successfully.
 INFO:root:Python script executed successfully.
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:24:37] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:47:06] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:47:09] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:44:16] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:46:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:46:57] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:47:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:47:09] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:47:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:47:45] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:47:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:47:47] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:47:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:47:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:47:51] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:47:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:49:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:49:51] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:49:53] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
 INFO:root:CSV file saved successfully.
 INFO:root:Python script executed successfully.
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:47:18] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:48:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:50:01] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:52:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:52:23] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
 INFO:root:CSV file saved successfully.
 INFO:root:Python script executed successfully.
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:48:17] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:49:21] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:49:22] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:49:23] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:49:43] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:49:44] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:49:45] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:49:47] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:49:48] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:52:39] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:54:39] "GET / HTTP/1.1" 200 -
 INFO:root:CSV file saved successfully.
 INFO:root:Python script executed successfully.
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:50:00] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:54:51] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:54:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:55:00] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
 INFO:root:CSV file saved successfully.
 INFO:root:Python script executed successfully.
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 16:52:02] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 17:00:54] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 17:00:55] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 17:00:57] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:55:10] "POST /upload HTTP/1.1" 200 -
+INFO:root:PowerPoint file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 14:55:12] "GET /download_pptx HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 15:27:24] "GET / HTTP/1.1" 200 -
 INFO:root:CSV file saved successfully.
 INFO:root:Python script executed successfully.
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 17:01:09] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 17:01:40] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 17:01:42] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 17:01:48] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 17:01:49] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 17:01:53] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 17:01:56] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 15:27:37] "POST /upload HTTP/1.1" 200 -
+INFO:root:PowerPoint file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 15:27:38] "GET /download_pptx HTTP/1.1" 200 -
 INFO:root:CSV file saved successfully.
 INFO:root:Python script executed successfully.
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 17:02:04] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 15:27:46] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 15:27:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 15:27:49] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
 INFO:root:CSV file saved successfully.
 INFO:root:Python script executed successfully.
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 17:02:31] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 15:28:00] "POST /upload HTTP/1.1" 200 -
+INFO:root:PowerPoint file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 15:28:02] "GET /download_pptx HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2024 15:28:48] "GET / HTTP/1.1" 200 -
 INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 823-632-055
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:root:CSV file saved successfully.
-INFO:root:Python script executed successfully.
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 17:03:41] "POST /upload HTTP/1.1" 200 -
-INFO:root:CSV file saved successfully.
-INFO:root:Python script executed successfully.
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 17:03:46] "POST /upload HTTP/1.1" 200 -
-INFO:root:CSV file saved successfully.
-INFO:root:Python script executed successfully.
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 17:03:48] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 17:03:55] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 17:03:56] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 17:04:02] "POST /upload HTTP/1.1" 200 -
-INFO:root:CSV file saved successfully.
-INFO:root:Python script executed successfully.
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 17:04:11] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 823-632-055
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 21:49:20] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 21:49:21] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 22:12:04] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 22:12:06] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 22:12:11] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 22:13:29] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 22:13:30] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 22:13:31] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 22:13:57] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 22:13:59] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 22:13:59] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 22:14:00] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 22:14:02] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 22:14:02] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 22:14:13] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 22:14:13] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 22:14:15] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 22:15:48] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 22:15:50] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 22:17:08] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 22:17:10] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 22:18:02] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 22:18:04] "POST /upload HTTP/1.1" 200 -
-INFO:root:CSV file saved successfully.
-INFO:root:Python script executed successfully.
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 22:18:12] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 22:28:21] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 22:28:22] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [08/Feb/2024 22:28:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
