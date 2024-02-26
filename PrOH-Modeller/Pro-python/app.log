@@ -445,3 +445,355 @@ INFO:root:Sub_bubbles Csv file downloaded successfully.
 INFO:werkzeug:127.0.0.1 - - [25/Feb/2024 21:32:44] "GET /download_Sub_bubbles HTTP/1.1" 200 -
 INFO:root:Verbs csv file downloaded successfully.
 INFO:werkzeug:127.0.0.1 - - [25/Feb/2024 21:32:46] "GET /download_verbs HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 13:24:33] "GET / HTTP/1.1" 200 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: Sipoc-Table-Template.csv
+INFO:root:Uploaded filepath: uploads\Sipoc-Table-Template_a32d3938.csv
+INFO:root:Filename without extension: Sipoc-Table-Template_a32d3938
+INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
+INFO:root:Seperate_verbs.py and  Separate_verbs_Sketch.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 13:25:02] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sub_bubbles Csv file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 13:25:16] "GET /download_Sub_bubbles HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\Seperate_verbs.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 13:30:53] "GET / HTTP/1.1" 200 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: Sipoc-Table-Template.csv
+INFO:root:Uploaded filepath: uploads\Sipoc-Table-Template_680ecef1.csv
+INFO:root:Filename without extension: Sipoc-Table-Template_680ecef1
+INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
+INFO:root:Seperate_verbs.py and  Separate_verbs_Sketch.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 13:31:07] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sub_bubbles Csv file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 13:31:17] "GET /download_Sub_bubbles HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 13:33:08] "GET / HTTP/1.1" 200 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: Sipoc-Table-Template.csv
+INFO:root:Uploaded filepath: uploads\Sipoc-Table-Template_07a37dee.csv
+INFO:root:Filename without extension: Sipoc-Table-Template_07a37dee
+INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
+INFO:root:Seperate_verbs.py and  Separate_verbs_Sketch.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 13:33:24] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sub_bubbles Csv file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 13:33:26] "GET /download_Sub_bubbles HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\Seperate_verbs.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\Seperate_verbs.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\Seperate_verbs.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 14:04:18] "GET / HTTP/1.1" 200 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: Sipoc-Table-Template.csv
+INFO:root:Uploaded filepath: uploads\Sipoc-Table-Template_fba8f6a0.csv
+INFO:root:Filename without extension: Sipoc-Table-Template_fba8f6a0
+INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
+INFO:root:Seperate_verbs.py and  Separate_verbs_Sketch.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 14:04:32] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sub_bubbles Csv file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 14:04:34] "GET /download_Sub_bubbles HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\Seperate_verbs.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\sipoc-to-pptx-4-Flask.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\sipoc-to-pptx-4-Flask.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\Seperate_verbs.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\Seperate_verbs.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 14:43:49] "GET / HTTP/1.1" 200 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: Sipoc-Table-Template.csv
+INFO:root:Uploaded filepath: uploads\Sipoc-Table-Template_6a0d6586.csv
+INFO:root:Filename without extension: Sipoc-Table-Template_6a0d6586
+INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
+INFO:root:Seperate_verbs.py and  Separate_verbs_Sketch.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 14:43:59] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sub_bubbles Csv file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 14:44:03] "GET /download_Sub_bubbles HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\Seperate_verbs.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+ERROR:root:An error occurred: cannot access local variable 'verbs_csvfile' where it is not associated with a value
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 14:45:33] "GET /download_verbs HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\Seperate_verbs.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\Bracket.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 14:47:43] "GET / HTTP/1.1" 200 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: Sipoc-Table-Template.csv
+INFO:root:Uploaded filepath: uploads\Sipoc-Table-Template_51825392.csv
+INFO:root:Filename without extension: Sipoc-Table-Template_51825392
+INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
+INFO:root:Seperate_verbs.py and  Separate_verbs_Sketch.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 14:47:53] "POST /upload HTTP/1.1" 200 -
+INFO:root:PowerPoint file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 14:47:56] "GET /download_pptx HTTP/1.1" 200 -
+INFO:root:Sub_bubbles Csv file downloaded successfully.
+ERROR:root:An error occurred: [WinError 2] The system cannot find the file specified: 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\uploads\\Sipoc-Table-Template_51825392SubBubbles.csv'
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 14:47:57] "GET /download_Sub_bubbles HTTP/1.1" 200 -
+INFO:root:Verbs csv file downloaded successfully.
+ERROR:root:An error occurred: [WinError 2] The system cannot find the file specified: 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\uploads\\Sipoc-Table-Template_51825392verbs.csv'
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 14:47:58] "GET /download_verbs HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\Seperate_verbs.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 15:11:11] "GET / HTTP/1.1" 200 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: Sipoc-Table-Template.csv
+INFO:root:Uploaded filepath: uploads\Sipoc-Table-Template_3a2aa0b7.csv
+INFO:root:Filename without extension: Sipoc-Table-Template_3a2aa0b7
+INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
+INFO:root:Seperate_verbs.py and  Separate_verbs_Sketch.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 15:11:25] "POST /upload HTTP/1.1" 200 -
+INFO:root:Verbs csv file downloaded successfully.
+ERROR:root:An error occurred: [WinError 2] The system cannot find the file specified: 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\uploads\\Sipoc-Table-Template_3a2aa0b7verbs.csv'
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 15:11:26] "GET /download_verbs HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\Seperate_verbs.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\Seperate_verbs.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 15:20:25] "GET / HTTP/1.1" 200 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: Sipoc-Table-Template.csv
+INFO:root:Uploaded filepath: uploads\Sipoc-Table-Template_da55b885.csv
+INFO:root:Filename without extension: Sipoc-Table-Template_da55b885
+INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
+INFO:root:Seperate_verbs.py and  Separate_verbs_Sketch.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 15:20:37] "POST /upload HTTP/1.1" 200 -
+INFO:root:Verbs csv file downloaded successfully.
+ERROR:root:An error occurred: [WinError 2] The system cannot find the file specified: 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\uploads\\Sipoc-Table-Template_da55b885verbs.csv'
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 15:20:41] "GET /download_verbs HTTP/1.1" 200 -
+INFO:root:Sub_bubbles Csv file downloaded successfully.
+ERROR:root:An error occurred: [WinError 2] The system cannot find the file specified: 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\uploads\\Sipoc-Table-Template_da55b885SubBubbles.csv'
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 15:20:45] "GET /download_Sub_bubbles HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 15:25:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: Sipoc-Table-Template.csv
+INFO:root:Uploaded filepath: uploads\Sipoc-Table-Template_51ea070c.csv
+INFO:root:Filename without extension: Sipoc-Table-Template_51ea070c
+INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
+INFO:root:Seperate_verbs.py and  Separate_verbs_Sketch.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 15:26:01] "POST /upload HTTP/1.1" 200 -
+INFO:root:PowerPoint file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 15:26:07] "GET /download_pptx HTTP/1.1" 200 -
+INFO:root:Sub_bubbles Csv file downloaded successfully.
+ERROR:root:An error occurred: [WinError 2] The system cannot find the file specified: 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\Sipoc-Table-Template_51ea070cSubBubbles.csv'
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 15:26:08] "GET /download_Sub_bubbles HTTP/1.1" 200 -
+INFO:root:Verbs csv file downloaded successfully.
+ERROR:root:An error occurred: [WinError 2] The system cannot find the file specified: 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\Sipoc-Table-Template_51ea070cverbs.csv'
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 15:26:09] "GET /download_verbs HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\Seperate_verbs.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\Bracket.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\Bracket.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\Seperate_verbs.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 15:32:46] "GET / HTTP/1.1" 200 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: Sipoc-Table-Template.csv
+INFO:root:Uploaded filepath: uploads\Sipoc-Table-Template_8bec629e.csv
+INFO:root:Filename without extension: Sipoc-Table-Template_8bec629e
+INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 15:32:57] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sub_bubbles file downloaded successfully.
+ERROR:root:An error occurred: [WinError 2] The system cannot find the file specified: 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\uploads\\Sipoc-Table-Template_8bec629everbs.csv'
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 15:33:00] "GET /download_Sub_bubbles HTTP/1.1" 200 -
+INFO:root:Verbs csv file downloaded successfully.
+ERROR:root:An error occurred: [WinError 2] The system cannot find the file specified: 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\uploads\\Sipoc-Table-Template_8bec629everbs.csv'
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 15:33:02] "GET /download_verbs HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\Bracket.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\Seperate_verbs.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 17:01:18] "GET / HTTP/1.1" 200 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: Sipoc-Table-Template.csv
+INFO:root:Uploaded filepath: uploads\Sipoc-Table-Template_051427f0.csv
+INFO:root:Filename without extension: Sipoc-Table-Template_051427f0
+INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 17:01:40] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sub_bubbles file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 17:02:21] "GET /download_Sub_bubbles HTTP/1.1" 200 -
+INFO:root:Verbs csv file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 17:02:22] "GET /download_verbs HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\Seperate_verbs.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 17:11:13] "GET / HTTP/1.1" 200 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: Sipoc-Table-Template.csv
+INFO:root:Uploaded filepath: uploads\Sipoc-Table-Template_a32d5883.csv
+INFO:root:Filename without extension: Sipoc-Table-Template_a32d5883
+INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 17:11:28] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\Seperate_verbs.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 17:12:30] "GET / HTTP/1.1" 200 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: Sipoc-Table-Template.csv
+INFO:root:Uploaded filepath: uploads\Sipoc-Table-Template_28d23907.csv
+INFO:root:Filename without extension: Sipoc-Table-Template_28d23907
+INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 17:12:43] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\sipoc-to-pptx-4-Flask.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\Seperate_verbs.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 17:14:30] "GET / HTTP/1.1" 200 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: Sipoc-Table-Template.csv
+INFO:root:Uploaded filepath: uploads\Sipoc-Table-Template_5b2b0213.csv
+INFO:root:Filename without extension: Sipoc-Table-Template_5b2b0213
+INFO:root:looking for the filepath
+INFO:root:Filename without extension: uploads\Sipoc-Table-Template_5b2b0213
+INFO:root:Uploaded filepath: uploads\Sipoc-Table-Template_5b2b0213.csv
+INFO:root:output_presentation is saved successfully.
+INFO:root:output_presentation path: uploads\Sipoc-Table-Template_5b2b0213.pptx
+INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
+INFO:root:Input CSV file name.
+INFO:root:output_file uploads\Sipoc-Table-Template_5b2b0213verbs.csv
+INFO:root:start to write verbs to the output CSV file
+INFO:root:Verbs have been saved to  uploads\Sipoc-Table-Template_5b2b0213verbs.csv
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 17:14:43] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\Bracket.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\Seperate_verbs.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 17:22:23] "GET / HTTP/1.1" 200 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: Sipoc-Table-Template.csv
+INFO:root:Uploaded filepath: uploads\Sipoc-Table-Template_47ae0d34.csv
+INFO:root:Filename without extension: Sipoc-Table-Template_47ae0d34
+INFO:root:looking for the filepath
+INFO:root:Filename without extension: uploads\Sipoc-Table-Template_47ae0d34
+INFO:root:Uploaded filepath: uploads\Sipoc-Table-Template_47ae0d34.csv
+INFO:root:output_presentation is saved successfully.
+INFO:root:output_presentation path: uploads\Sipoc-Table-Template_47ae0d34.pptx
+INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
+INFO:root:Seperate_verbs.py :Input CSV file name.
+INFO:root:output_file uploads\Sipoc-Table-Template_47ae0d34verbs.csv
+INFO:root:start to write verbs to the output CSV file
+INFO:root:Verbs have been saved to  uploads\Sipoc-Table-Template_47ae0d34verbs.csv
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py :Input CSV file name.
+INFO:root:output_file uploads\Sipoc-Table-Template_47ae0d34SubBubbles.csv
+INFO:root:start to write cells with parentheses to the output CSV file
+INFO:root:Cells with parentheses have been saved to 'uploads\Sipoc-Table-Template_47ae0d34SubBubbles.csv'
+INFO:root:start to write words between parentheses to the output CSV file
+INFO:root:Words between parentheses have been saved to 'uploads\Sipoc-Table-Template_47ae0d34SubBubbles.csv'
+INFO:root:Bracket.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 17:22:36] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055

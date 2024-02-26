@@ -10,7 +10,7 @@ import os
 import sys
 
 # Configure logging
-logging.basicConfig(filename='app.log', level=logging.ERROR)
+logging.basicConfig(filename='app.log', level=logging.INFO)
 
 # Load the spaCy English model
 nlp = spacy.load("en_core_web_sm")
@@ -98,6 +98,7 @@ try:
     pptx_filename = os.path.join(filename_without_extension +'.pptx')
     presentation.save(pptx_filename)
     logging.info("output_presentation is saved successfully.")
+    logging.info(f"output_presentation path: {os.path.join(filename_without_extension +'.pptx')}")
     print(f'Second row of CSV file has been converted to an editable PowerPoint presentation: "{pptx_filename}"')
 
 except Exception as e:
