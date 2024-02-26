@@ -401,3 +401,47 @@ INFO:root:Sub_bubbles Csv file downloaded successfully.
 INFO:werkzeug:127.0.0.1 - - [25/Feb/2024 20:35:25] "GET /download_Sub_bubbles HTTP/1.1" 200 -
 INFO:root:Verbs csv file downloaded successfully.
 INFO:werkzeug:127.0.0.1 - - [25/Feb/2024 20:35:26] "GET /download_verbs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2024 20:48:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2024 21:05:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2024 21:05:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2024 21:31:06] "GET / HTTP/1.1" 200 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: Sipoc-Table-Template.csv
+INFO:root:Uploaded filepath: uploads\Sipoc-Table-Template_3971ea31.csv
+INFO:root:Filename without extension: Sipoc-Table-Template_3971ea31
+INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
+INFO:root:Seperate_verbs.py and  Separate_verbs_Sketch.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2024 21:31:32] "POST /upload HTTP/1.1" 200 -
+INFO:root:PowerPoint file downloaded successfully.
+ERROR:root:An error occurred: [WinError 2] The system cannot find the file specified: 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\uploads\\Sipoc-Table-Template_3971ea31.pptx'
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2024 21:31:36] "GET /download_pptx HTTP/1.1" 200 -
+INFO:root:Sub_bubbles Csv file downloaded successfully.
+ERROR:root:An error occurred: [WinError 2] The system cannot find the file specified: 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\uploads\\Sipoc-Table-Template_3971ea31SubBubbles.csv'
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2024 21:31:38] "GET /download_Sub_bubbles HTTP/1.1" 200 -
+INFO:root:Verbs csv file downloaded successfully.
+ERROR:root:An error occurred: [WinError 2] The system cannot find the file specified: 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\uploads\\Sipoc-Table-Template_3971ea31verbs.csv'
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2024 21:31:39] "GET /download_verbs HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 823-632-055
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2024 21:32:30] "GET / HTTP/1.1" 200 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: Sipoc-Table-Template.csv
+INFO:root:Uploaded filepath: uploads\Sipoc-Table-Template_45fec5ad.csv
+INFO:root:Filename without extension: Sipoc-Table-Template_45fec5ad
+INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
+INFO:root:Seperate_verbs.py and  Separate_verbs_Sketch.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2024 21:32:41] "POST /upload HTTP/1.1" 200 -
+INFO:root:PowerPoint file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2024 21:32:42] "GET /download_pptx HTTP/1.1" 200 -
+INFO:root:Sub_bubbles Csv file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2024 21:32:44] "GET /download_Sub_bubbles HTTP/1.1" 200 -
+INFO:root:Verbs csv file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2024 21:32:46] "GET /download_verbs HTTP/1.1" 200 -
