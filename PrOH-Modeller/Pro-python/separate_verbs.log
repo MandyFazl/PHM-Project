@@ -1,0 +1,8 @@
+2024-02-27 09:21:26,597 - INFO - Bracket.py :Input CSV file name.
+2024-02-27 09:21:26,605 - ERROR - An error occurred: 'charmap' codec can't decode byte 0x9d in position 54: character maps to <undefined>
+2024-02-27 09:21:59,149 - INFO - Bracket.py :Input CSV file name.
+2024-02-27 09:21:59,149 - INFO - output_file uploads\sipoc_table2_1f31ec2aSubBubbles.csv
+2024-02-27 09:21:59,157 - INFO - start to write cells with parentheses to the output CSV file
+2024-02-27 09:21:59,164 - INFO - Cells with parentheses have been saved to 'uploads\sipoc_table2_1f31ec2aSubBubbles.csv'
+2024-02-27 09:21:59,180 - INFO - start to write words between parentheses to the output CSV file
+2024-02-27 09:21:59,188 - INFO - Words between parentheses have been saved to 'uploads\sipoc_table2_1f31ec2aSubBubbles.csv'
