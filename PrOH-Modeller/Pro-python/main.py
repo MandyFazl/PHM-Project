@@ -55,11 +55,11 @@ def upload():
         logging.info(f"Filename without extension: {filename_without_extension}")
 
         # Call your Python scripts with the uploaded file as an argument
-        subprocess.run(['python3', 'sipoc-to-pptx-4-Flask.py', file_path])
+        subprocess.run(['python', 'sipoc-to-pptx-4-Flask.py', file_path])
         logging.info("sipoc-to-pptx-4-Flask.py executed successfully.")
-        subprocess.run(['python3', 'Seperate_verbs.py', file_path])
+        subprocess.run(['python', 'Seperate_verbs.py', file_path])
         logging.info("Seperate_verbs.py executed successfully.")
-        subprocess.run(['python3', 'Bracket.py', file_path])
+        subprocess.run(['python', 'Bracket.py', file_path])
         logging.info("Bracket.py executed successfully.")
 
         return jsonify({'message': 'Upload successful'}), 200
@@ -121,7 +121,7 @@ def download_Sub_bubbles():
         if file_path:
             filename_with_identifier = os.path.basename(file_path)
             filename_without_extension = os.path.splitext(filename_with_identifier)[0]
-            verbs_csvfile= os.path.join('uploads',filename_without_extension +'verbs'+'.csv')
+            verbs_csvfile= os.path.join('uploads',filename_without_extension +'SubBubbles'+'.csv')
             logging.info("Sub_bubbles file downloaded successfully.")
 
 
