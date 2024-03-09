@@ -1,0 +1,10 @@
+start2024-03-08 12:28:16,071 - INFO - looking for the filepath
+2024-03-08 12:28:16,087 - INFO - Filename without extension: uploads\sipoc_table1_ff7b1307
+2024-03-08 12:28:16,087 - INFO - Uploaded filepath: uploads\sipoc_table1_ff7b1307.csv
+2024-03-08 12:28:16,158 - INFO - output_presentation is saved successfully.
+2024-03-08 12:28:16,158 - INFO - output_presentation path: uploads\sipoc_table1_ff7b1307_decision-bubbles.pptx
+2024-03-08 12:28:27,528 - INFO - looking for the filepath
+2024-03-08 12:28:27,528 - INFO - Filename without extension: uploads\sipoc_table1_e69eefc1
+2024-03-08 12:28:27,528 - INFO - Uploaded filepath: uploads\sipoc_table1_e69eefc1.csv
+2024-03-08 12:28:27,594 - INFO - output_presentation is saved successfully.
+2024-03-08 12:28:27,594 - INFO - output_presentation path: uploads\sipoc_table1_e69eefc1_decision-bubbles.pptx

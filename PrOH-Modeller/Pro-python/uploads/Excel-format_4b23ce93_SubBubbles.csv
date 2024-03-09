@@ -1,0 +1,35 @@
+Cell with Parentheses
+"Order (design), (material), (quantity)"
+Factory (Production manager) (operators)
+Factory (Production manager)
+Production success factors (agreed delivery time) (capacity)
+"evaluates order specification to finalise bid decision (accept), (reject)"
+OR: Bid decision (reject)
+OR: Bid decision (accept)
+Bid decision (reject)
+Bid decision (Accept)
+"Factory (Production manager) evaluates Production success factors (agreed delivery time), (capacity)"
+"Production success factors (agreed delivery time), (capacity)"
+"discusses production success factors (agreed delivery time), (capacity) to customer"
+Words Between Parentheses
+design
+material
+quantity
+Production manager
+operators
+Production manager
+agreed delivery time
+capacity
+accept
+reject
+reject
+accept
+reject
+Accept
+Production manager
+agreed delivery time
+capacity
+agreed delivery time
+capacity
+agreed delivery time
+capacity

@@ -27,8 +27,8 @@ try:
     filename_without_extension = os.path.splitext(filename_with_identifier)[0]
     file_path = os.path.join(filename_with_identifier)
 
-    output_file = os.path.join(filename_without_extension + '_SubBubbles'+'.pptx')
-   
+    output_file = os.path.join(filename_without_extension + '_SubBubbles.csv')
+
     # List to store cells with parentheses
     cell_with_parentheses = []
 
@@ -42,12 +42,12 @@ try:
                     cell_with_parentheses.append(cell)
 
     # Write cells with parentheses to the output CSV file
-    #with open(output_file, 'w', newline='') as csv_output:
-        #writer = csv.writer(csv_output)
-        #writer.writerow(['Cell with Parentheses'])  # Header
-        #writer.writerows([[cell] for cell in cell_with_parentheses])
+    with open(output_file, 'w', newline='') as csv_output:
+        writer = csv.writer(csv_output)
+        writer.writerow(['Cell with Parentheses'])  # Header
+        writer.writerows([[cell] for cell in cell_with_parentheses])
 
-    #logger.info(f"Cells with parentheses have been saved to '{output_file}'")
+    logger.info(f"Cells with parentheses have been saved to '{output_file}'")
 
     # List to store words between parentheses
     parentheses_words = []
