@@ -204,3 +204,117 @@
 2024-03-08 12:28:24,080 - INFO - filename_with_identifier: uploads\sipoc_table1_e69eefc1_SubBubbles.pptx
 2024-03-08 12:28:24,080 - INFO - filename_without_extension: uploads\sipoc_table1_e69eefc1_SubBubbles
 2024-03-08 12:28:24,080 - INFO - output_file uploads\sipoc_table1_e69eefc1_SubBubbles.pptx
+2024-03-11 13:05:47,872 - INFO - Words between parentheses have been saved to 'uploads\sipoc_table1_164412b1_SubBubbles.pptx'
+2024-03-11 13:05:48,306 - INFO - start try
+2024-03-11 13:05:48,306 - INFO - Bracket-pptx.py :Input CSV file name.
+2024-03-11 13:05:48,306 - INFO - filename_with_identifier: uploads\sipoc_table1_164412b1_SubBubbles.pptx
+2024-03-11 13:05:48,307 - INFO - filename_without_extension: uploads\sipoc_table1_164412b1_SubBubbles
+2024-03-11 13:05:48,307 - INFO - output_file uploads\sipoc_table1_164412b1_SubBubbles.pptx
+2024-03-11 13:08:11,228 - INFO - Words between parentheses have been saved to 'uploads\sipoc_table1_645f2cb3_SubBubbles.pptx'
+2024-03-11 13:08:11,768 - INFO - start try
+2024-03-11 13:08:11,768 - INFO - Bracket-pptx.py :Input CSV file name.
+2024-03-11 13:08:11,768 - INFO - filename_with_identifier: uploads\sipoc_table1_645f2cb3_SubBubbles.pptx
+2024-03-11 13:08:11,769 - INFO - filename_without_extension: uploads\sipoc_table1_645f2cb3_SubBubbles
+2024-03-11 13:08:11,769 - INFO - output_file uploads\sipoc_table1_645f2cb3_SubBubbles.pptx
+2024-03-11 13:08:24,324 - INFO - Words between parentheses have been saved to 'uploads\sipoc_table1_8e29a936_SubBubbles.pptx'
+2024-03-11 13:08:25,037 - INFO - start try
+2024-03-11 13:08:25,037 - INFO - Bracket-pptx.py :Input CSV file name.
+2024-03-11 13:08:25,038 - INFO - filename_with_identifier: uploads\sipoc_table1_8e29a936_SubBubbles.pptx
+2024-03-11 13:08:25,038 - INFO - filename_without_extension: uploads\sipoc_table1_8e29a936_SubBubbles
+2024-03-11 13:08:25,038 - INFO - output_file uploads\sipoc_table1_8e29a936_SubBubbles.pptx
+2024-03-11 13:08:43,529 - INFO - Words between parentheses have been saved to 'uploads\sipoc_table1_6ca1844d_SubBubbles.pptx'
+2024-03-11 13:08:43,959 - INFO - start try
+2024-03-11 13:08:43,959 - INFO - Bracket-pptx.py :Input CSV file name.
+2024-03-11 13:08:43,960 - INFO - filename_with_identifier: uploads\sipoc_table1_6ca1844d_SubBubbles.pptx
+2024-03-11 13:08:43,960 - INFO - filename_without_extension: uploads\sipoc_table1_6ca1844d_SubBubbles
+2024-03-11 13:08:43,960 - INFO - output_file uploads\sipoc_table1_6ca1844d_SubBubbles.pptx
+2024-03-11 13:10:05,615 - INFO - Words between parentheses have been saved to 'uploads\sipoc_table1_430a598e_SubBubbles.pptx'
+2024-03-11 13:10:06,157 - INFO - start try
+2024-03-11 13:10:06,158 - INFO - Bracket-pptx.py :Input CSV file name.
+2024-03-11 13:10:06,158 - INFO - filename_with_identifier: uploads\sipoc_table1_430a598e_SubBubbles.pptx
+2024-03-11 13:10:06,159 - INFO - filename_without_extension: uploads\sipoc_table1_430a598e_SubBubbles
+2024-03-11 13:10:06,159 - INFO - output_file uploads\sipoc_table1_430a598e_SubBubbles.pptx
+2024-03-11 13:18:11,483 - INFO - Words between parentheses have been saved to 'uploads\sipoc_table1_b84a2f5b_SubBubbles.pptx'
+2024-03-11 13:18:11,945 - INFO - start try
+2024-03-11 13:18:11,946 - INFO - Bracket-pptx.py :Input CSV file name.
+2024-03-11 13:18:11,946 - INFO - filename_with_identifier: uploads\sipoc_table1_b84a2f5b_SubBubbles.pptx
+2024-03-11 13:18:11,947 - INFO - filename_without_extension: uploads\sipoc_table1_b84a2f5b_SubBubbles
+2024-03-11 13:18:11,947 - INFO - output_file uploads\sipoc_table1_b84a2f5b_SubBubbles.pptx
+2024-03-11 13:34:23,230 - INFO - Words between parentheses have been saved to 'uploads\sipoc_table1_20ed5acd_subbubbles.pptx'
+2024-03-11 13:34:23,612 - INFO - start try
+2024-03-11 13:34:23,613 - INFO - Bracket-pptx.py :Input CSV file name.
+2024-03-11 13:34:23,613 - INFO - filename_with_identifier: uploads\sipoc_table1_20ed5acd_subbubbles.pptx
+2024-03-11 13:34:23,613 - INFO - filename_without_extension: uploads\sipoc_table1_20ed5acd_subbubbles
+2024-03-11 13:34:23,614 - INFO - output_file uploads\sipoc_table1_20ed5acd_subbubbles.pptx
+2024-03-11 13:39:37,987 - INFO - Words between parentheses have been saved to 'uploads\sipoc_table1_9abfba23_subbubbles.pptx'
+2024-03-11 13:39:38,489 - INFO - start try
+2024-03-11 13:39:38,490 - INFO - Bracket-pptx.py :Input CSV file name.
+2024-03-11 13:39:38,490 - INFO - filename_with_identifier: uploads\sipoc_table1_9abfba23_subbubbles.pptx
+2024-03-11 13:39:38,491 - INFO - filename_without_extension: uploads\sipoc_table1_9abfba23_subbubbles
+2024-03-11 13:39:38,491 - INFO - output_file uploads\sipoc_table1_9abfba23_subbubbles.pptx
+2024-03-11 16:42:59,067 - INFO - Words between parentheses have been saved to 'uploads\sipoc_table1_0893059a_subbubbles.pptx'
+2024-03-11 16:42:59,542 - INFO - start try
+2024-03-11 16:42:59,543 - INFO - Bracket-pptx.py :Input CSV file name.
+2024-03-11 16:42:59,543 - INFO - filename_with_identifier: uploads\sipoc_table1_0893059a_subbubbles.pptx
+2024-03-11 16:42:59,543 - INFO - filename_without_extension: uploads\sipoc_table1_0893059a_subbubbles
+2024-03-11 16:42:59,543 - INFO - output_file uploads\sipoc_table1_0893059a_subbubbles.pptx
+2024-03-11 16:47:06,875 - INFO - Words between parentheses have been saved to 'uploads\sipoc_table2_c4487a45_subbubbles.pptx'
+2024-03-11 16:47:07,326 - INFO - start try
+2024-03-11 16:47:07,327 - INFO - Bracket-pptx.py :Input CSV file name.
+2024-03-11 16:47:07,327 - INFO - filename_with_identifier: uploads\sipoc_table2_c4487a45_subbubbles.pptx
+2024-03-11 16:47:07,327 - INFO - filename_without_extension: uploads\sipoc_table2_c4487a45_subbubbles
+2024-03-11 16:47:07,328 - INFO - output_file uploads\sipoc_table2_c4487a45_subbubbles.pptx
+2024-03-11 16:49:47,851 - INFO - Words between parentheses have been saved to 'uploads\sipoc_table1_36f02d2b_subbubbles.pptx'
+2024-03-11 16:49:48,328 - INFO - start try
+2024-03-11 16:49:48,328 - INFO - Bracket-pptx.py :Input CSV file name.
+2024-03-11 16:49:48,329 - INFO - filename_with_identifier: uploads\sipoc_table1_36f02d2b_subbubbles.pptx
+2024-03-11 16:49:48,330 - INFO - filename_without_extension: uploads\sipoc_table1_36f02d2b_subbubbles
+2024-03-11 16:49:48,330 - INFO - output_file uploads\sipoc_table1_36f02d2b_subbubbles.pptx
+2024-03-11 16:52:48,973 - INFO - Words between parentheses have been saved to 'uploads\sipoc_table2_1755b804_subbubbles.pptx'
+2024-03-11 16:52:49,407 - INFO - start try
+2024-03-11 16:52:49,407 - INFO - Bracket-pptx.py :Input CSV file name.
+2024-03-11 16:52:49,408 - INFO - filename_with_identifier: uploads\sipoc_table2_1755b804_subbubbles.pptx
+2024-03-11 16:52:49,408 - INFO - filename_without_extension: uploads\sipoc_table2_1755b804_subbubbles
+2024-03-11 16:52:49,408 - INFO - output_file uploads\sipoc_table2_1755b804_subbubbles.pptx
+2024-03-11 17:01:14,227 - INFO - Words between parentheses have been saved to 'uploads\sipoc_table1_be36f0d9_subbubbles.pptx'
+2024-03-11 17:01:14,629 - INFO - start try
+2024-03-11 17:01:14,630 - INFO - Bracket-pptx.py :Input CSV file name.
+2024-03-11 17:01:14,630 - INFO - filename_with_identifier: uploads\sipoc_table1_be36f0d9_subbubbles.pptx
+2024-03-11 17:01:14,631 - INFO - filename_without_extension: uploads\sipoc_table1_be36f0d9_subbubbles
+2024-03-11 17:01:14,631 - INFO - output_file uploads\sipoc_table1_be36f0d9_subbubbles.pptx
+2024-03-11 17:15:24,412 - INFO - Words between parentheses have been saved to 'uploads\sipoc_table2_bd5b8e36_subbubbles.pptx'
+2024-03-11 17:15:24,830 - INFO - start try
+2024-03-11 17:15:24,830 - INFO - Bracket-pptx.py :Input CSV file name.
+2024-03-11 17:15:24,830 - INFO - filename_with_identifier: uploads\sipoc_table2_bd5b8e36_subbubbles.pptx
+2024-03-11 17:15:24,831 - INFO - filename_without_extension: uploads\sipoc_table2_bd5b8e36_subbubbles
+2024-03-11 17:15:24,831 - INFO - output_file uploads\sipoc_table2_bd5b8e36_subbubbles.pptx
+2024-03-11 17:20:40,418 - INFO - Words between parentheses have been saved to 'uploads\sipoc_table1_7ef5c086_subbubbles.pptx'
+2024-03-11 17:20:40,866 - INFO - start try
+2024-03-11 17:20:40,867 - INFO - Bracket-pptx.py :Input CSV file name.
+2024-03-11 17:20:40,867 - INFO - filename_with_identifier: uploads\sipoc_table1_7ef5c086_subbubbles.pptx
+2024-03-11 17:20:40,868 - INFO - filename_without_extension: uploads\sipoc_table1_7ef5c086_subbubbles
+2024-03-11 17:20:40,868 - INFO - output_file uploads\sipoc_table1_7ef5c086_subbubbles.pptx
+2024-03-12 12:55:51,684 - INFO - Words between parentheses have been saved to 'uploads\sipoc_table1_2d949278_subbubbles.pptx'
+2024-03-12 12:55:51,904 - INFO - start try
+2024-03-12 12:55:51,904 - INFO - Bracket-pptx.py :Input CSV file name.
+2024-03-12 12:55:51,905 - INFO - filename_with_identifier: uploads\sipoc_table1_2d949278_subbubbles.pptx
+2024-03-12 12:55:51,905 - INFO - filename_without_extension: uploads\sipoc_table1_2d949278_subbubbles
+2024-03-12 12:55:51,905 - INFO - output_file uploads\sipoc_table1_2d949278_subbubbles.pptx
+2024-03-12 13:05:48,853 - INFO - Words between parentheses have been saved to 'uploads\sipoc_table1_3eb0dc4a_subbubbles.pptx'
+2024-03-12 13:05:49,278 - INFO - start try
+2024-03-12 13:05:49,279 - INFO - Bracket-pptx.py :Input CSV file name.
+2024-03-12 13:05:49,279 - INFO - filename_with_identifier: uploads\sipoc_table1_3eb0dc4a_subbubbles.pptx
+2024-03-12 13:05:49,280 - INFO - filename_without_extension: uploads\sipoc_table1_3eb0dc4a_subbubbles
+2024-03-12 13:05:49,280 - INFO - output_file uploads\sipoc_table1_3eb0dc4a_subbubbles.pptx
+2024-03-12 13:13:14,441 - INFO - Words between parentheses have been saved to 'uploads\sipoc_table1_370284ce_subbubbles.pptx'
+2024-03-12 13:13:14,908 - INFO - start try
+2024-03-12 13:13:14,908 - INFO - Bracket-pptx.py :Input CSV file name.
+2024-03-12 13:13:14,909 - INFO - filename_with_identifier: uploads\sipoc_table1_370284ce_subbubbles.pptx
+2024-03-12 13:13:14,909 - INFO - filename_without_extension: uploads\sipoc_table1_370284ce_subbubbles
+2024-03-12 13:13:14,910 - INFO - output_file uploads\sipoc_table1_370284ce_subbubbles.pptx
+2024-03-12 13:15:01,320 - INFO - Words between parentheses have been saved to 'uploads\sipoc_table2_e6030ab5_subbubbles.pptx'
+2024-03-12 13:15:01,757 - INFO - start try
+2024-03-12 13:15:01,758 - INFO - Bracket-pptx.py :Input CSV file name.
+2024-03-12 13:15:01,758 - INFO - filename_with_identifier: uploads\sipoc_table2_e6030ab5_subbubbles.pptx
+2024-03-12 13:15:01,759 - INFO - filename_without_extension: uploads\sipoc_table2_e6030ab5_subbubbles
+2024-03-12 13:15:01,759 - INFO - output_file uploads\sipoc_table2_e6030ab5_subbubbles.pptx
