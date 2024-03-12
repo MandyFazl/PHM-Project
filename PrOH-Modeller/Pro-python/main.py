@@ -1,9 +1,9 @@
-import zipfile
 from flask import Flask, render_template, request, send_file, jsonify, session, make_response
 import subprocess
 import os
 import logging
 import uuid  # for generating unique identifiers
+import zipfile
 
 
 
@@ -77,38 +77,51 @@ def upload():
 
 
 
-app = Flask(__name__)
-app.secret_key = 'your_secret_key'  # Set your secret key here
-
 @app.route('/download_all_files')
 def download_all_files():
     try:
-        # Get the file path from session
         file_path = session.get('file_path')
-        if not file_path:
-            return "No file to download"
+        filename_with_identifier = os.path.basename(file_path)
+        filename_without_extension = os.path.splitext(filename_with_identifier)[0]
+
+        logging.info("files_to_download")
+        pptx=os.path.join('uploads', filename_without_extension +'.pptx')
+        logging.info({pptx})
+
+        verbs_pptx=os.path.join('uploads',filename_without_extension +'_verbs'+'.pptx')
+        logging.info({verbs_pptx})
+
+        decision_bubbles=os.path.join('uploads', filename_without_extension + '_decision-bubbles' + '.pptx')
+        logging.info({decision_bubbles})
+        
+        subbubbles=os.path.join('uploads',filename_without_extension +'_subbubbles'+'.pptx')
+        logging.info({subbubbles})
+
+                
         
         # Specify the paths to the required files
+        
         files_to_download = [
-            os.path.join('uploads', os.path.splitext(os.path.basename(file_path))[0] + '.pptx'),
-            os.path.join('uploads', os.path.splitext(os.path.basename(file_path))[0] + '_verbs.pptx'),
-            os.path.join('uploads', os.path.splitext(os.path.basename(file_path))[0] + '_decision-bubbles.pptx'),
-            os.path.join('uploads', os.path.splitext(os.path.basename(file_path))[0] + '_subbubbles.pptx')
+            pptx,
+            verbs_pptx,
+            decision_bubbles,
+            subbubbles
+            
         ]
+        logging.info(f"all files address:{files_to_download}")
 
         # Check if all files exist
         for file in files_to_download:
             if not os.path.exists(file):
-                logging.error(f"File not found: {file}")
                 return "One or more files are missing"
         
-        logging.info("All required files exist.")
+        logging.info("All required files existttttttt.")
 
-        # Create a ZIP file containing all the required files in the 'uploads' folder
-        zip_filename = os.path.join('uploads', 'all_files.zip')
+        # Create a ZIP file containing all the required files
+        zip_filename = os.path.join('uploads', filename_without_extension + 'zip')
         with zipfile.ZipFile(zip_filename, 'w') as zipf:
             for file in files_to_download:
-                zipf.write(file, os.path.basename(file))
+                zipf.write(file, os.path.basename(file))# Create a ZIP file containing all the required files in the 'uploads' folder
 
         logging.info("All files zipped successfully.")
 
@@ -123,11 +136,6 @@ def download_all_files():
         # Log any exceptions that occur
         logging.error(f'An error occurred: {str(e)}')
         return "An error occurred while downloading the files."
-
-
-
-
-
 
 
 
