@@ -504,3 +504,59 @@ INFO:root:Decision-Bubbles.py executed successfully.
 INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:14:10] "POST /upload HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:14:30] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:14:30] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:19:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:19:45] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:20:05] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:20:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:20:19] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:25:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:25:55] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: sipoc_table2.csv
+INFO:root:Uploaded filepath: uploads\sipoc_table2_952e3b21.csv
+INFO:root:Filename without extension: sipoc_table2_952e3b21
+INFO:root:calling your Python scripts.
+INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:root:Decision-Bubbles.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:26:15] "POST /upload HTTP/1.1" 200 -
+INFO:root:files_to_download
+INFO:root:{'uploads\\sipoc_table2_952e3b21.pptx'}
+INFO:root:{'uploads\\sipoc_table2_952e3b21_verbs.pptx'}
+INFO:root:{'uploads\\sipoc_table2_952e3b21_decision-bubbles.pptx'}
+INFO:root:{'uploads\\sipoc_table2_952e3b21_subbubbles.pptx'}
+INFO:root:all files address:['uploads\\sipoc_table2_952e3b21.pptx', 'uploads\\sipoc_table2_952e3b21_verbs.pptx', 'uploads\\sipoc_table2_952e3b21_decision-bubbles.pptx', 'uploads\\sipoc_table2_952e3b21_subbubbles.pptx']
+INFO:root:All required files existttttttt.
+INFO:root:All files zipped successfully.
+INFO:root:ZIP file for download: <Response streamed [200 OK]>
+INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:26:17] "GET /download_all_files HTTP/1.1" 200 -
+INFO:root:PowerPoint file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:26:20] "GET /download_pptx HTTP/1.1" 200 -
+INFO:root:Sub_bubbles pptx file path uploads\sipoc_table2_952e3b21_subbubbles.pptx
+INFO:root:Sub_bubbles pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:26:23] "GET /download_Sub_bubbles HTTP/1.1" 200 -
+INFO:root:decision_bubbles pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:26:25] "GET /download_decision_bubbles HTTP/1.1" 200 -
+INFO:root:Verbs pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:26:27] "GET /download_verbs HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:31:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:31:31] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:31:32] "GET /static/Sipoc-Table-Template.csv HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:31:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:31:34] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -

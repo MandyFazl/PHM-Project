@@ -474,3 +474,9 @@
 2024-03-15 10:14:06,510 - INFO - filename_with_identifier: uploads\sipoc_table1_24a4ba55_subbubbles.csv
 2024-03-15 10:14:06,510 - INFO - filename_without_extension: uploads\sipoc_table1_24a4ba55_subbubbles
 2024-03-15 10:14:06,510 - INFO - output_file uploads\sipoc_table1_24a4ba55_subbubbles.pptx
+2024-03-15 10:26:10,819 - INFO - Words between parentheses have been saved to 'uploads\sipoc_table2_952e3b21_subbubbles.csv'
+2024-03-15 10:26:11,344 - INFO - start try
+2024-03-15 10:26:11,344 - INFO - Bracket-pptx.py :Input CSV file name.
+2024-03-15 10:26:11,344 - INFO - filename_with_identifier: uploads\sipoc_table2_952e3b21_subbubbles.csv
+2024-03-15 10:26:11,344 - INFO - filename_without_extension: uploads\sipoc_table2_952e3b21_subbubbles
+2024-03-15 10:26:11,344 - INFO - output_file uploads\sipoc_table2_952e3b21_subbubbles.pptx

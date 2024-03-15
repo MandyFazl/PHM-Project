@@ -162,15 +162,11 @@
     </div>
     <script>
         function SIPOCTableDownload() {
-            console.log('SIPOC Table download initiated...');
 
-            // Disable the button to prevent multiple clicks
             document.getElementById('newbtn').disabled = true;
-
-            // Click the hidden link to initiate the download
             document.getElementById('downloadLink').click();
+            document.getElementById('newbtn').textContent = "Downloaded";
 
-            console.log('Download initiated.');
         }
         function ConsentModal() {
 
@@ -178,7 +174,7 @@
             document.getElementById("uploadstbtn").disabled = true;
 
             // Replace the button content with the loading spinner
-            document.getElementById("uploadstbtn").innerHTML = `<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span><span>Loading...</span>`;
+            document.getElementById("uploadstbtn").innerHTML = `<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span><span>Uploading</span>`;
 
             // Click the hidden button to initiate upload
             document.getElementById('ConsentModalbtn').click();
@@ -231,6 +227,7 @@
         function downloadallbtn() {
             document.getElementById('progressBarall').style.width = '100%';
             document.getElementById('downloadall').disabled = true;
+            document.getElementById('downloadall').textContent = "Downloaded";
             var xhr = new XMLHttpRequest();
             xhr.open('GET', '/download_all_files', true);
             xhr.responseType = 'blob';
@@ -251,6 +248,7 @@
 
         function downloadppbtn() {
             document.getElementById('powerpointbtn').disabled = true;
+            document.getElementById('powerpointbtn').textContent = "Downloaded";
             var xhr = new XMLHttpRequest();
             xhr.open('GET', '/download_pptx', true);
             xhr.responseType = 'blob';
@@ -269,6 +267,7 @@
 
         function downloadpsbtn() {
             document.getElementById('processstatementbtn').disabled = true;
+            document.getElementById('processstatementbtn').textContent = "Downloaded";
             var fileLink = 'pro1.jpg';
             setTimeout(function () {
                 document.getElementById('progressBarps').style.width = '100%';
@@ -280,6 +279,8 @@
         }
         function downloadsbbtn() {
             document.getElementById('Subbubblesbtn').disabled = true;
+            document.getElementById('Subbubblesbtn').textContent = "Downloaded";
+            
             var xhr = new XMLHttpRequest();
             xhr.open('GET', '/download_Sub_bubbles', true);
             xhr.responseType = 'blob';
@@ -297,6 +298,7 @@
 
         function downloaddnbtn() {
             document.getElementById('decisionnodesbtn').disabled = true;
+            document.getElementById('decisionnodesbtn').textContent = "Downloaded";
             var xhr = new XMLHttpRequest();
             xhr.open('GET', '/download_decision_bubbles', true);
             xhr.responseType = 'blob';
@@ -316,6 +318,7 @@
 
         function downloadVerbspptx() {
             document.getElementById('verbscollectionbtn').disabled = true;
+            document.getElementById('verbscollectionbtn').textContent = "Downloaded";
             var xhr = new XMLHttpRequest();
             xhr.open('GET', '/download_verbs', true);
             xhr.responseType = 'blob';

@@ -424,3 +424,8 @@
 2024-03-15 10:13:59,755 - INFO - Uploaded filepath: uploads\sipoc_table1_24a4ba55.csv
 2024-03-15 10:14:00,102 - INFO - output_presentation is saved successfully.
 2024-03-15 10:14:00,102 - INFO - output_presentation path: uploads\sipoc_table1_24a4ba55.pptx
+2024-03-15 10:26:07,342 - INFO - looking for the filepath
+2024-03-15 10:26:07,342 - INFO - Filename without extension: uploads\sipoc_table2_952e3b21
+2024-03-15 10:26:07,342 - INFO - Uploaded filepath: uploads\sipoc_table2_952e3b21.csv
+2024-03-15 10:26:07,867 - INFO - output_presentation is saved successfully.
+2024-03-15 10:26:07,867 - INFO - output_presentation path: uploads\sipoc_table2_952e3b21.pptx
