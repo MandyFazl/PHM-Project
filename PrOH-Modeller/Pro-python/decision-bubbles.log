@@ -173,3 +173,63 @@ start2024-03-08 12:28:16,071 - INFO - looking for the filepath
 2024-03-12 15:13:33,134 - INFO - Uploaded filepath: uploads\sipoc_table2_2ffe9dba.csv
 2024-03-12 15:13:33,178 - INFO - output_presentation is saved successfully.
 2024-03-12 15:13:33,179 - INFO - output_presentation path: uploads\sipoc_table2_2ffe9dba_decision-bubbles.pptx
+2024-03-13 11:36:36,903 - INFO - looking for the filepath
+2024-03-13 11:36:36,916 - INFO - Filename without extension: uploads\sipoc_table2_4ec45c63
+2024-03-13 11:36:36,917 - INFO - Uploaded filepath: uploads\sipoc_table2_4ec45c63.csv
+2024-03-13 11:36:36,945 - INFO - output_presentation is saved successfully.
+2024-03-13 11:36:36,945 - INFO - output_presentation path: uploads\sipoc_table2_4ec45c63_decision-bubbles.pptx
+2024-03-13 12:42:20,602 - INFO - looking for the filepath
+2024-03-13 12:42:20,608 - INFO - Filename without extension: uploads\sipoc_table2_45aa3d22
+2024-03-13 12:42:20,609 - INFO - Uploaded filepath: uploads\sipoc_table2_45aa3d22.csv
+2024-03-13 12:42:20,670 - INFO - output_presentation is saved successfully.
+2024-03-13 12:42:20,670 - INFO - output_presentation path: uploads\sipoc_table2_45aa3d22_decision-bubbles.pptx
+2024-03-13 12:44:38,869 - INFO - looking for the filepath
+2024-03-13 12:44:38,870 - INFO - Filename without extension: uploads\sipoc_table2_9c4a6a16
+2024-03-13 12:44:38,870 - INFO - Uploaded filepath: uploads\sipoc_table2_9c4a6a16.csv
+2024-03-13 12:44:38,932 - INFO - output_presentation is saved successfully.
+2024-03-13 12:44:38,933 - INFO - output_presentation path: uploads\sipoc_table2_9c4a6a16_decision-bubbles.pptx
+2024-03-13 12:49:09,780 - INFO - looking for the filepath
+2024-03-13 12:49:09,781 - INFO - Filename without extension: uploads\sipoc_table2_d3dd7c65
+2024-03-13 12:49:09,781 - INFO - Uploaded filepath: uploads\sipoc_table2_d3dd7c65.csv
+2024-03-13 12:49:09,827 - INFO - output_presentation is saved successfully.
+2024-03-13 12:49:09,827 - INFO - output_presentation path: uploads\sipoc_table2_d3dd7c65_decision-bubbles.pptx
+2024-03-13 12:56:14,499 - INFO - looking for the filepath
+2024-03-13 12:56:14,500 - INFO - Filename without extension: uploads\sipoc_table2_0a00637e
+2024-03-13 12:56:14,500 - INFO - Uploaded filepath: uploads\sipoc_table2_0a00637e.csv
+2024-03-13 12:56:14,542 - INFO - output_presentation is saved successfully.
+2024-03-13 12:56:14,543 - INFO - output_presentation path: uploads\sipoc_table2_0a00637e_decision-bubbles.pptx
+2024-03-13 14:13:03,250 - INFO - looking for the filepath
+2024-03-13 14:13:03,252 - INFO - Filename without extension: uploads\sipoc_table-Uni_70088622
+2024-03-13 14:13:03,253 - INFO - Uploaded filepath: uploads\sipoc_table-Uni_70088622.csv
+2024-03-13 14:13:03,304 - INFO - output_presentation is saved successfully.
+2024-03-13 14:13:03,305 - INFO - output_presentation path: uploads\sipoc_table-Uni_70088622_decision-bubbles.pptx
+2024-03-15 09:29:12,722 - INFO - looking for the filepath
+2024-03-15 09:29:12,729 - INFO - Filename without extension: uploads\sipoc_table2_5caa6570
+2024-03-15 09:29:12,731 - INFO - Uploaded filepath: uploads\sipoc_table2_5caa6570.csv
+2024-03-15 09:29:12,780 - INFO - output_presentation is saved successfully.
+2024-03-15 09:29:12,780 - INFO - output_presentation path: uploads\sipoc_table2_5caa6570_decision-bubbles.pptx
+2024-03-15 09:30:35,613 - INFO - looking for the filepath
+2024-03-15 09:30:35,613 - INFO - Filename without extension: uploads\sipoc_table2_367af474
+2024-03-15 09:30:35,613 - INFO - Uploaded filepath: uploads\sipoc_table2_367af474.csv
+2024-03-15 09:30:35,654 - INFO - output_presentation is saved successfully.
+2024-03-15 09:30:35,654 - INFO - output_presentation path: uploads\sipoc_table2_367af474_decision-bubbles.pptx
+2024-03-15 09:31:20,091 - INFO - looking for the filepath
+2024-03-15 09:31:20,096 - INFO - Filename without extension: uploads\sipoc_table1_9a6a8fed
+2024-03-15 09:31:20,096 - INFO - Uploaded filepath: uploads\sipoc_table1_9a6a8fed.csv
+2024-03-15 09:31:20,131 - INFO - output_presentation is saved successfully.
+2024-03-15 09:31:20,131 - INFO - output_presentation path: uploads\sipoc_table1_9a6a8fed_decision-bubbles.pptx
+2024-03-15 09:36:00,297 - INFO - looking for the filepath
+2024-03-15 09:36:00,297 - INFO - Filename without extension: uploads\sipoc_table2_8ec01029
+2024-03-15 09:36:00,297 - INFO - Uploaded filepath: uploads\sipoc_table2_8ec01029.csv
+2024-03-15 09:36:00,340 - INFO - output_presentation is saved successfully.
+2024-03-15 09:36:00,340 - INFO - output_presentation path: uploads\sipoc_table2_8ec01029_decision-bubbles.pptx
+2024-03-15 10:03:07,230 - INFO - looking for the filepath
+2024-03-15 10:03:07,230 - INFO - Filename without extension: uploads\sipoc_table2_884686ed
+2024-03-15 10:03:07,238 - INFO - Uploaded filepath: uploads\sipoc_table2_884686ed.csv
+2024-03-15 10:03:07,296 - INFO - output_presentation is saved successfully.
+2024-03-15 10:03:07,296 - INFO - output_presentation path: uploads\sipoc_table2_884686ed_decision-bubbles.pptx
+2024-03-15 10:14:09,931 - INFO - looking for the filepath
+2024-03-15 10:14:09,931 - INFO - Filename without extension: uploads\sipoc_table1_24a4ba55
+2024-03-15 10:14:09,931 - INFO - Uploaded filepath: uploads\sipoc_table1_24a4ba55.csv
+2024-03-15 10:14:09,998 - INFO - output_presentation is saved successfully.
+2024-03-15 10:14:09,998 - INFO - output_presentation path: uploads\sipoc_table1_24a4ba55_decision-bubbles.pptx

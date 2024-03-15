@@ -17,9 +17,6 @@ formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
-# Download NLTK data if not already installed
-nltk.download('punkt')
-nltk.download('averaged_perceptron_tagger')
 
 try:
     # Input CSV file name
@@ -27,7 +24,7 @@ try:
     filename_without_extension = os.path.splitext(filename_with_identifier)[0]
     file_path = os.path.join(filename_with_identifier)
 
-    output_file = os.path.join(filename_without_extension + '_subbubbles'+'.pptx')
+    output_file = os.path.join(filename_without_extension + '_subbubbles'+'.csv')
    
     # List to store cells with parentheses
     cell_with_parentheses = []
