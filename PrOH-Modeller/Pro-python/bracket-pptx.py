@@ -42,7 +42,7 @@ try:
 
     # Call the Bracket-Sketch-unique.py script to generate the PowerPoint presentation
     script_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'Bracket-Sketch-unique.py')
-    run(['python', script_path, output_file])
+    run(['python3', script_path, output_file])
 
 except Exception as e:
     logger.error(f'An error occurred: {str(e)}')
