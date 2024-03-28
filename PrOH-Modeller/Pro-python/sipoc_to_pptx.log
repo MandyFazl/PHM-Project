@@ -1,574 +1,384 @@
-2024-02-27 14:36:18,952 - INFO - looking for the filepath
-2024-02-27 14:36:18,952 - INFO - Filename without extension: uploads\sipoc_table-teeest_f40fd9a3
-2024-02-27 14:36:18,952 - INFO - Uploaded filepath: uploads\sipoc_table-teeest_f40fd9a3.csv
-2024-02-27 14:36:19,393 - INFO - output_presentation is saved successfully.
-2024-02-27 14:36:19,393 - INFO - output_presentation path: uploads\sipoc_table-teeest_f40fd9a3.pptx
-2024-02-27 15:24:05,078 - INFO - looking for the filepath
-2024-02-27 15:24:05,078 - INFO - Filename without extension: uploads\sipoc_table3_10216ee1
-2024-02-27 15:24:05,078 - INFO - Uploaded filepath: uploads\sipoc_table3_10216ee1.xlsx
-2024-02-27 15:24:46,854 - INFO - looking for the filepath
-2024-02-27 15:24:46,854 - INFO - Filename without extension: uploads\sipoc_table-teeest_4c671cb3
-2024-02-27 15:24:46,854 - INFO - Uploaded filepath: uploads\sipoc_table-teeest_4c671cb3.csv
-2024-02-27 15:24:47,089 - INFO - output_presentation is saved successfully.
-2024-02-27 15:24:47,089 - INFO - output_presentation path: uploads\sipoc_table-teeest_4c671cb3.pptx
-2024-02-29 13:49:50,326 - INFO - looking for the filepath
-2024-02-29 13:49:50,326 - INFO - Filename without extension: uploads\Sipoc-Table-Template_6185366a
-2024-02-29 13:49:50,326 - INFO - looking for the filepath
-\Sipoc-Table-Template_6185366a.csv
-2024-02-29 13:49:50,326 - INFO - Filename without extension: uploads\Sipoc-Table-Template_34d106ad
-2024-02-29 13:49:50,326 - INFO - Uploaded filepath: uploads\Sipoc-Table-Template_34d106ad.csv
-2024-02-29 13:49:50,326 - INFO - looking for the filepath
-2024-02-29 13:49:50,326 - INFO - Filename without extension: uploads\Sipoc-Table-Template_1e61485d
-2024-02-29 13:49:50,326 - INFO - Uploaded filepath: uploads\Sipoc-Table-Template_1e61485d.csv
-2024-02-29 13:49:50,670 - INFO - output_presentation is saved successfully.
-2024-02-29 13:49:50,670 - INFO - output_presentation path: uploads\Sipoc-Table-Template_1e61485d.pptx
-2024-02-29 13:49:50,685 - INFO - output_presentation is saved successfully.
-2024-02-29 13:49:50,685 - INFO - output_presentation path: uploads\Sipoc-Table-Template_6185366a.pptx
-2024-02-29 13:49:50,685 - INFO - output_presentation is saved successfully.
-2024-02-29 13:49:50,685 - INFO - output_presentation path: uploads\Sipoc-Table-Template_34d106ad.pptx
-2024-02-29 14:24:48,146 - INFO - looking for the filepath
-2024-02-29 14:24:48,146 - INFO - Filename without extension: uploads\Sipoc-Table-Template_b337623c
-2024-02-29 14:24:48,146 - INFO - Uploaded filepath: uploads\Sipoc-Table-Template_b337623c.csv
-2024-02-29 14:24:48,381 - INFO - output_presentation is saved successfully.
-2024-02-29 14:24:48,381 - INFO - output_presentation path: uploads\Sipoc-Table-Template_b337623c.pptx
-2024-02-29 14:24:59,266 - INFO - looking for the filepath
-2024-02-29 14:24:59,266 - INFO - Filename without extension: uploads\Sipoc-Table-Template_f16ea52a
-2024-02-29 14:24:59,266 - INFO - Uploaded filepath: uploads\Sipoc-Table-Template_f16ea52a.csv
-2024-02-29 14:24:59,585 - INFO - output_presentation is saved successfully.
-2024-02-29 14:24:59,585 - INFO - output_presentation path: uploads\Sipoc-Table-Template_f16ea52a.pptx
-2024-02-29 14:25:00,149 - INFO - looking for the filepath
-2024-02-29 14:25:00,149 - INFO - Filename without extension: uploads\Sipoc-Table-Template_837ac7ed
-2024-02-29 14:25:00,149 - INFO - Uploaded filepath: uploads\Sipoc-Table-Template_837ac7ed.csv
-2024-02-29 14:25:00,431 - INFO - output_presentation is saved successfully.
-2024-02-29 14:25:00,431 - INFO - output_presentation path: uploads\Sipoc-Table-Template_837ac7ed.pptx
-2024-02-29 14:28:35,471 - INFO - looking for the filepath
-2024-02-29 14:28:35,471 - INFO - Filename without extension: uploads\Sipoc-Table-Template_bdf9c936
-2024-02-29 14:28:35,471 - INFO - Uploaded filepath: uploads\Sipoc-Table-Template_bdf9c936.csv
-2024-02-29 14:28:35,722 - INFO - output_presentation is saved successfully.
-2024-02-29 14:28:35,722 - INFO - output_presentation path: uploads\Sipoc-Table-Template_bdf9c936.pptx
-2024-02-29 14:29:05,941 - INFO - looking for the filepath
-2024-02-29 14:29:05,941 - INFO - Filename without extension: uploads\Screenshot 2024-02-16 150809_3ec02a28
-2024-02-29 14:29:05,941 - INFO - Uploaded filepath: uploads\Screenshot 2024-02-16 150809_3ec02a28.png
-2024-02-29 14:30:30,205 - INFO - looking for the filepath
-2024-02-29 14:30:30,205 - INFO - Filename without extension: uploads\Sipoc-Table-Template_20c29c59
-2024-02-29 14:30:30,205 - INFO - Uploaded filepath: uploads\Sipoc-Table-Template_20c29c59.csv
-2024-02-29 14:30:30,581 - INFO - output_presentation is saved successfully.
-2024-02-29 14:30:30,581 - INFO - output_presentation path: uploads\Sipoc-Table-Template_20c29c59.pptx
-2024-02-29 14:56:43,298 - INFO - looking for the filepath
-2024-02-29 14:56:43,298 - INFO - Filename without extension: uploads\Sipoc-Table-Template_b26dcfdb
-2024-02-29 14:56:43,298 - INFO - Uploaded filepath: uploads\Sipoc-Table-Template_b26dcfdb.csv
-2024-02-29 14:56:43,780 - INFO - output_presentation is saved successfully.
-2024-02-29 14:56:43,780 - INFO - output_presentation path: uploads\Sipoc-Table-Template_b26dcfdb.pptx
-2024-02-29 21:56:38,574 - INFO - looking for the filepath
-2024-02-29 21:56:38,589 - INFO - Filename without extension: uploads\Sipoc-Table-Template_0d5804f1
-2024-02-29 21:56:38,589 - INFO - Uploaded filepath: uploads\Sipoc-Table-Template_0d5804f1.csv
-2024-02-29 21:56:38,936 - INFO - output_presentation is saved successfully.
-2024-02-29 21:56:38,936 - INFO - output_presentation path: uploads\Sipoc-Table-Template_0d5804f1.pptx
-2024-02-29 22:36:45,084 - INFO - looking for the filepath
-2024-02-29 22:36:45,084 - INFO - Filename without extension: uploads\Sipoc-Table-Template_aae1f9dd
-2024-02-29 22:36:45,084 - INFO - Uploaded filepath: uploads\Sipoc-Table-Template_aae1f9dd.csv
-2024-02-29 22:36:45,530 - INFO - output_presentation is saved successfully.
-2024-02-29 22:36:45,530 - INFO - output_presentation path: uploads\Sipoc-Table-Template_aae1f9dd.pptx
-2024-02-29 22:37:11,663 - INFO - looking for the filepath
-2024-02-29 22:37:11,663 - INFO - Filename without extension: uploads\Sipoc-Table-Template_2351d790
-2024-02-29 22:37:11,663 - INFO - Uploaded filepath: uploads\Sipoc-Table-Template_2351d790.csv
-2024-02-29 22:37:12,086 - INFO - output_presentation is saved successfully.
-2024-02-29 22:37:12,102 - INFO - output_presentation path: uploads\Sipoc-Table-Template_2351d790.pptx
-2024-03-01 11:51:56,587 - INFO - looking for the filepath
-2024-03-01 11:51:56,587 - INFO - Filename without extension: uploads\Sipoc-Table-Template4_967066e3
-2024-03-01 11:51:56,587 - INFO - Uploaded filepath: uploads\Sipoc-Table-Template4_967066e3.csv
-2024-03-01 11:51:56,854 - INFO - output_presentation is saved successfully.
-2024-03-01 11:51:56,855 - INFO - output_presentation path: uploads\Sipoc-Table-Template4_967066e3.pptx
-2024-03-06 16:36:38,540 - INFO - looking for the filepath
-2024-03-06 16:36:38,540 - INFO - Filename without extension: uploads\sipoc_table_ea89d110
-2024-03-06 16:36:38,540 - INFO - Uploaded filepath: uploads\sipoc_table_ea89d110.csv
-2024-03-06 16:36:39,090 - INFO - output_presentation is saved successfully.
-2024-03-06 16:36:39,090 - INFO - output_presentation path: uploads\sipoc_table_ea89d110.pptx
-2024-03-07 08:55:23,515 - INFO - looking for the filepath
-2024-03-07 08:55:23,515 - INFO - Filename without extension: uploads\sipoc_table_92217438
-2024-03-07 08:55:23,515 - INFO - Uploaded filepath: uploads\sipoc_table_92217438.csv
-2024-03-07 08:55:23,828 - INFO - output_presentation is saved successfully.
-2024-03-07 08:55:23,828 - INFO - output_presentation path: uploads\sipoc_table_92217438.pptx
-2024-03-07 09:12:14,682 - INFO - looking for the filepath
-2024-03-07 09:12:14,682 - INFO - Filename without extension: uploads\sipoc_table_30132b85
-2024-03-07 09:12:14,682 - INFO - Uploaded filepath: uploads\sipoc_table_30132b85.csv
-2024-03-07 09:12:14,901 - INFO - output_presentation is saved successfully.
-2024-03-07 09:12:14,901 - INFO - output_presentation path: uploads\sipoc_table_30132b85.pptx
-2024-03-07 09:46:05,709 - INFO - looking for the filepath
-2024-03-07 09:46:05,709 - INFO - Filename without extension: uploads\sipoc_table_544295ad
-2024-03-07 09:46:05,709 - INFO - Uploaded filepath: uploads\sipoc_table_544295ad.csv
-2024-03-07 09:46:06,192 - INFO - output_presentation is saved successfully.
-2024-03-07 09:46:06,199 - INFO - output_presentation path: uploads\sipoc_table_544295ad.pptx
-2024-03-07 10:06:35,975 - INFO - looking for the filepath
-2024-03-07 10:06:35,975 - INFO - Filename without extension: uploads\sipoc_table_7e04fca4
-2024-03-07 10:06:35,979 - INFO - Uploaded filepath: uploads\sipoc_table_7e04fca4.csv
-2024-03-07 10:06:36,505 - INFO - output_presentation is saved successfully.
-2024-03-07 10:06:36,505 - INFO - output_presentation path: uploads\sipoc_table_7e04fca4.pptx
-2024-03-07 10:12:07,133 - INFO - looking for the filepath
-2024-03-07 10:12:07,133 - INFO - Filename without extension: uploads\sipoc_table_d84a7b1a
-2024-03-07 10:12:07,133 - INFO - Uploaded filepath: uploads\sipoc_table_d84a7b1a.csv
-2024-03-07 10:12:07,574 - INFO - output_presentation is saved successfully.
-2024-03-07 10:12:07,574 - INFO - output_presentation path: uploads\sipoc_table_d84a7b1a.pptx
-2024-03-07 10:16:35,346 - INFO - looking for the filepath
-2024-03-07 10:16:35,346 - INFO - Filename without extension: uploads\sipoc_table_8478bc55
-2024-03-07 10:16:35,346 - INFO - Uploaded filepath: uploads\sipoc_table_8478bc55.csv
-2024-03-07 10:16:35,795 - INFO - output_presentation is saved successfully.
-2024-03-07 10:16:35,795 - INFO - output_presentation path: uploads\sipoc_table_8478bc55.pptx
-2024-03-07 10:20:52,014 - INFO - looking for the filepath
-2024-03-07 10:20:52,014 - INFO - Filename without extension: uploads\sipoc_table_8539a431
-2024-03-07 10:20:52,016 - INFO - Uploaded filepath: uploads\sipoc_table_8539a431.csv
-2024-03-07 10:20:52,733 - INFO - output_presentation is saved successfully.
-2024-03-07 10:20:52,733 - INFO - output_presentation path: uploads\sipoc_table_8539a431.pptx
-2024-03-07 10:25:53,958 - INFO - looking for the filepath
-2024-03-07 10:25:53,958 - INFO - Filename without extension: uploads\sipoc_table_8a2cbf5a
-2024-03-07 10:25:53,958 - INFO - Uploaded filepath: uploads\sipoc_table_8a2cbf5a.csv
-2024-03-07 10:25:54,393 - INFO - output_presentation is saved successfully.
-2024-03-07 10:25:54,393 - INFO - output_presentation path: uploads\sipoc_table_8a2cbf5a.pptx
-2024-03-07 11:22:18,551 - INFO - looking for the filepath
-2024-03-07 11:22:18,551 - INFO - Filename without extension: uploads\sipoc_table_509d1ef0
-2024-03-07 11:22:18,557 - INFO - Uploaded filepath: uploads\sipoc_table_509d1ef0.csv
-2024-03-07 11:22:19,025 - INFO - output_presentation is saved successfully.
-2024-03-07 11:22:19,025 - INFO - output_presentation path: uploads\sipoc_table_509d1ef0.pptx
-2024-03-07 12:07:26,607 - INFO - looking for the filepath
-2024-03-07 12:07:26,607 - INFO - Filename without extension: uploads\Excel-format_4b23ce93
-2024-03-07 12:07:26,607 - INFO - Uploaded filepath: uploads\Excel-format_4b23ce93.csv
-2024-03-07 12:07:26,984 - INFO - output_presentation is saved successfully.
-2024-03-07 12:07:26,984 - INFO - output_presentation path: uploads\Excel-format_4b23ce93.pptx
-2024-03-07 12:52:21,838 - INFO - looking for the filepath
-2024-03-07 12:52:21,838 - INFO - Filename without extension: uploads\Excel-format_c903edda
-2024-03-07 12:52:21,838 - INFO - Uploaded filepath: uploads\Excel-format_c903edda.csv
-2024-03-07 12:52:22,297 - INFO - output_presentation is saved successfully.
-2024-03-07 12:52:22,299 - INFO - output_presentation path: uploads\Excel-format_c903edda.pptx
-2024-03-07 18:16:30,061 - INFO - looking for the filepath
-2024-03-07 18:16:30,061 - INFO - Filename without extension: uploads\sipoc_table_67b0541b
-2024-03-07 18:16:30,061 - INFO - Uploaded filepath: uploads\sipoc_table_67b0541b.csv
-2024-03-07 18:16:30,391 - INFO - output_presentation is saved successfully.
-2024-03-07 18:16:30,391 - INFO - output_presentation path: uploads\sipoc_table_67b0541b.pptx
-2024-03-07 18:20:48,305 - INFO - looking for the filepath
-2024-03-07 18:20:48,305 - INFO - Filename without extension: uploads\sipoc_table_6c4d3360
-2024-03-07 18:20:48,305 - INFO - Uploaded filepath: uploads\sipoc_table_6c4d3360.csv
-2024-03-07 18:20:48,697 - INFO - output_presentation is saved successfully.
-2024-03-07 18:20:48,697 - INFO - output_presentation path: uploads\sipoc_table_6c4d3360.pptx
-2024-03-07 18:35:22,535 - INFO - looking for the filepath
-2024-03-07 18:35:22,535 - INFO - Filename without extension: uploads\sipoc_table_335f31a4
-2024-03-07 18:35:22,535 - INFO - Uploaded filepath: uploads\sipoc_table_335f31a4.csv
-2024-03-07 18:35:22,823 - INFO - output_presentation is saved successfully.
-2024-03-07 18:35:22,823 - INFO - output_presentation path: uploads\sipoc_table_335f31a4.pptx
-2024-03-07 18:48:24,555 - INFO - looking for the filepath
-2024-03-07 18:48:24,555 - INFO - Filename without extension: uploads\sipoc_table_369ce81d
-2024-03-07 18:48:24,555 - INFO - Uploaded filepath: uploads\sipoc_table_369ce81d.csv
-2024-03-07 18:48:24,901 - INFO - output_presentation is saved successfully.
-2024-03-07 18:48:24,902 - INFO - output_presentation path: uploads\sipoc_table_369ce81d.pptx
-2024-03-07 18:52:13,479 - INFO - looking for the filepath
-2024-03-07 18:52:13,479 - INFO - Filename without extension: uploads\sipoc_table_fa5b204a
-2024-03-07 18:52:13,479 - INFO - Uploaded filepath: uploads\sipoc_table_fa5b204a.csv
-2024-03-07 18:52:13,825 - INFO - output_presentation is saved successfully.
-2024-03-07 18:52:13,825 - INFO - output_presentation path: uploads\sipoc_table_fa5b204a.pptx
-2024-03-07 18:55:15,659 - INFO - looking for the filepath
-2024-03-07 18:55:15,659 - INFO - Filename without extension: uploads\sipoc_table_f39da519
-2024-03-07 18:55:15,659 - INFO - Uploaded filepath: uploads\sipoc_table_f39da519.csv
-2024-03-07 18:55:16,162 - INFO - output_presentation is saved successfully.
-2024-03-07 18:55:16,162 - INFO - output_presentation path: uploads\sipoc_table_f39da519.pptx
-2024-03-08 11:23:37,085 - INFO - looking for the filepath
-2024-03-08 11:23:37,101 - INFO - Filename without extension: uploads\sipoc_table_da1f71b2
-2024-03-08 11:23:37,101 - INFO - Uploaded filepath: uploads\sipoc_table_da1f71b2.csv
-2024-03-08 11:23:37,412 - INFO - output_presentation is saved successfully.
-2024-03-08 11:23:37,412 - INFO - output_presentation path: uploads\sipoc_table_da1f71b2.pptx
-2024-03-08 11:23:50,186 - INFO - looking for the filepath
-2024-03-08 11:23:50,199 - INFO - Filename without extension: uploads\sipoc_table_819b6118
-2024-03-08 11:23:50,200 - INFO - Uploaded filepath: uploads\sipoc_table_819b6118.csv
-2024-03-08 11:23:50,542 - INFO - output_presentation is saved successfully.
-2024-03-08 11:23:50,542 - INFO - output_presentation path: uploads\sipoc_table_819b6118.pptx
-2024-03-08 11:25:25,348 - INFO - looking for the filepath
-2024-03-08 11:25:25,348 - INFO - Filename without extension: uploads\sipoc_table2_c2b44800
-2024-03-08 11:25:25,348 - INFO - Uploaded filepath: uploads\sipoc_table2_c2b44800.csv
-2024-03-08 11:25:25,785 - INFO - output_presentation is saved successfully.
-2024-03-08 11:25:25,785 - INFO - output_presentation path: uploads\sipoc_table2_c2b44800.pptx
-2024-03-08 11:28:22,127 - INFO - looking for the filepath
-2024-03-08 11:28:22,127 - INFO - Filename without extension: uploads\sipoc_table2_2912e42b
-2024-03-08 11:28:22,127 - INFO - Uploaded filepath: uploads\sipoc_table2_2912e42b.csv
-2024-03-08 11:28:22,692 - INFO - output_presentation is saved successfully.
-2024-03-08 11:28:22,692 - INFO - output_presentation path: uploads\sipoc_table2_2912e42b.pptx
-2024-03-08 12:28:05,410 - INFO - looking for the filepath
-2024-03-08 12:28:05,410 - INFO - Filename without extension: uploads\sipoc_table1_ff7b1307
-2024-03-08 12:28:05,410 - INFO - Uploaded filepath: uploads\sipoc_table1_ff7b1307.csv
-2024-03-08 12:28:05,773 - INFO - output_presentation is saved successfully.
-2024-03-08 12:28:05,773 - INFO - output_presentation path: uploads\sipoc_table1_ff7b1307.pptx
-2024-03-08 12:28:17,801 - INFO - looking for the filepath
-2024-03-08 12:28:17,801 - INFO - Filename without extension: uploads\sipoc_table1_e69eefc1
-2024-03-08 12:28:17,801 - INFO - Uploaded filepath: uploads\sipoc_table1_e69eefc1.csv
-2024-03-08 12:28:18,179 - INFO - output_presentation is saved successfully.
-2024-03-08 12:28:18,179 - INFO - output_presentation path: uploads\sipoc_table1_e69eefc1.pptx
-2024-03-11 13:05:42,250 - INFO - looking for the filepath
-2024-03-11 13:05:42,252 - INFO - Filename without extension: uploads\sipoc_table1_164412b1
-2024-03-11 13:05:42,252 - INFO - Uploaded filepath: uploads\sipoc_table1_164412b1.csv
-2024-03-11 13:05:42,489 - INFO - output_presentation is saved successfully.
-2024-03-11 13:05:42,490 - INFO - output_presentation path: uploads\sipoc_table1_164412b1.pptx
-2024-03-11 13:08:04,802 - INFO - looking for the filepath
-2024-03-11 13:08:04,803 - INFO - Filename without extension: uploads\sipoc_table1_645f2cb3
-2024-03-11 13:08:04,803 - INFO - Uploaded filepath: uploads\sipoc_table1_645f2cb3.csv
-2024-03-11 13:08:05,137 - INFO - output_presentation is saved successfully.
-2024-03-11 13:08:05,137 - INFO - output_presentation path: uploads\sipoc_table1_645f2cb3.pptx
-2024-03-11 13:08:16,649 - INFO - looking for the filepath
-2024-03-11 13:08:16,649 - INFO - Filename without extension: uploads\sipoc_table1_8e29a936
-2024-03-11 13:08:16,650 - INFO - Uploaded filepath: uploads\sipoc_table1_8e29a936.csv
-2024-03-11 13:08:17,573 - INFO - output_presentation is saved successfully.
-2024-03-11 13:08:17,575 - INFO - output_presentation path: uploads\sipoc_table1_8e29a936.pptx
-2024-03-11 13:08:37,010 - INFO - looking for the filepath
-2024-03-11 13:08:37,011 - INFO - Filename without extension: uploads\sipoc_table1_6ca1844d
-2024-03-11 13:08:37,011 - INFO - Uploaded filepath: uploads\sipoc_table1_6ca1844d.csv
-2024-03-11 13:08:37,405 - INFO - output_presentation is saved successfully.
-2024-03-11 13:08:37,406 - INFO - output_presentation path: uploads\sipoc_table1_6ca1844d.pptx
-2024-03-11 13:09:59,578 - INFO - looking for the filepath
-2024-03-11 13:09:59,579 - INFO - Filename without extension: uploads\sipoc_table1_430a598e
-2024-03-11 13:09:59,579 - INFO - Uploaded filepath: uploads\sipoc_table1_430a598e.csv
-2024-03-11 13:09:59,949 - INFO - output_presentation is saved successfully.
-2024-03-11 13:09:59,949 - INFO - output_presentation path: uploads\sipoc_table1_430a598e.pptx
-2024-03-11 13:18:05,527 - INFO - looking for the filepath
-2024-03-11 13:18:05,527 - INFO - Filename without extension: uploads\sipoc_table1_b84a2f5b
-2024-03-11 13:18:05,528 - INFO - Uploaded filepath: uploads\sipoc_table1_b84a2f5b.csv
-2024-03-11 13:18:05,874 - INFO - output_presentation is saved successfully.
-2024-03-11 13:18:05,874 - INFO - output_presentation path: uploads\sipoc_table1_b84a2f5b.pptx
-2024-03-11 13:34:16,693 - INFO - looking for the filepath
-2024-03-11 13:34:16,694 - INFO - Filename without extension: uploads\sipoc_table1_20ed5acd
-2024-03-11 13:34:16,694 - INFO - Uploaded filepath: uploads\sipoc_table1_20ed5acd.csv
-2024-03-11 13:34:17,155 - INFO - output_presentation is saved successfully.
-2024-03-11 13:34:17,156 - INFO - output_presentation path: uploads\sipoc_table1_20ed5acd.pptx
-2024-03-11 13:39:31,610 - INFO - looking for the filepath
-2024-03-11 13:39:31,610 - INFO - Filename without extension: uploads\sipoc_table1_9abfba23
-2024-03-11 13:39:31,611 - INFO - Uploaded filepath: uploads\sipoc_table1_9abfba23.csv
-2024-03-11 13:39:31,999 - INFO - output_presentation is saved successfully.
-2024-03-11 13:39:31,999 - INFO - output_presentation path: uploads\sipoc_table1_9abfba23.pptx
-2024-03-11 16:42:52,434 - INFO - looking for the filepath
-2024-03-11 16:42:52,436 - INFO - Filename without extension: uploads\sipoc_table1_0893059a
-2024-03-11 16:42:52,437 - INFO - Uploaded filepath: uploads\sipoc_table1_0893059a.csv
-2024-03-11 16:42:52,814 - INFO - output_presentation is saved successfully.
-2024-03-11 16:42:52,814 - INFO - output_presentation path: uploads\sipoc_table1_0893059a.pptx
-2024-03-11 16:47:03,239 - INFO - looking for the filepath
-2024-03-11 16:47:03,239 - INFO - Filename without extension: uploads\sipoc_table2_c4487a45
-2024-03-11 16:47:03,239 - INFO - Uploaded filepath: uploads\sipoc_table2_c4487a45.csv
-2024-03-11 16:47:03,733 - INFO - output_presentation is saved successfully.
-2024-03-11 16:47:03,734 - INFO - output_presentation path: uploads\sipoc_table2_c4487a45.pptx
-2024-03-11 16:49:40,618 - INFO - looking for the filepath
-2024-03-11 16:49:40,619 - INFO - Filename without extension: uploads\sipoc_table1_36f02d2b
-2024-03-11 16:49:40,619 - INFO - Uploaded filepath: uploads\sipoc_table1_36f02d2b.csv
-2024-03-11 16:49:40,974 - INFO - output_presentation is saved successfully.
-2024-03-11 16:49:40,975 - INFO - output_presentation path: uploads\sipoc_table1_36f02d2b.pptx
-2024-03-11 16:52:45,221 - INFO - looking for the filepath
-2024-03-11 16:52:45,221 - INFO - Filename without extension: uploads\sipoc_table2_1755b804
-2024-03-11 16:52:45,221 - INFO - Uploaded filepath: uploads\sipoc_table2_1755b804.csv
-2024-03-11 16:52:45,699 - INFO - output_presentation is saved successfully.
-2024-03-11 16:52:45,700 - INFO - output_presentation path: uploads\sipoc_table2_1755b804.pptx
-2024-03-11 17:01:08,095 - INFO - looking for the filepath
-2024-03-11 17:01:08,095 - INFO - Filename without extension: uploads\sipoc_table1_be36f0d9
-2024-03-11 17:01:08,096 - INFO - Uploaded filepath: uploads\sipoc_table1_be36f0d9.csv
-2024-03-11 17:01:08,461 - INFO - output_presentation is saved successfully.
-2024-03-11 17:01:08,461 - INFO - output_presentation path: uploads\sipoc_table1_be36f0d9.pptx
-2024-03-11 17:15:20,885 - INFO - looking for the filepath
-2024-03-11 17:15:20,886 - INFO - Filename without extension: uploads\sipoc_table2_bd5b8e36
-2024-03-11 17:15:20,886 - INFO - Uploaded filepath: uploads\sipoc_table2_bd5b8e36.csv
-2024-03-11 17:15:21,243 - INFO - output_presentation is saved successfully.
-2024-03-11 17:15:21,243 - INFO - output_presentation path: uploads\sipoc_table2_bd5b8e36.pptx
-2024-03-11 17:20:34,368 - INFO - looking for the filepath
-2024-03-11 17:20:34,369 - INFO - Filename without extension: uploads\sipoc_table1_7ef5c086
-2024-03-11 17:20:34,369 - INFO - Uploaded filepath: uploads\sipoc_table1_7ef5c086.csv
-2024-03-11 17:20:34,696 - INFO - output_presentation is saved successfully.
-2024-03-11 17:20:34,697 - INFO - output_presentation path: uploads\sipoc_table1_7ef5c086.pptx
-2024-03-12 12:55:47,769 - INFO - looking for the filepath
-2024-03-12 12:55:47,770 - INFO - Filename without extension: uploads\sipoc_table1_2d949278
-2024-03-12 12:55:47,771 - INFO - Uploaded filepath: uploads\sipoc_table1_2d949278.csv
-2024-03-12 12:55:47,988 - INFO - output_presentation is saved successfully.
-2024-03-12 12:55:47,988 - INFO - output_presentation path: uploads\sipoc_table1_2d949278.pptx
-2024-03-12 13:05:42,925 - INFO - looking for the filepath
-2024-03-12 13:05:42,926 - INFO - Filename without extension: uploads\sipoc_table1_3eb0dc4a
-2024-03-12 13:05:42,926 - INFO - Uploaded filepath: uploads\sipoc_table1_3eb0dc4a.csv
-2024-03-12 13:05:43,214 - INFO - output_presentation is saved successfully.
-2024-03-12 13:05:43,215 - INFO - output_presentation path: uploads\sipoc_table1_3eb0dc4a.pptx
-2024-03-12 13:13:04,963 - INFO - looking for the filepath
-2024-03-12 13:13:04,964 - INFO - Filename without extension: uploads\sipoc_table1_370284ce
-2024-03-12 13:13:04,965 - INFO - Uploaded filepath: uploads\sipoc_table1_370284ce.csv
-2024-03-12 13:13:05,451 - INFO - output_presentation is saved successfully.
-2024-03-12 13:13:05,453 - INFO - output_presentation path: uploads\sipoc_table1_370284ce.pptx
-2024-03-12 13:14:57,684 - INFO - looking for the filepath
-2024-03-12 13:14:57,684 - INFO - Filename without extension: uploads\sipoc_table2_e6030ab5
-2024-03-12 13:14:57,685 - INFO - Uploaded filepath: uploads\sipoc_table2_e6030ab5.csv
-2024-03-12 13:14:58,166 - INFO - output_presentation is saved successfully.
-2024-03-12 13:14:58,167 - INFO - output_presentation path: uploads\sipoc_table2_e6030ab5.pptx
-2024-03-12 13:37:53,774 - INFO - looking for the filepath
-2024-03-12 13:37:53,776 - INFO - Filename without extension: uploads\sipoc_table1_a5d08330
-2024-03-12 13:37:53,776 - INFO - Uploaded filepath: uploads\sipoc_table1_a5d08330.csv
-2024-03-12 13:37:54,063 - INFO - output_presentation is saved successfully.
-2024-03-12 13:37:54,063 - INFO - output_presentation path: uploads\sipoc_table1_a5d08330.pptx
-2024-03-12 13:49:45,382 - INFO - looking for the filepath
-2024-03-12 13:49:45,383 - INFO - Filename without extension: uploads\sipoc_table_300fb233
-2024-03-12 13:49:45,383 - INFO - Uploaded filepath: uploads\sipoc_table_300fb233.csv
-2024-03-12 13:49:45,672 - INFO - output_presentation is saved successfully.
-2024-03-12 13:49:45,673 - INFO - output_presentation path: uploads\sipoc_table_300fb233.pptx
-2024-03-12 14:01:25,298 - INFO - looking for the filepath
-2024-03-12 14:01:25,299 - INFO - Filename without extension: uploads\sipoc_table_e8d4c2df
-2024-03-12 14:01:25,300 - INFO - Uploaded filepath: uploads\sipoc_table_e8d4c2df.csv
-2024-03-12 14:01:25,619 - INFO - output_presentation is saved successfully.
-2024-03-12 14:01:25,620 - INFO - output_presentation path: uploads\sipoc_table_e8d4c2df.pptx
-2024-03-12 14:05:11,952 - INFO - looking for the filepath
-2024-03-12 14:05:11,953 - INFO - Filename without extension: uploads\sipoc_table2_8609ccd4
-2024-03-12 14:05:11,953 - INFO - Uploaded filepath: uploads\sipoc_table2_8609ccd4.csv
-2024-03-12 14:05:12,365 - INFO - output_presentation is saved successfully.
-2024-03-12 14:05:12,366 - INFO - output_presentation path: uploads\sipoc_table2_8609ccd4.pptx
-2024-03-12 14:15:38,032 - INFO - looking for the filepath
-2024-03-12 14:15:38,033 - INFO - Filename without extension: uploads\sipoc_table1_6751fc2e
-2024-03-12 14:15:38,034 - INFO - Uploaded filepath: uploads\sipoc_table1_6751fc2e.csv
-2024-03-12 14:15:38,464 - INFO - output_presentation is saved successfully.
-2024-03-12 14:15:38,464 - INFO - output_presentation path: uploads\sipoc_table1_6751fc2e.pptx
-2024-03-12 14:20:29,887 - INFO - looking for the filepath
-2024-03-12 14:20:29,888 - INFO - Filename without extension: uploads\sipoc_table2_0ce8882b
-2024-03-12 14:20:29,888 - INFO - Uploaded filepath: uploads\sipoc_table2_0ce8882b.csv
-2024-03-12 14:20:30,333 - INFO - output_presentation is saved successfully.
-2024-03-12 14:20:30,333 - INFO - output_presentation path: uploads\sipoc_table2_0ce8882b.pptx
-2024-03-12 14:45:38,612 - INFO - looking for the filepath
-2024-03-12 14:45:38,613 - INFO - Filename without extension: uploads\sipoc_table1_b0417849
-2024-03-12 14:45:38,613 - INFO - Uploaded filepath: uploads\sipoc_table1_b0417849.csv
-2024-03-12 14:45:39,026 - INFO - output_presentation is saved successfully.
-2024-03-12 14:45:39,027 - INFO - output_presentation path: uploads\sipoc_table1_b0417849.pptx
-2024-03-12 14:47:43,106 - INFO - looking for the filepath
-2024-03-12 14:47:43,107 - INFO - Filename without extension: uploads\sipoc_table1_2bc0b1a5
-2024-03-12 14:47:43,107 - INFO - Uploaded filepath: uploads\sipoc_table1_2bc0b1a5.csv
-2024-03-12 14:47:43,395 - INFO - output_presentation is saved successfully.
-2024-03-12 14:47:43,396 - INFO - output_presentation path: uploads\sipoc_table1_2bc0b1a5.pptx
-2024-03-12 14:49:29,875 - INFO - looking for the filepath
-2024-03-12 14:49:29,875 - INFO - Filename without extension: uploads\sipoc_table1_feede763
-2024-03-12 14:49:29,875 - INFO - Uploaded filepath: uploads\sipoc_table1_feede763.csv
-2024-03-12 14:49:30,325 - INFO - output_presentation is saved successfully.
-2024-03-12 14:49:30,328 - INFO - output_presentation path: uploads\sipoc_table1_feede763.pptx
-2024-03-12 14:53:35,656 - INFO - looking for the filepath
-2024-03-12 14:53:35,656 - INFO - Filename without extension: uploads\sipoc_table2_fa92989e
-2024-03-12 14:53:35,657 - INFO - Uploaded filepath: uploads\sipoc_table2_fa92989e.csv
-2024-03-12 14:53:36,118 - INFO - output_presentation is saved successfully.
-2024-03-12 14:53:36,118 - INFO - output_presentation path: uploads\sipoc_table2_fa92989e.pptx
-2024-03-12 14:57:06,162 - INFO - looking for the filepath
-2024-03-12 14:57:06,163 - INFO - Filename without extension: uploads\sipoc_table1_0f2ea5b9
-2024-03-12 14:57:06,163 - INFO - Uploaded filepath: uploads\sipoc_table1_0f2ea5b9.csv
-2024-03-12 14:57:06,450 - INFO - output_presentation is saved successfully.
-2024-03-12 14:57:06,450 - INFO - output_presentation path: uploads\sipoc_table1_0f2ea5b9.pptx
-2024-03-12 15:03:15,364 - INFO - looking for the filepath
-2024-03-12 15:03:15,365 - INFO - Filename without extension: uploads\sipoc_table2_2bae206b
-2024-03-12 15:03:15,366 - INFO - Uploaded filepath: uploads\sipoc_table2_2bae206b.csv
-2024-03-12 15:03:15,752 - INFO - output_presentation is saved successfully.
-2024-03-12 15:03:15,752 - INFO - output_presentation path: uploads\sipoc_table2_2bae206b.pptx
-2024-03-12 15:05:16,936 - INFO - looking for the filepath
-2024-03-12 15:05:16,937 - INFO - Filename without extension: uploads\sipoc_table1_6d033494
-2024-03-12 15:05:16,937 - INFO - Uploaded filepath: uploads\sipoc_table1_6d033494.csv
-2024-03-12 15:05:17,263 - INFO - output_presentation is saved successfully.
-2024-03-12 15:05:17,263 - INFO - output_presentation path: uploads\sipoc_table1_6d033494.pptx
-2024-03-12 15:13:25,504 - INFO - looking for the filepath
-2024-03-12 15:13:25,505 - INFO - Filename without extension: uploads\sipoc_table2_2ffe9dba
-2024-03-12 15:13:25,505 - INFO - Uploaded filepath: uploads\sipoc_table2_2ffe9dba.csv
-2024-03-12 15:13:25,980 - INFO - output_presentation is saved successfully.
-2024-03-12 15:13:25,988 - INFO - output_presentation path: uploads\sipoc_table2_2ffe9dba.pptx
-2024-03-13 11:36:32,857 - INFO - looking for the filepath
-2024-03-13 11:36:32,858 - INFO - Filename without extension: uploads\sipoc_table2_4ec45c63
-2024-03-13 11:36:32,858 - INFO - Uploaded filepath: uploads\sipoc_table2_4ec45c63.csv
-2024-03-13 11:36:33,125 - INFO - output_presentation is saved successfully.
-2024-03-13 11:36:33,125 - INFO - output_presentation path: uploads\sipoc_table2_4ec45c63.pptx
-2024-03-13 12:42:11,731 - INFO - looking for the filepath
-2024-03-13 12:42:11,733 - INFO - Filename without extension: uploads\sipoc_table2_45aa3d22
-2024-03-13 12:42:11,734 - INFO - Uploaded filepath: uploads\sipoc_table2_45aa3d22.csv
-2024-03-13 12:42:12,364 - INFO - output_presentation is saved successfully.
-2024-03-13 12:42:12,365 - INFO - output_presentation path: uploads\sipoc_table2_45aa3d22.pptx
-2024-03-13 12:44:31,940 - INFO - looking for the filepath
-2024-03-13 12:44:31,941 - INFO - Filename without extension: uploads\sipoc_table2_9c4a6a16
-2024-03-13 12:44:31,941 - INFO - Uploaded filepath: uploads\sipoc_table2_9c4a6a16.csv
-2024-03-13 12:44:32,332 - INFO - output_presentation is saved successfully.
-2024-03-13 12:44:32,333 - INFO - output_presentation path: uploads\sipoc_table2_9c4a6a16.pptx
-2024-03-13 12:49:01,732 - INFO - looking for the filepath
-2024-03-13 12:49:01,732 - INFO - Filename without extension: uploads\sipoc_table2_d3dd7c65
-2024-03-13 12:49:01,733 - INFO - Uploaded filepath: uploads\sipoc_table2_d3dd7c65.csv
-2024-03-13 12:49:02,230 - INFO - output_presentation is saved successfully.
-2024-03-13 12:49:02,231 - INFO - output_presentation path: uploads\sipoc_table2_d3dd7c65.pptx
-2024-03-13 12:56:07,606 - INFO - looking for the filepath
-2024-03-13 12:56:07,607 - INFO - Filename without extension: uploads\sipoc_table2_0a00637e
-2024-03-13 12:56:07,607 - INFO - Uploaded filepath: uploads\sipoc_table2_0a00637e.csv
-2024-03-13 12:56:08,031 - INFO - output_presentation is saved successfully.
-2024-03-13 12:56:08,032 - INFO - output_presentation path: uploads\sipoc_table2_0a00637e.pptx
-2024-03-13 14:12:56,187 - INFO - looking for the filepath
-2024-03-13 14:12:56,188 - INFO - Filename without extension: uploads\sipoc_table-Uni_70088622
-2024-03-13 14:12:56,188 - INFO - Uploaded filepath: uploads\sipoc_table-Uni_70088622.csv
-2024-03-13 14:12:56,580 - INFO - output_presentation is saved successfully.
-2024-03-13 14:12:56,580 - INFO - output_presentation path: uploads\sipoc_table-Uni_70088622.pptx
-2024-03-15 09:29:05,854 - INFO - looking for the filepath
-2024-03-15 09:29:05,854 - INFO - Filename without extension: uploads\sipoc_table2_5caa6570
-2024-03-15 09:29:05,854 - INFO - Uploaded filepath: uploads\sipoc_table2_5caa6570.csv
-2024-03-15 09:29:06,536 - INFO - output_presentation is saved successfully.
-2024-03-15 09:29:06,536 - INFO - output_presentation path: uploads\sipoc_table2_5caa6570.pptx
-2024-03-15 09:30:29,338 - INFO - looking for the filepath
-2024-03-15 09:30:29,338 - INFO - Filename without extension: uploads\sipoc_table2_367af474
-2024-03-15 09:30:29,338 - INFO - Uploaded filepath: uploads\sipoc_table2_367af474.csv
-2024-03-15 09:30:29,772 - INFO - output_presentation is saved successfully.
-2024-03-15 09:30:29,772 - INFO - output_presentation path: uploads\sipoc_table2_367af474.pptx
-2024-03-15 09:31:11,318 - INFO - looking for the filepath
-2024-03-15 09:31:11,318 - INFO - Filename without extension: uploads\sipoc_table1_9a6a8fed
-2024-03-15 09:31:11,318 - INFO - Uploaded filepath: uploads\sipoc_table1_9a6a8fed.csv
-2024-03-15 09:31:11,636 - INFO - output_presentation is saved successfully.
-2024-03-15 09:31:11,636 - INFO - output_presentation path: uploads\sipoc_table1_9a6a8fed.pptx
-2024-03-15 09:35:53,972 - INFO - looking for the filepath
-2024-03-15 09:35:53,972 - INFO - Filename without extension: uploads\sipoc_table2_8ec01029
-2024-03-15 09:35:53,972 - INFO - Uploaded filepath: uploads\sipoc_table2_8ec01029.csv
-2024-03-15 09:35:54,331 - INFO - output_presentation is saved successfully.
-2024-03-15 09:35:54,331 - INFO - output_presentation path: uploads\sipoc_table2_8ec01029.pptx
-2024-03-15 10:02:59,917 - INFO - looking for the filepath
-2024-03-15 10:02:59,917 - INFO - Filename without extension: uploads\sipoc_table2_884686ed
-2024-03-15 10:02:59,917 - INFO - Uploaded filepath: uploads\sipoc_table2_884686ed.csv
-2024-03-15 10:03:00,440 - INFO - output_presentation is saved successfully.
-2024-03-15 10:03:00,444 - INFO - output_presentation path: uploads\sipoc_table2_884686ed.pptx
-2024-03-15 10:13:59,755 - INFO - looking for the filepath
-2024-03-15 10:13:59,755 - INFO - Filename without extension: uploads\sipoc_table1_24a4ba55
-2024-03-15 10:13:59,755 - INFO - Uploaded filepath: uploads\sipoc_table1_24a4ba55.csv
-2024-03-15 10:14:00,102 - INFO - output_presentation is saved successfully.
-2024-03-15 10:14:00,102 - INFO - output_presentation path: uploads\sipoc_table1_24a4ba55.pptx
-2024-03-15 10:26:07,342 - INFO - looking for the filepath
-2024-03-15 10:26:07,342 - INFO - Filename without extension: uploads\sipoc_table2_952e3b21
-2024-03-15 10:26:07,342 - INFO - Uploaded filepath: uploads\sipoc_table2_952e3b21.csv
-2024-03-15 10:26:07,867 - INFO - output_presentation is saved successfully.
-2024-03-15 10:26:07,867 - INFO - output_presentation path: uploads\sipoc_table2_952e3b21.pptx
-2024-03-18 11:59:00,078 - INFO - looking for the filepath
-2024-03-18 11:59:00,078 - INFO - Filename without extension: uploads\sipoc_table_997af487
-2024-03-18 11:59:00,078 - INFO - Uploaded filepath: uploads\sipoc_table_997af487.csv
-2024-03-18 11:59:00,493 - INFO - output_presentation is saved successfully.
-2024-03-18 11:59:00,494 - INFO - output_presentation path: uploads\sipoc_table_997af487.pptx
-2024-03-18 12:19:47,892 - INFO - looking for the filepath
-2024-03-18 12:19:47,892 - INFO - Filename without extension: uploads\sipoc_table_6b0746af
-2024-03-18 12:19:47,892 - INFO - Uploaded filepath: uploads\sipoc_table_6b0746af.csv
-2024-03-18 12:19:48,422 - INFO - output_presentation is saved successfully.
-2024-03-18 12:19:48,422 - INFO - output_presentation path: uploads\sipoc_table_6b0746af.pptx
-2024-03-18 12:21:47,489 - INFO - looking for the filepath
-2024-03-18 12:21:47,489 - INFO - Filename without extension: uploads\sipoc_table-Uni_6e449d53
-2024-03-18 12:21:47,489 - INFO - Uploaded filepath: uploads\sipoc_table-Uni_6e449d53.csv
-2024-03-18 12:21:47,973 - INFO - output_presentation is saved successfully.
-2024-03-18 12:21:47,973 - INFO - output_presentation path: uploads\sipoc_table-Uni_6e449d53.pptx
-2024-03-18 12:41:37,258 - INFO - looking for the filepath
-2024-03-18 12:41:37,259 - INFO - Filename without extension: uploads\sipoc_table-Uni_42451f20
-2024-03-18 12:41:37,259 - INFO - Uploaded filepath: uploads\sipoc_table-Uni_42451f20.csv
-2024-03-18 12:41:37,919 - INFO - output_presentation is saved successfully.
-2024-03-18 12:41:37,924 - INFO - output_presentation path: uploads\sipoc_table-Uni_42451f20.pptx
-2024-03-18 12:45:21,966 - INFO - looking for the filepath
-2024-03-18 12:45:21,977 - INFO - Filename without extension: uploads\sipoc_table-Uni_1a94cf08
-2024-03-18 12:45:21,980 - INFO - Uploaded filepath: uploads\sipoc_table-Uni_1a94cf08.csv
-2024-03-18 12:45:22,466 - INFO - output_presentation is saved successfully.
-2024-03-18 12:45:22,466 - INFO - output_presentation path: uploads\sipoc_table-Uni_1a94cf08.pptx
-2024-03-18 12:54:43,537 - INFO - looking for the filepath
-2024-03-18 12:54:43,539 - INFO - Filename without extension: uploads\sipoc_table-Uni_a3a419d2
-2024-03-18 12:54:43,539 - INFO - Uploaded filepath: uploads\sipoc_table-Uni_a3a419d2.csv
-2024-03-18 12:54:43,975 - INFO - output_presentation is saved successfully.
-2024-03-18 12:54:43,975 - INFO - output_presentation path: uploads\sipoc_table-Uni_a3a419d2.pptx
-2024-03-18 13:15:59,289 - INFO - looking for the filepath
-2024-03-18 13:15:59,289 - INFO - Filename without extension: uploads\sipoc_table-Uni_43ea8e69
-2024-03-18 13:15:59,289 - INFO - Uploaded filepath: uploads\sipoc_table-Uni_43ea8e69.csv
-2024-03-18 13:15:59,835 - INFO - output_presentation is saved successfully.
-2024-03-18 13:15:59,835 - INFO - output_presentation path: uploads\sipoc_table-Uni_43ea8e69.pptx
-2024-03-18 13:28:11,597 - INFO - looking for the filepath
-2024-03-18 13:28:11,597 - INFO - Filename without extension: uploads\sipoc_table-Uni_9786f3dc
-2024-03-18 13:28:11,597 - INFO - Uploaded filepath: uploads\sipoc_table-Uni_9786f3dc.csv
-2024-03-18 13:28:12,023 - INFO - output_presentation is saved successfully.
-2024-03-18 13:28:12,031 - INFO - output_presentation path: uploads\sipoc_table-Uni_9786f3dc.pptx
-2024-03-18 13:29:25,519 - INFO - looking for the filepath
-2024-03-18 13:29:25,519 - INFO - Filename without extension: uploads\sipoc_table-Uni_6d6c5677
-2024-03-18 13:29:25,519 - INFO - Uploaded filepath: uploads\sipoc_table-Uni_6d6c5677.csv
-2024-03-18 13:29:26,279 - INFO - output_presentation is saved successfully.
-2024-03-18 13:29:26,279 - INFO - output_presentation path: uploads\sipoc_table-Uni_6d6c5677.pptx
-2024-03-18 13:32:54,000 - INFO - looking for the filepath
-2024-03-18 13:32:54,008 - INFO - Filename without extension: uploads\sipoc_table-Uni_09943962
-2024-03-18 13:32:54,008 - INFO - Uploaded filepath: uploads\sipoc_table-Uni_09943962.csv
-2024-03-18 13:32:54,461 - INFO - output_presentation is saved successfully.
-2024-03-18 13:32:54,461 - INFO - output_presentation path: uploads\sipoc_table-Uni_09943962.pptx
-2024-03-18 13:36:47,631 - INFO - looking for the filepath
-2024-03-18 13:36:47,631 - INFO - Filename without extension: uploads\sipoc_table-Uni - Copy_12ba106f
-2024-03-18 13:36:47,631 - INFO - Uploaded filepath: uploads\sipoc_table-Uni - Copy_12ba106f.csv
-2024-03-18 13:36:48,051 - INFO - output_presentation is saved successfully.
-2024-03-18 13:36:48,051 - INFO - output_presentation path: uploads\sipoc_table-Uni - Copy_12ba106f.pptx
-2024-03-18 16:36:45,736 - INFO - looking for the filepath
-2024-03-18 16:36:45,736 - INFO - Filename without extension: sipoc_table_f39da519
-2024-03-18 16:36:45,736 - INFO - Uploaded filepath: sipoc_table_f39da519.csv
-2024-03-18 16:36:45,798 - INFO - output_presentation is saved successfully.
-2024-03-18 16:36:45,798 - INFO - output_presentation path: sipoc_table_f39da519.pptx
-2024-03-18 16:38:41,982 - INFO - looking for the filepath
-2024-03-18 16:38:41,983 - INFO - Filename without extension: sipoc_table-Uni
-2024-03-18 16:38:41,983 - INFO - Uploaded filepath: sipoc_table-Uni
-2024-03-18 16:39:30,336 - INFO - looking for the filepath
-2024-03-18 16:39:30,336 - INFO - Filename without extension: sipoc_table-Uni
-2024-03-18 16:39:30,336 - INFO - Uploaded filepath: sipoc_table-Uni.csv
-2024-03-18 16:39:30,399 - INFO - output_presentation is saved successfully.
-2024-03-18 16:39:30,399 - INFO - output_presentation path: sipoc_table-Uni.pptx
-2024-03-18 16:45:40,395 - INFO - looking for the filepath
-2024-03-18 16:45:40,395 - INFO - Filename without extension: sipoc_table-Uni
-2024-03-18 16:45:40,395 - INFO - Uploaded filepath: sipoc_table-Uni.csv
-2024-03-18 16:45:40,542 - INFO - output_presentation is saved successfully.
-2024-03-18 16:45:40,542 - INFO - output_presentation path: sipoc_table-UniNon-CP-Statement.pptx
-2024-03-18 16:58:39,458 - INFO - looking for the filepath
-2024-03-18 16:58:39,458 - INFO - Filename without extension: uploads\sipoc_table-Uni_1948faaa
-2024-03-18 16:58:39,458 - INFO - Uploaded filepath: uploads\sipoc_table-Uni_1948faaa.csv
-2024-03-18 16:58:40,039 - INFO - output_presentation is saved successfully.
-2024-03-18 16:58:40,039 - INFO - output_presentation path: uploads\sipoc_table-Uni_1948faaa.pptx
-2024-03-18 16:58:43,564 - INFO - looking for the filepath
-2024-03-18 16:58:43,564 - INFO - Filename without extension: uploads\sipoc_table-Uni_1948faaa
-2024-03-18 16:58:43,564 - INFO - Uploaded filepath: uploads\sipoc_table-Uni_1948faaa.csv
-2024-03-18 16:58:43,672 - INFO - output_presentation is saved successfully.
-2024-03-18 16:58:43,672 - INFO - output_presentation path: uploads\sipoc_table-Uni_1948faaaNon-CP-Statement.pptx
-2024-03-18 17:20:11,891 - INFO - looking for the filepath
-2024-03-18 17:20:11,891 - INFO - Filename without extension: uploads\sipoc_table-Uni_9ca2d1d6
-2024-03-18 17:20:11,891 - INFO - Uploaded filepath: uploads\sipoc_table-Uni_9ca2d1d6.csv
-2024-03-18 17:20:12,444 - INFO - output_presentation is saved successfully.
-2024-03-18 17:20:12,444 - INFO - output_presentation path: uploads\sipoc_table-Uni_9ca2d1d6.pptx
-2024-03-18 17:20:16,372 - INFO - looking for the filepath
-2024-03-18 17:20:16,372 - INFO - Filename without extension: uploads\sipoc_table-Uni_9ca2d1d6
-2024-03-18 17:20:16,372 - INFO - Uploaded filepath: uploads\sipoc_table-Uni_9ca2d1d6.csv
-2024-03-18 17:20:16,531 - INFO - output_presentation is saved successfully.
-2024-03-18 17:20:16,531 - INFO - output_presentation path: uploads\sipoc_table-Uni_9ca2d1d6Non-CP-Statement.pptx
-2024-03-18 17:24:00,505 - INFO - looking for the filepath
-2024-03-18 17:24:00,505 - INFO - Filename without extension: uploads\sipoc_table-Uni_d0a2427f
-2024-03-18 17:24:00,505 - INFO - Uploaded filepath: uploads\sipoc_table-Uni_d0a2427f.csv
-2024-03-18 17:24:01,004 - INFO - output_presentation is saved successfully.
-2024-03-18 17:24:01,004 - INFO - output_presentation path: uploads\sipoc_table-Uni_d0a2427f.pptx
-2024-03-18 17:24:04,260 - INFO - looking for the filepath
-2024-03-18 17:24:04,260 - INFO - Filename without extension: uploads\sipoc_table-Uni_d0a2427f
-2024-03-18 17:24:04,260 - INFO - Uploaded filepath: uploads\sipoc_table-Uni_d0a2427f.csv
-2024-03-18 17:24:04,347 - INFO - output_presentation is saved successfully.
-2024-03-18 17:24:04,347 - INFO - output_presentation path: uploads\sipoc_table-Uni_d0a2427f_non-pc-statement.pptx
-2024-03-18 17:26:47,295 - INFO - looking for the filepath
-2024-03-18 17:26:47,295 - INFO - Filename without extension: uploads\sipoc_table-Uni_4f63b770
-2024-03-18 17:26:47,295 - INFO - Uploaded filepath: uploads\sipoc_table-Uni_4f63b770.csv
-2024-03-18 17:26:47,895 - INFO - output_presentation is saved successfully.
-2024-03-18 17:26:47,895 - INFO - output_presentation path: uploads\sipoc_table-Uni_4f63b770.pptx
-2024-03-18 17:26:51,008 - INFO - looking for the filepath
-2024-03-18 17:26:51,010 - INFO - Filename without extension: uploads\sipoc_table-Uni_4f63b770
-2024-03-18 17:26:51,010 - INFO - Uploaded filepath: uploads\sipoc_table-Uni_4f63b770.csv
-2024-03-18 17:26:51,102 - INFO - output_presentation is saved successfully.
-2024-03-18 17:26:51,102 - INFO - output_presentation path: uploads\sipoc_table-Uni_4f63b770_non-pc-statement.pptx
-2024-03-18 17:28:44,262 - INFO - looking for the filepath
-2024-03-18 17:28:44,262 - INFO - Filename without extension: uploads\sipoc_table-Uni_7a6de215
-2024-03-18 17:28:44,262 - INFO - Uploaded filepath: uploads\sipoc_table-Uni_7a6de215.csv
-2024-03-18 17:28:44,755 - INFO - output_presentation is saved successfully.
-2024-03-18 17:28:44,755 - INFO - output_presentation path: uploads\sipoc_table-Uni_7a6de215.pptx
-2024-03-18 17:28:48,203 - INFO - looking for the filepath
-2024-03-18 17:28:48,203 - INFO - Filename without extension: uploads\sipoc_table-Uni_7a6de215
-2024-03-18 17:28:48,203 - INFO - Uploaded filepath: uploads\sipoc_table-Uni_7a6de215.csv
-2024-03-18 17:28:48,309 - INFO - output_presentation is saved successfully.
-2024-03-18 17:28:48,309 - INFO - output_presentation path: uploads\sipoc_table-Uni_7a6de215_non-cp-statement.pptx
-2024-03-18 22:02:58,944 - INFO - looking for the filepath
-2024-03-18 22:02:58,948 - INFO - Filename without extension: uploads\sipoc_table-Uni_b18a953c
-2024-03-18 22:02:58,948 - INFO - Uploaded filepath: uploads\sipoc_table-Uni_b18a953c.csv
-2024-03-18 22:02:59,540 - INFO - output_presentation is saved successfully.
-2024-03-18 22:02:59,540 - INFO - output_presentation path: uploads\sipoc_table-Uni_b18a953c.pptx
-2024-03-18 22:03:02,730 - INFO - looking for the filepath
-2024-03-18 22:03:02,730 - INFO - Filename without extension: uploads\sipoc_table-Uni_b18a953c
-2024-03-18 22:03:02,730 - INFO - Uploaded filepath: uploads\sipoc_table-Uni_b18a953c.csv
-2024-03-18 22:03:02,813 - INFO - output_presentation is saved successfully.
-2024-03-18 22:03:02,813 - INFO - output_presentation path: uploads\sipoc_table-Uni_b18a953c_non-cp-statement.pptx
-2024-03-18 22:05:50,125 - INFO - looking for the filepath
-2024-03-18 22:05:50,125 - INFO - Filename without extension: uploads\sipoc_table-Uni_cc18531a
-2024-03-18 22:05:50,125 - INFO - Uploaded filepath: uploads\sipoc_table-Uni_cc18531a.csv
-2024-03-18 22:05:50,548 - INFO - output_presentation is saved successfully.
-2024-03-18 22:05:50,548 - INFO - output_presentation path: uploads\sipoc_table-Uni_cc18531a.pptx
-2024-03-18 22:05:53,946 - INFO - looking for the filepath
-2024-03-18 22:05:53,946 - INFO - Filename without extension: uploads\sipoc_table-Uni_cc18531a
-2024-03-18 22:05:53,946 - INFO - Uploaded filepath: uploads\sipoc_table-Uni_cc18531a.csv
-2024-03-18 22:05:54,031 - INFO - output_presentation is saved successfully.
-2024-03-18 22:05:54,031 - INFO - output_presentation path: uploads\sipoc_table-Uni_cc18531a_non-cp-statement.pptx
+2024-03-26 13:57:40,418 - INFO - looking for the filepath
+2024-03-26 13:57:40,419 - INFO - Filename without extension: make
+2024-03-26 13:57:40,419 - INFO - Uploaded filepath: make
+2024-03-26 13:58:34,157 - INFO - looking for the filepath
+2024-03-26 13:58:34,157 - INFO - Filename without extension: make
+2024-03-26 13:58:34,158 - INFO - Uploaded filepath: make
+2024-03-26 13:58:46,841 - INFO - looking for the filepath
+2024-03-26 13:58:46,841 - INFO - Filename without extension: make_car_d27a592c
+2024-03-26 13:58:46,841 - INFO - Uploaded filepath: make_car_d27a592c.csv
+2024-03-26 13:59:18,055 - INFO - looking for the filepath
+2024-03-26 13:59:18,057 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 13:59:18,057 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 13:59:18,099 - INFO - output_presentation is saved successfully.
+2024-03-26 13:59:18,100 - INFO - output_presentation path: uploads\make_car_d27a592c.pptx
+2024-03-26 14:09:35,839 - INFO - looking for the filepath
+2024-03-26 14:09:35,839 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 14:09:35,839 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 14:09:36,434 - INFO - output_presentation is saved successfully.
+2024-03-26 14:09:36,434 - INFO - output_presentation path: uploads\make_car_d27a592c.pptx
+2024-03-26 14:09:36,435 - INFO - combined_output_presentation path: uploads\make_car_d27a592c-combined.pptx
+2024-03-26 14:15:17,432 - INFO - looking for the filepath
+2024-03-26 14:15:17,433 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 14:15:17,433 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 14:15:17,515 - INFO - output_presentation is saved successfully.
+2024-03-26 14:15:17,515 - INFO - output_presentation path: uploads\make_car_d27a592c_non-cp-statement.pptx
+2024-03-26 14:15:17,545 - INFO - Combined presentation is saved successfully.
+2024-03-26 14:15:17,545 - INFO - Combined presentation path: uploads\make_car_d27a592c-combined.pptx
+2024-03-26 14:27:17,323 - INFO - looking for the filepath
+2024-03-26 14:27:17,323 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 14:27:17,323 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 14:27:17,405 - INFO - output_presentation is saved successfully.
+2024-03-26 14:27:17,406 - INFO - output_presentation path: uploads\make_car_d27a592c_non-cp-statement.pptx
+2024-03-26 14:27:17,440 - INFO - Combined presentation is saved successfully.
+2024-03-26 14:27:17,440 - INFO - Combined presentation path: uploads\make_car_d27a592c-combined.pptx
+2024-03-26 16:20:32,019 - INFO - looking for the filepath
+2024-03-26 16:20:32,019 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 16:20:32,019 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 16:20:32,129 - INFO - output_presentation is saved successfully.
+2024-03-26 16:20:32,129 - INFO - output_presentation path: uploads\make_car_d27a592c_non-cp-statement.pptx
+2024-03-26 16:20:32,159 - INFO - Combined presentation is saved successfully.
+2024-03-26 16:20:32,159 - INFO - Combined presentation path: uploads\make_car_d27a592c-combined.pptx
+2024-03-26 16:21:02,474 - INFO - looking for the filepath
+2024-03-26 16:21:02,474 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 16:21:02,474 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 16:21:02,562 - INFO - output_presentation is saved successfully.
+2024-03-26 16:21:02,562 - INFO - output_presentation path: uploads\make_car_d27a592c_non-cp-statement.pptx
+2024-03-26 16:21:02,600 - INFO - Combined presentation is saved successfully.
+2024-03-26 16:21:02,600 - INFO - Combined presentation path: uploads\make_car_d27a592c-combined.pptx
+2024-03-26 16:21:37,299 - INFO - looking for the filepath
+2024-03-26 16:21:37,299 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 16:21:37,299 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 16:21:37,901 - INFO - output_presentation is saved successfully.
+2024-03-26 16:21:37,901 - INFO - output_presentation path: uploads\make_car_d27a592c.pptx
+2024-03-26 16:21:37,901 - INFO - combined_output_presentation path: uploads\make_car_d27a592c-combined.pptx
+2024-03-26 16:21:59,326 - INFO - looking for the filepath
+2024-03-26 16:21:59,326 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 16:21:59,326 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 16:21:59,414 - INFO - output_presentation is saved successfully.
+2024-03-26 16:21:59,414 - INFO - output_presentation path: uploads\make_car_d27a592c_non-cp-statement.pptx
+2024-03-26 16:21:59,461 - INFO - Combined presentation is saved successfully.
+2024-03-26 16:21:59,461 - INFO - Combined presentation path: uploads\make_car_d27a592c-combined.pptx
+2024-03-26 16:29:42,397 - INFO - looking for the filepath
+2024-03-26 16:29:42,397 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 16:29:42,397 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 16:29:42,995 - INFO - output_presentation is saved successfully.
+2024-03-26 16:29:42,995 - INFO - output_presentation path: uploads\make_car_d27a592c.pptx
+2024-03-26 16:29:42,995 - INFO - combined_output_presentation path: uploads\make_car_d27a592c-combined.pptx
+2024-03-26 16:29:50,518 - INFO - looking for the filepath
+2024-03-26 16:29:50,518 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 16:29:50,518 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 16:29:50,639 - INFO - output_presentation is saved successfully.
+2024-03-26 16:29:50,639 - INFO - output_presentation path: uploads\make_car_d27a592c_non-cp-statement.pptx
+2024-03-26 16:35:35,864 - INFO - looking for the filepath
+2024-03-26 16:35:35,864 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 16:35:35,864 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 16:35:35,951 - INFO - output_presentation is saved successfully.
+2024-03-26 16:35:35,951 - INFO - output_presentation path: uploads\make_car_d27a592c_non-cp-statement.pptx
+2024-03-26 16:38:07,537 - INFO - looking for the filepath
+2024-03-26 16:38:07,537 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 16:38:07,537 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 16:38:07,641 - INFO - output_presentation is saved successfully.
+2024-03-26 16:38:07,641 - INFO - output_presentation path: uploads\make_car_d27a592c_non-cp-statement.pptx
+2024-03-26 16:45:19,872 - INFO - looking for the filepath
+2024-03-26 16:45:19,872 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 16:45:19,872 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 16:46:35,368 - INFO - looking for the filepath
+2024-03-26 16:46:35,368 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 16:46:35,368 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 16:48:53,470 - INFO - looking for the filepath
+2024-03-26 16:48:53,470 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 16:48:53,470 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 16:48:54,159 - INFO - output_presentation is saved successfully.
+2024-03-26 16:48:54,159 - INFO - output_presentation path: uploads\make_car_d27a592c.pptx
+2024-03-26 16:48:54,159 - INFO - combined_output_presentation path: uploads\make_car_d27a592c-combined.pptx
+2024-03-26 16:51:18,361 - INFO - looking for the filepath
+2024-03-26 16:51:18,361 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 16:51:18,361 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 16:51:18,995 - INFO - output_presentation is saved successfully.
+2024-03-26 16:51:18,995 - INFO - output_presentation path: uploads\make_car_d27a592c.pptx
+2024-03-26 16:51:18,995 - INFO - combined_output_presentation path: uploads\make_car_d27a592c-combined.pptx
+2024-03-26 16:57:02,656 - INFO - looking for the filepath
+2024-03-26 16:57:02,656 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 16:57:02,656 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 16:57:03,261 - INFO - output_presentation is saved successfully.
+2024-03-26 16:57:03,261 - INFO - output_presentation path: uploads\make_car_d27a592c.pptx
+2024-03-26 16:57:03,261 - INFO - combined_output_presentation path: uploads\make_car_d27a592c-combined.pptx
+2024-03-26 16:57:42,192 - INFO - looking for the filepath
+2024-03-26 16:57:42,192 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 16:57:42,192 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 16:57:42,317 - INFO - output_presentation is saved successfully.
+2024-03-26 16:57:42,329 - INFO - output_presentation path: uploads\make_car_d27a592c_non-cp-statement.pptx
+2024-03-26 17:08:32,782 - INFO - looking for the filepath
+2024-03-26 17:08:32,782 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 17:08:32,782 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 17:08:32,881 - INFO - output_presentation is saved successfully.
+2024-03-26 17:08:32,881 - INFO - output_presentation path: uploads\make_car_d27a592c_non-cp-statement.pptx
+2024-03-26 17:14:35,016 - INFO - looking for the filepath
+2024-03-26 17:14:35,016 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 17:14:35,016 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 17:14:35,103 - INFO - output_presentation is saved successfully.
+2024-03-26 17:14:35,103 - INFO - output_presentation path: uploads\make_car_d27a592c_non-cp-statement.pptx
+2024-03-26 18:09:10,912 - INFO - looking for the filepath
+2024-03-26 18:09:10,912 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 18:09:10,912 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 18:09:11,567 - INFO - output_presentation is saved successfully.
+2024-03-26 18:09:11,567 - INFO - output_presentation path: uploads\make_car_d27a592c.pptx
+2024-03-26 18:09:11,567 - INFO - combined_output_presentation path: uploads\make_car_d27a592c-combined.pptx
+2024-03-26 18:09:57,126 - INFO - looking for the filepath
+2024-03-26 18:09:57,126 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 18:09:57,126 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 18:09:57,297 - INFO - output_presentation is saved successfully.
+2024-03-26 18:09:57,297 - INFO - output_presentation path: uploads\make_car_d27a592c_non-cp-statement.pptx
+2024-03-26 18:09:57,297 - INFO - combined_output_presentation path: uploads\make_car_d27a592c-combined.pptx
+2024-03-26 18:09:57,297 - INFO - output_presentation is saved successfully. Path: uploads\make_car_d27a592c_non-cp-statement.pptx
+2024-03-26 21:31:52,659 - INFO - looking for the filepath
+2024-03-26 21:31:52,663 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 21:31:52,663 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 21:31:52,979 - INFO - output_presentation is saved successfully.
+2024-03-26 21:31:52,979 - INFO - output_presentation path: uploads\make_car_d27a592c_non-cp-statement.pptx
+2024-03-26 21:31:52,979 - INFO - combined_output_presentation path: uploads\make_car_d27a592c-combined.pptx
+2024-03-26 21:31:52,979 - INFO - output_presentation is saved successfully. Path: uploads\make_car_d27a592c_non-cp-statement.pptx
+2024-03-26 21:32:24,476 - INFO - looking for the filepath
+2024-03-26 21:32:24,476 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 21:32:24,476 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 21:32:24,697 - INFO - output_presentation is saved successfully.
+2024-03-26 21:32:24,697 - INFO - output_presentation path: uploads\make_car_d27a592c_non-cp-statement.pptx
+2024-03-26 21:32:24,697 - INFO - combined_output_presentation path: uploads\make_car_d27a592c-combined.pptx
+2024-03-26 21:32:24,713 - INFO - output_presentation is saved successfully. Path: uploads\make_car_d27a592c_non-cp-statement.pptx
+2024-03-26 21:33:03,404 - INFO - looking for the filepath
+2024-03-26 21:33:03,412 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 21:33:03,412 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 21:33:03,980 - INFO - output_presentation is saved successfully.
+2024-03-26 21:33:03,980 - INFO - output_presentation path: uploads\make_car_d27a592c.pptx
+2024-03-26 21:33:03,980 - INFO - combined_output_presentation path: uploads\make_car_d27a592c-combined.pptx
+2024-03-26 21:33:28,510 - INFO - looking for the filepath
+2024-03-26 21:33:28,510 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 21:33:28,510 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 21:33:28,712 - INFO - output_presentation is saved successfully.
+2024-03-26 21:33:28,712 - INFO - output_presentation path: uploads\make_car_d27a592c_non-cp-statement.pptx
+2024-03-26 21:33:28,712 - INFO - combined_output_presentation path: uploads\make_car_d27a592c-combined.pptx
+2024-03-26 21:33:28,712 - INFO - output_presentation is saved successfully. Path: uploads\make_car_d27a592c_non-cp-statement.pptx
+2024-03-26 21:36:55,784 - INFO - looking for the filepath
+2024-03-26 21:36:55,784 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 21:36:55,784 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 21:41:25,555 - INFO - looking for the filepath
+2024-03-26 21:41:25,558 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 21:41:25,559 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 22:12:29,227 - INFO - looking for the filepath
+2024-03-26 22:12:29,227 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 22:12:29,227 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 22:15:32,576 - INFO - looking for the filepath
+2024-03-26 22:15:32,576 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 22:15:32,576 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 22:18:48,240 - INFO - looking for the filepath
+2024-03-26 22:18:48,255 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 22:18:48,255 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 22:18:48,443 - INFO - output_presentation is saved successfully.
+2024-03-26 22:18:48,443 - INFO - output_presentation path: uploads\make_car_d27a592c.pptx
+2024-03-26 22:18:48,443 - INFO - combined_output_presentation path: uploads\make_car_d27a592c-combined.pptx
+2024-03-26 22:19:56,735 - INFO - looking for the filepath
+2024-03-26 22:19:56,751 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 22:19:56,751 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 22:19:56,965 - INFO - output_presentation is saved successfully.
+2024-03-26 22:19:56,965 - INFO - output_presentation path: uploads\make_car_d27a592c.pptx
+2024-03-26 22:19:56,965 - INFO - combined_output_presentation path: uploads\make_car_d27a592c-combined.pptx
+2024-03-26 22:26:41,571 - INFO - looking for the filepath
+2024-03-26 22:26:41,572 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 22:26:41,572 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 22:26:41,781 - INFO - output_presentation is saved successfully.
+2024-03-26 22:26:41,781 - INFO - output_presentation path: uploads\make_car_d27a592c.pptx
+2024-03-26 22:26:41,781 - INFO - combined_output_presentation path: uploads\make_car_d27a592c-combined.pptx
+2024-03-26 22:30:32,097 - INFO - looking for the filepath
+2024-03-26 22:30:32,098 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-26 22:30:32,098 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-26 22:30:32,206 - INFO - output_presentation is saved successfully.
+2024-03-26 22:30:32,207 - INFO - output_presentation path: uploads\make_car_d27a592c.pptx
+2024-03-26 22:30:32,207 - INFO - combined_output_presentation path: uploads\make_car_d27a592c-combined.pptx
+2024-03-27 10:17:31,473 - INFO - looking for the filepath
+2024-03-27 10:17:31,473 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-27 10:17:31,473 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-27 10:17:44,948 - INFO - looking for the filepath
+2024-03-27 10:17:44,948 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-27 10:17:44,948 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-27 10:17:45,110 - INFO - output_presentation is saved successfully.
+2024-03-27 10:17:45,110 - INFO - output_presentation path: uploads\make_car_d27a592c.pptx
+2024-03-27 10:17:45,110 - INFO - combined_output_presentation path: uploads\make_car_d27a592c-combined.pptx
+2024-03-27 10:19:54,420 - INFO - looking for the filepath
+2024-03-27 10:19:54,420 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-27 10:19:54,422 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-27 10:21:21,712 - INFO - looking for the filepath
+2024-03-27 10:21:21,712 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-27 10:21:21,712 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-27 10:21:21,888 - INFO - output_presentation is saved successfully.
+2024-03-27 10:21:21,890 - INFO - output_presentation path: uploads\make_car_d27a592c.pptx
+2024-03-27 10:21:21,890 - INFO - combined_output_presentation path: uploads\make_car_d27a592c-combined.pptx
+2024-03-27 10:24:15,279 - INFO - looking for the filepath
+2024-03-27 10:24:15,279 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-27 10:24:15,279 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-27 10:24:15,407 - INFO - output_presentation is saved successfully.
+2024-03-27 10:24:15,407 - INFO - output_presentation path: uploads\make_car_d27a592c.pptx
+2024-03-27 10:24:15,408 - INFO - combined_output_presentation path: uploads\make_car_d27a592c-combined.pptx
+2024-03-27 10:29:01,651 - INFO - looking for the filepath
+2024-03-27 10:29:01,651 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-27 10:29:01,651 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-27 10:29:01,777 - INFO - output_presentation is saved successfully.
+2024-03-27 10:29:01,777 - INFO - output_presentation path: uploads\make_car_d27a592c.pptx
+2024-03-27 10:29:01,777 - INFO - combined_output_presentation path: uploads\make_car_d27a592c-combined.pptx
+2024-03-27 10:31:59,906 - INFO - looking for the filepath
+2024-03-27 10:31:59,906 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-27 10:31:59,906 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-27 10:32:00,105 - INFO - output_presentation is saved successfully.
+2024-03-27 10:32:00,105 - INFO - output_presentation path: uploads\make_car_d27a592c.pptx
+2024-03-27 10:32:00,105 - INFO - combined_output_presentation path: uploads\make_car_d27a592c-combined.pptx
+2024-03-27 11:21:19,700 - INFO - looking for the filepath
+2024-03-27 11:21:19,700 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-27 11:21:19,700 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-27 14:03:47,488 - INFO - looking for the filepath
+2024-03-27 14:03:47,488 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-27 14:03:47,488 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-27 14:03:47,550 - INFO - output_presentation is saved successfully.
+2024-03-27 14:03:47,550 - INFO - output_presentation path: uploads\make_car_d27a592c_non-cp-statement.pptx
+2024-03-27 15:38:34,613 - INFO - looking for the filepath
+2024-03-27 15:38:34,613 - INFO - Filename without extension: uploads/make_car_d27a592c
+2024-03-27 15:38:34,629 - INFO - Uploaded filepath: uploads/make_car_d27a592c.csv
+2024-03-27 15:38:34,860 - INFO - output_presentation is saved successfully.
+2024-03-27 15:38:34,860 - INFO - output_presentation path: uploads/make_car_d27a592c.pptx
+2024-03-27 15:38:34,860 - INFO - combined_output_presentation path: uploads/make_car_d27a592c-combined.pptx
+2024-03-27 15:42:37,753 - INFO - looking for the filepath
+2024-03-27 15:42:37,753 - INFO - Filename without extension: uploads/make_car_d27a592c
+2024-03-27 15:42:37,753 - INFO - Uploaded filepath: uploads/make_car_d27a592c.csv
+2024-03-27 15:42:37,911 - INFO - output_presentation is saved successfully.
+2024-03-27 15:42:37,911 - INFO - output_presentation path: uploads/make_car_d27a592c.pptx
+2024-03-27 15:42:37,911 - INFO - combined_output_presentation path: uploads/make_car_d27a592c-combined.pptx
+2024-03-27 15:50:52,364 - INFO - looking for the filepath
+2024-03-27 15:50:52,364 - INFO - Filename without extension: uploads/make_car_d27a592c
+2024-03-27 15:50:52,364 - INFO - Uploaded filepath: uploads/make_car_d27a592c.csv
+2024-03-27 15:50:52,516 - INFO - output_presentation is saved successfully.
+2024-03-27 15:50:52,517 - INFO - output_presentation path: uploads/make_car_d27a592c.pptx
+2024-03-27 15:50:52,517 - INFO - combined_output_presentation path: uploads/make_car_d27a592c-combined.pptx
+2024-03-27 15:54:44,766 - INFO - looking for the filepath
+2024-03-27 15:54:44,766 - INFO - Filename without extension: input
+2024-03-27 15:54:44,766 - INFO - Uploaded filepath: input.csv
+2024-03-27 15:56:21,300 - INFO - looking for the filepath
+2024-03-27 15:56:21,300 - INFO - Filename without extension: input
+2024-03-27 15:56:21,300 - INFO - Uploaded filepath: input.csv
+2024-03-27 15:56:50,082 - INFO - looking for the filepath
+2024-03-27 15:56:50,082 - INFO - Filename without extension: input
+2024-03-27 15:56:50,082 - INFO - Uploaded filepath: input.csv
+2024-03-27 15:56:50,245 - INFO - output_presentation is saved successfully.
+2024-03-27 15:56:50,245 - INFO - output_presentation path: input.pptx
+2024-03-27 15:56:50,245 - INFO - combined_output_presentation path: input-combined.pptx
+2024-03-27 15:56:57,596 - INFO - looking for the filepath
+2024-03-27 15:56:57,596 - INFO - Filename without extension: input
+2024-03-27 15:56:57,596 - INFO - Uploaded filepath: input.csv
+2024-03-27 15:56:57,743 - INFO - output_presentation is saved successfully.
+2024-03-27 15:56:57,743 - INFO - output_presentation path: input.pptx
+2024-03-27 15:56:57,743 - INFO - combined_output_presentation path: input-combined.pptx
+2024-03-27 15:58:48,002 - INFO - looking for the filepath
+2024-03-27 15:58:48,002 - INFO - Filename without extension: uploads\input_a4d0a487
+2024-03-27 15:58:48,018 - INFO - Uploaded filepath: uploads\input_a4d0a487.csv
+2024-03-27 15:58:48,240 - INFO - output_presentation is saved successfully.
+2024-03-27 15:58:48,240 - INFO - output_presentation path: uploads\input_a4d0a487.pptx
+2024-03-27 15:58:48,240 - INFO - combined_output_presentation path: uploads\input_a4d0a487-combined.pptx
+2024-03-27 15:58:51,467 - INFO - looking for the filepath
+2024-03-27 15:58:51,469 - INFO - Filename without extension: uploads\input_a4d0a487
+2024-03-27 15:58:51,469 - INFO - Uploaded filepath: uploads\input_a4d0a487.csv
+2024-03-27 15:58:51,583 - INFO - output_presentation is saved successfully.
+2024-03-27 15:58:51,584 - INFO - output_presentation path: uploads\input_a4d0a487_non-cp-statement.pptx
+2024-03-27 16:15:26,711 - INFO - looking for the filepath
+2024-03-27 16:15:26,711 - INFO - Filename without extension: uploads\input_4f2fb453
+2024-03-27 16:15:26,711 - INFO - Uploaded filepath: uploads\input_4f2fb453.csv
+2024-03-27 16:15:26,893 - INFO - output_presentation is saved successfully.
+2024-03-27 16:15:26,893 - INFO - output_presentation path: uploads\input_4f2fb453.pptx
+2024-03-27 16:15:26,893 - INFO - combined_output_presentation path: uploads\input_4f2fb453-combined.pptx
+2024-03-27 16:15:29,995 - INFO - looking for the filepath
+2024-03-27 16:15:29,995 - INFO - Filename without extension: uploads\input_4f2fb453
+2024-03-27 16:15:29,995 - INFO - Uploaded filepath: uploads\input_4f2fb453.csv
+2024-03-27 16:15:30,109 - INFO - output_presentation is saved successfully.
+2024-03-27 16:15:30,109 - INFO - output_presentation path: uploads\input_4f2fb453_non-cp-statement.pptx
+2024-03-27 16:16:07,763 - INFO - looking for the filepath
+2024-03-27 16:16:07,763 - INFO - Filename without extension: input
+2024-03-27 16:16:07,763 - INFO - Uploaded filepath: input.csv
+2024-03-27 16:16:07,995 - INFO - output_presentation is saved successfully.
+2024-03-27 16:16:07,995 - INFO - output_presentation path: input.pptx
+2024-03-27 16:16:07,995 - INFO - combined_output_presentation path: input-combined.pptx
+2024-03-27 16:21:43,653 - INFO - looking for the filepath
+2024-03-27 16:21:43,653 - INFO - Filename without extension: input
+2024-03-27 16:21:43,653 - INFO - Uploaded filepath: input.csv
+2024-03-27 16:21:43,813 - INFO - output_presentation is saved successfully.
+2024-03-27 16:21:43,813 - INFO - output_presentation path: input.pptx
+2024-03-27 16:21:43,813 - INFO - combined_output_presentation path: input-combined.pptx
+2024-03-27 16:25:09,865 - INFO - looking for the filepath
+2024-03-27 16:25:09,865 - INFO - Filename without extension: iput
+2024-03-27 16:25:09,865 - INFO - Uploaded filepath: iput.csv
+2024-03-27 16:25:52,655 - INFO - looking for the filepath
+2024-03-27 16:25:52,655 - INFO - Filename without extension: input
+2024-03-27 16:25:52,655 - INFO - Uploaded filepath: input.csv
+2024-03-27 16:25:52,786 - INFO - output_presentation is saved successfully.
+2024-03-27 16:25:52,791 - INFO - output_presentation path: input.pptx
+2024-03-27 16:26:23,927 - INFO - looking for the filepath
+2024-03-27 16:26:23,927 - INFO - Filename without extension: input
+2024-03-27 16:26:23,927 - INFO - Uploaded filepath: input.csv
+2024-03-27 16:26:24,102 - INFO - output_presentation is saved successfully.
+2024-03-27 16:26:24,103 - INFO - output_presentation path: input.pptx
+2024-03-27 17:47:32,063 - INFO - looking for the filepath
+2024-03-27 17:47:32,063 - INFO - Filename without extension: input
+2024-03-27 17:47:32,076 - INFO - Uploaded filepath: input.csv
+2024-03-27 17:47:32,260 - INFO - output_presentation is saved successfully.
+2024-03-27 17:47:32,260 - INFO - output_presentation path: input.pptx
+2024-03-27 17:52:58,083 - INFO - looking for the filepath
+2024-03-27 17:52:58,083 - INFO - Filename without extension: input
+2024-03-27 17:52:58,083 - INFO - Uploaded filepath: input.csv
+2024-03-27 17:52:58,209 - INFO - output_presentation is saved successfully.
+2024-03-27 17:52:58,209 - INFO - output_presentation path: input.pptx
+2024-03-27 18:00:25,251 - INFO - looking for the filepath
+2024-03-27 18:00:25,251 - INFO - Filename without extension: input
+2024-03-27 18:00:25,251 - INFO - Uploaded filepath: input.csv
+2024-03-27 18:00:25,388 - INFO - output_presentation is saved successfully.
+2024-03-27 18:00:25,388 - INFO - output_presentation path: input.pptx
+2024-03-27 22:00:55,763 - INFO - looking for the filepath
+2024-03-27 22:00:55,763 - INFO - Filename without extension: uploads\make_car_d27a592c_422a247c
+2024-03-27 22:00:55,765 - INFO - Uploaded filepath: uploads\make_car_d27a592c_422a247c.csv
+2024-03-27 22:00:55,964 - INFO - output_presentation is saved successfully.
+2024-03-27 22:00:55,964 - INFO - output_presentation path: uploads\make_car_d27a592c_422a247c.pptx
+2024-03-27 22:00:59,712 - INFO - looking for the filepath
+2024-03-27 22:00:59,712 - INFO - Filename without extension: uploads\make_car_d27a592c_422a247c
+2024-03-27 22:00:59,712 - INFO - Uploaded filepath: uploads\make_car_d27a592c_422a247c.csv
+2024-03-27 22:00:59,803 - INFO - output_presentation is saved successfully.
+2024-03-27 22:00:59,803 - INFO - output_presentation path: uploads\make_car_d27a592c_422a247c_non-cp-statement.pptx
+2024-03-27 22:01:06,962 - INFO - looking for the filepath
+2024-03-27 22:01:06,962 - INFO - Filename without extension: uploads\make_car_d27a592c_422a247c
+2024-03-27 22:01:06,962 - INFO - Uploaded filepath: uploads\make_car_d27a592c_422a247c.csv
+2024-03-27 22:01:07,133 - INFO - output_presentation is saved successfully.
+2024-03-27 22:01:07,133 - INFO - output_presentation path: uploads\make_car_d27a592c_422a247c.pptx
+2024-03-27 22:32:24,301 - INFO - looking for the filepath
+2024-03-27 22:32:24,302 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-27 22:32:24,302 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-27 22:32:24,450 - INFO - output_presentation is saved successfully.
+2024-03-27 22:32:24,450 - INFO - output_presentation path: uploads\make_car_d27a592c.pptx
+2024-03-27 22:32:39,699 - INFO - looking for the filepath
+2024-03-27 22:32:39,699 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-27 22:32:39,699 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-27 22:32:39,699 - INFO - output_presentation is saved successfully.
+2024-03-27 22:32:39,699 - INFO - output_presentation path: uploads\make_car_d27a592c.pptx
+2024-03-27 22:48:14,282 - INFO - looking for the filepath
+2024-03-27 22:48:14,282 - INFO - Filename without extension: uploads\make_car_d27a592c
+2024-03-27 22:48:14,282 - INFO - Uploaded filepath: uploads\make_car_d27a592c.csv
+2024-03-27 22:48:14,577 - INFO - output_presentation is saved successfully.
+2024-03-27 22:48:14,577 - INFO - output_presentation path: uploads\make_car_d27a592c.pptx
+2024-03-28 09:39:01,135 - INFO - looking for the filepath
+2024-03-28 09:39:01,135 - INFO - Filename without extension: uploads\make_car_d27a592c_2407a060
+2024-03-28 09:39:01,135 - INFO - Uploaded filepath: uploads\make_car_d27a592c_2407a060.csv
+2024-03-28 09:39:01,415 - INFO - output_presentation is saved successfully.
+2024-03-28 09:39:01,415 - INFO - output_presentation path: uploads\make_car_d27a592c_2407a060.pptx
+2024-03-28 09:39:04,264 - INFO - looking for the filepath
+2024-03-28 09:39:04,278 - INFO - Filename without extension: uploads\make_car_d27a592c_2407a060
+2024-03-28 09:39:04,278 - INFO - Uploaded filepath: uploads\make_car_d27a592c_2407a060.csv
+2024-03-28 09:39:04,380 - INFO - output_presentation is saved successfully.
+2024-03-28 09:39:04,380 - INFO - output_presentation path: uploads\make_car_d27a592c_2407a060_non-cp-statement.pptx
+2024-03-28 09:39:09,381 - INFO - looking for the filepath
+2024-03-28 09:39:09,381 - INFO - Filename without extension: uploads\make_car_d27a592c_2407a060
+2024-03-28 09:39:09,381 - INFO - Uploaded filepath: uploads\make_car_d27a592c_2407a060.csv
+2024-03-28 09:39:09,560 - INFO - output_presentation is saved successfully.
+2024-03-28 09:39:09,560 - INFO - output_presentation path: uploads\make_car_d27a592c_2407a060.pptx

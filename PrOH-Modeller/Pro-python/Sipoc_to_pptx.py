@@ -66,22 +66,27 @@ try:
    
     # Create oval shapes and add text to them with specified font and background colors
     for i, cell in enumerate(rows[1]):
+        # Skip column D
+        if i == 3:
+            continue
+        
         left = i * x_step
         top = i * y_step
         if i == 0 or i == 5:  # First cell in column A and F
-        # Create rectangle shape instead of oval
-            shape = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, left, top, oval_width, oval_height)
+            # Create rectangle shape instead of oval
+            shape = slide.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, left, top, oval_width, oval_height)
             shape.fill.solid()
             shape.fill.fore_color.rgb = RGBColor(255, 255, 255)  # White background for rectangles
-        else:
-        # Create oval shape
+        elif i == 1 or i == 4:  # Column B and E
+            # Create oval shape with green background
             shape = slide.shapes.add_shape(MSO_SHAPE.OVAL, left, top, oval_width, oval_height)
-            if i % 2 == 0:  # Even columns (0-based index)
-                shape.fill.solid()
-                shape.fill.fore_color.rgb = RGBColor(255, 0, 0)  # Red background for even ovals
-            else:
-                shape.fill.solid()
-                shape.fill.fore_color.rgb = RGBColor(0, 255, 0)  # Green background for odd ovals
+            shape.fill.solid()
+            shape.fill.fore_color.rgb = RGBColor(0, 255, 0)  # Green background
+        elif i == 2:  # Column C
+            # Create oval shape with red background
+            shape = slide.shapes.add_shape(MSO_SHAPE.OVAL, left, top, oval_width, oval_height)
+            shape.fill.solid()
+            shape.fill.fore_color.rgb = RGBColor(255, 0, 0)  # Red background
 
         text_frame = shape.text_frame
         text_frame.text = cell
@@ -124,3 +129,4 @@ try:
 except Exception as e:
     # Log any exceptions that occur
     logging.error(f'An error occurred: {str(e)}')
+

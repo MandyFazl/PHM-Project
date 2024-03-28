@@ -4,6 +4,7 @@ import os
 import logging
 import uuid  # for generating unique identifiers
 import zipfile
+from pptx import Presentation
 
 
 
@@ -57,18 +58,18 @@ def upload():
         filename_without_extension = os.path.splitext(filename_with_identifier)[0]
         logging.info(f"Filename without extension: {filename_without_extension}")
 
-        # Call your python3 scripts with the uploaded file as an argument
-        logging.info("calling your python3 scripts.")
-        subprocess.run(['python3', 'sipoc-to-pptx-4-Flask.py', file_path])
-        logging.info("sipoc-to-pptx-4-Flask.py executed successfully.")
-        subprocess.run(['python3', 'Non-Core-Process-Statement.py', file_path])
-        logging.info("Non-Core-Process-Statement.py executed successfully.")
-        subprocess.run(['python3', 'Seperate_verbs.py', file_path])
+        # Call your python scripts with the uploaded file as an argument
+        logging.info("calling your python scripts.")
+        subprocess.run(['python', 'Sipoc_to_pptx.py', file_path])
+        logging.info("Sipoc_to_pptx.py executed successfully.")
+        subprocess.run(['python', 'Non_Core_Process_Statement.py', file_path])
+        logging.info("Non_Core_Process_Statement.py executed successfully.")
+        subprocess.run(['python', 'Seperate_verbs.py', file_path])
         logging.info("Seperate_verbs.py executed successfully.")
-        subprocess.run(['python3', 'Bracket.py', file_path])
+        subprocess.run(['python', 'Bracket.py', file_path])
         logging.info("Bracket.py executed successfully.")
-        subprocess.run(['python3', 'Decision-Bubbles.py', file_path])
-        logging.info("Decision-Bubbles.py executed successfully.")
+        subprocess.run(['python', 'Decision_Bubbles.py', file_path])
+        logging.info("Decision_Bubbles.py executed successfully.")
 
         return jsonify({'message': 'Upload successful'}), 200
     except Exception as e:
@@ -78,71 +79,50 @@ def upload():
 
 
 
-
 @app.route('/download_all_files')
 def download_all_files():
     try:
         file_path = session.get('file_path')
+        if not file_path:
+            return "No file to download"
+
         filename_with_identifier = os.path.basename(file_path)
         filename_without_extension = os.path.splitext(filename_with_identifier)[0]
 
-        logging.info("files_to_download")
-        pptx=os.path.join('uploads', filename_without_extension +'.pptx')
-        logging.info({pptx})
-        
-        Non_CP_Statement=os.path.join('uploads', filename_without_extension +'_non-cp-statement'+'.pptx')
-        logging.info({Non_CP_Statement})
+        pptx_path = os.path.join('uploads', f'{filename_without_extension}.pptx')
+        non_cp_statement_path = os.path.join('uploads', f'{filename_without_extension}_non-cp-statement.pptx')
+        verbs_path = os.path.join('uploads', f'{filename_without_extension}_verbs.pptx')
+        decision_bubbles_path = os.path.join('uploads', f'{filename_without_extension}_decision-bubbles.pptx')
+        subbubbles_path = os.path.join('uploads', f'{filename_without_extension}_subbubbles.pptx')
 
-        verbs_pptx=os.path.join('uploads',filename_without_extension +'_verbs'+'.pptx')
-        logging.info({verbs_pptx})
+        logging.info(f"pptx_path: {pptx_path}")
+        logging.info(f"non_cp_statement_path: {non_cp_statement_path}")
+        logging.info(f"verbs_path: {verbs_path}")
+        logging.info(f"decision_bubbles_path: {decision_bubbles_path}")
+        logging.info(f"subbubbles_path: {subbubbles_path}")
 
-        decision_bubbles=os.path.join('uploads', filename_without_extension + '_decision-bubbles' + '.pptx')
-        logging.info({decision_bubbles})
-        
-        subbubbles=os.path.join('uploads',filename_without_extension +'_subbubbles'+'.pptx')
-        logging.info({subbubbles})
+        combined_presentation = Presentation()
 
-                
-        
-        # Specify the paths to the required files
-        
-        files_to_download = [
-            pptx,
-            Non_CP_Statement,
-            verbs_pptx,
-            decision_bubbles,
-            subbubbles
-            
-        ]
-        logging.info(f"all files address:{files_to_download}")
+        for file_path in [pptx_path, non_cp_statement_path, verbs_path, decision_bubbles_path, subbubbles_path]:
+            if os.path.exists(file_path):
+                logging.info(f"Adding slide from: {file_path}")
+                slide_layout = combined_presentation.slide_layouts[5]  # Assuming a blank slide layout
+                slide = combined_presentation.slides.add_slide(slide_layout)
+                slide.shapes.add_picture(file_path, left=0, top=0, width=None, height=None)
 
-        # Check if all files exist
-        for file in files_to_download:
-            if not os.path.exists(file):
-                return "One or more files are missing"
-        
-        logging.info("All required files existttttttt.")
+        combined_presentation_path = os.path.join('uploads', f'{filename_without_extension}_combined.pptx')
+        combined_presentation.save(combined_presentation_path)
+        logging.info(f"combined_presentation_path: {combined_presentation_path}")
+        logging.info("combined_presentation_path saved")
 
-        # Create a ZIP file containing all the required files
-        zip_filename = os.path.join('uploads', filename_without_extension + 'zip')
-        with zipfile.ZipFile(zip_filename, 'w') as zipf:
-            for file in files_to_download:
-                zipf.write(file, os.path.basename(file))# Create a ZIP file containing all the required files in the 'uploads' folder
-
-        logging.info("All files zipped successfully.")
-
-        # Return the ZIP file for download
-        response = make_response(send_file(zip_filename, as_attachment=True))
-        response.headers['Content-Disposition'] = 'attachment; filename=all_files.zip'
-        response.headers['Content-Type'] = 'application/zip'
-        logging.info(f"ZIP file for download: {response}")
+        response = make_response(send_file(combined_presentation_path, as_attachment=True))
+        response.headers['Content-Disposition'] = 'attachment; filename=combined_presentation.pptx'
         return response
 
     except Exception as e:
-        # Log any exceptions that occur
-        logging.error(f'An error occurred: {str(e)}')
-        return "An error occurred while downloading the files."
-
+        # Handle exceptions
+        logging.error(f'An error occurred while downloading all files: {str(e)}')
+        return "An error occurred while downloading all files."
 
 
 @app.route('/download_pptx')

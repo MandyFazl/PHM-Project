@@ -1,933 +1,162 @@
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 14:47:33] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 14:47:33] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 13:10:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 13:10:41] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
 INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table1.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table1_2bc0b1a5.csv
-INFO:root:Filename without extension: sipoc_table1_2bc0b1a5
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 14:47:52] "POST /upload HTTP/1.1" 200 -
-INFO:root:files_to_download
-INFO:root:uploads\sipoc_table1_2bc0b1a5.pptx
-INFO:root:{None}
-INFO:root:{'uploads\\sipoc_table1_2bc0b1a5_verbs.pptx'}
-INFO:root:{'uploads\\sipoc_table1_2bc0b1a5_decision-bubbles.pptx'}
-INFO:root:{'uploads\\sipoc_table1_2bc0b1a5_subbubbles.pptx'}
-INFO:root:all files address:[None, 'uploads\\sipoc_table1_2bc0b1a5_verbs.pptx', 'uploads\\sipoc_table1_2bc0b1a5_decision-bubbles.pptx', 'uploads\\sipoc_table1_2bc0b1a5_subbubbles.pptx']
-ERROR:root:An error occurred: exists: path should be string, bytes, os.PathLike or integer, not NoneType
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 14:47:53] "GET /download_all_files HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 14:49:17] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 14:49:17] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table1.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table1_feede763.csv
-INFO:root:Filename without extension: sipoc_table1_feede763
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 14:49:40] "POST /upload HTTP/1.1" 200 -
-INFO:root:files_to_download
-INFO:root:{'uploads\\sipoc_table1_feede763.pptx'}
-INFO:root:{'uploads\\sipoc_table1_feede763_verbs.pptx'}
-INFO:root:{'uploads\\sipoc_table1_feede763_decision-bubbles.pptx'}
-INFO:root:{'uploads\\sipoc_table1_feede763_subbubbles.pptx'}
-INFO:root:all files address:['uploads\\sipoc_table1_feede763.pptx', 'uploads\\sipoc_table1_feede763_verbs.pptx', 'uploads\\sipoc_table1_feede763_decision-bubbles.pptx', 'uploads\\sipoc_table1_feede763_subbubbles.pptx']
-INFO:root:All required files existttttttt.
-ERROR:root:An error occurred: [WinError 2] The system cannot find the file specified
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 14:49:58] "GET /download_all_files HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 14:53:26] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 14:53:26] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table2.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table2_fa92989e.csv
-INFO:root:Filename without extension: sipoc_table2_fa92989e
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 14:53:42] "POST /upload HTTP/1.1" 200 -
-INFO:root:files_to_download
-INFO:root:{'uploads\\sipoc_table2_fa92989e.pptx'}
-INFO:root:{'uploads\\sipoc_table2_fa92989e_verbs.pptx'}
-INFO:root:{'uploads\\sipoc_table2_fa92989e_decision-bubbles.pptx'}
-INFO:root:{'uploads\\sipoc_table2_fa92989e_subbubbles.pptx'}
-INFO:root:all files address:['uploads\\sipoc_table2_fa92989e.pptx', 'uploads\\sipoc_table2_fa92989e_verbs.pptx', 'uploads\\sipoc_table2_fa92989e_decision-bubbles.pptx', 'uploads\\sipoc_table2_fa92989e_subbubbles.pptx']
-INFO:root:All required files existttttttt.
-ERROR:root:An error occurred: [WinError 2] The system cannot find the file specified
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 14:53:44] "GET /download_all_files HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 14:56:55] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 14:56:55] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table1.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table1_0f2ea5b9.csv
-INFO:root:Filename without extension: sipoc_table1_0f2ea5b9
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 14:57:16] "POST /upload HTTP/1.1" 200 -
-INFO:root:files_to_download
-INFO:root:{'uploads\\sipoc_table1_0f2ea5b9.pptx'}
-INFO:root:{'uploads\\sipoc_table1_0f2ea5b9_verbs.pptx'}
-INFO:root:{'uploads\\sipoc_table1_0f2ea5b9_decision-bubbles.pptx'}
-INFO:root:{'uploads\\sipoc_table1_0f2ea5b9_subbubbles.pptx'}
-INFO:root:all files address:['uploads\\sipoc_table1_0f2ea5b9.pptx', 'uploads\\sipoc_table1_0f2ea5b9_verbs.pptx', 'uploads\\sipoc_table1_0f2ea5b9_decision-bubbles.pptx', 'uploads\\sipoc_table1_0f2ea5b9_subbubbles.pptx']
-INFO:root:All required files existttttttt.
-ERROR:root:An error occurred: [Errno 13] Permission denied: 'uploads\\all_files.zip'
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 14:57:21] "GET /download_all_files HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 15:03:06] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 15:03:06] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table2.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table2_2bae206b.csv
-INFO:root:Filename without extension: sipoc_table2_2bae206b
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 15:03:22] "POST /upload HTTP/1.1" 200 -
-INFO:root:files_to_download
-INFO:root:{'uploads\\sipoc_table2_2bae206b.pptx'}
-INFO:root:{'uploads\\sipoc_table2_2bae206b_verbs.pptx'}
-INFO:root:{'uploads\\sipoc_table2_2bae206b_decision-bubbles.pptx'}
-INFO:root:{'uploads\\sipoc_table2_2bae206b_subbubbles.pptx'}
-INFO:root:all files address:['uploads\\sipoc_table2_2bae206b.pptx', 'uploads\\sipoc_table2_2bae206b_verbs.pptx', 'uploads\\sipoc_table2_2bae206b_decision-bubbles.pptx', 'uploads\\sipoc_table2_2bae206b_subbubbles.pptx']
-INFO:root:All required files existttttttt.
-ERROR:root:An error occurred: [Errno 13] Permission denied: 'uploads\\all_files.zip'
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 15:03:24] "GET /download_all_files HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 15:05:06] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 15:05:06] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table1.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table1_6d033494.csv
-INFO:root:Filename without extension: sipoc_table1_6d033494
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 15:05:26] "POST /upload HTTP/1.1" 200 -
-INFO:root:files_to_download
-INFO:root:{'uploads\\sipoc_table1_6d033494.pptx'}
-INFO:root:{'uploads\\sipoc_table1_6d033494_verbs.pptx'}
-INFO:root:{'uploads\\sipoc_table1_6d033494_decision-bubbles.pptx'}
-INFO:root:{'uploads\\sipoc_table1_6d033494_subbubbles.pptx'}
-INFO:root:all files address:['uploads\\sipoc_table1_6d033494.pptx', 'uploads\\sipoc_table1_6d033494_verbs.pptx', 'uploads\\sipoc_table1_6d033494_decision-bubbles.pptx', 'uploads\\sipoc_table1_6d033494_subbubbles.pptx']
-INFO:root:All required files existttttttt.
-ERROR:root:An error occurred: [WinError 2] The system cannot find the file specified
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 15:05:30] "GET /download_all_files HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 15:13:17] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 15:13:17] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table2.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table2_2ffe9dba.csv
-INFO:root:Filename without extension: sipoc_table2_2ffe9dba
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 15:13:33] "POST /upload HTTP/1.1" 200 -
-INFO:root:files_to_download
-INFO:root:{'uploads\\sipoc_table2_2ffe9dba.pptx'}
-INFO:root:{'uploads\\sipoc_table2_2ffe9dba_verbs.pptx'}
-INFO:root:{'uploads\\sipoc_table2_2ffe9dba_decision-bubbles.pptx'}
-INFO:root:{'uploads\\sipoc_table2_2ffe9dba_subbubbles.pptx'}
-INFO:root:all files address:['uploads\\sipoc_table2_2ffe9dba.pptx', 'uploads\\sipoc_table2_2ffe9dba_verbs.pptx', 'uploads\\sipoc_table2_2ffe9dba_decision-bubbles.pptx', 'uploads\\sipoc_table2_2ffe9dba_subbubbles.pptx']
-INFO:root:All required files existttttttt.
-INFO:root:All files zipped successfully.
-INFO:root:ZIP file for download: <Response streamed [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 15:13:36] "GET /download_all_files HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 11:35:43] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 11:35:43] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table2.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table2_4ec45c63.csv
-INFO:root:Filename without extension: sipoc_table2_4ec45c63
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 11:36:37] "POST /upload HTTP/1.1" 200 -
-INFO:root:files_to_download
-INFO:root:{'uploads\\sipoc_table2_4ec45c63.pptx'}
-INFO:root:{'uploads\\sipoc_table2_4ec45c63_verbs.pptx'}
-INFO:root:{'uploads\\sipoc_table2_4ec45c63_decision-bubbles.pptx'}
-INFO:root:{'uploads\\sipoc_table2_4ec45c63_subbubbles.pptx'}
-INFO:root:all files address:['uploads\\sipoc_table2_4ec45c63.pptx', 'uploads\\sipoc_table2_4ec45c63_verbs.pptx', 'uploads\\sipoc_table2_4ec45c63_decision-bubbles.pptx', 'uploads\\sipoc_table2_4ec45c63_subbubbles.pptx']
-INFO:root:All required files existttttttt.
-INFO:root:All files zipped successfully.
-INFO:root:ZIP file for download: <Response streamed [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 11:36:38] "GET /download_all_files HTTP/1.1" 200 -
-INFO:root:PowerPoint file downloaded successfully.
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 11:36:41] "GET /download_pptx HTTP/1.1" 200 -
-INFO:root:Sub_bubbles pptx file path uploads\sipoc_table2_4ec45c63_subbubbles.pptx
-INFO:root:Sub_bubbles pptx file downloaded successfully.
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 11:36:44] "GET /download_Sub_bubbles HTTP/1.1" 200 -
-INFO:root:decision_bubbles pptx file downloaded successfully.
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 11:36:45] "GET /download_decision_bubbles HTTP/1.1" 200 -
-INFO:root:Verbs pptx file downloaded successfully.
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 11:36:45] "GET /download_verbs HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 12:35:55] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 12:35:55] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 12:41:59] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 12:41:59] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table2.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table2_45aa3d22.csv
-INFO:root:Filename without extension: sipoc_table2_45aa3d22
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 12:42:20] "POST /upload HTTP/1.1" 200 -
-INFO:root:Sub_bubbles pptx file path uploads\sipoc_table2_45aa3d22_subbubbles.pptx
-INFO:root:Sub_bubbles pptx file downloaded successfully.
-ERROR:root:An error occurred: [WinError 2] The system cannot find the file specified: 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\uploads\\sipoc_table2_45aa3d22_subbubbles.pptx'
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 12:42:25] "GET /download_Sub_bubbles HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 12:44:22] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 12:44:22] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table2.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table2_9c4a6a16.csv
-INFO:root:Filename without extension: sipoc_table2_9c4a6a16
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 12:44:39] "POST /upload HTTP/1.1" 200 -
-INFO:root:Sub_bubbles pptx file path uploads\sipoc_table2_9c4a6a16_subbubbles.pptx
-INFO:root:Sub_bubbles pptx file downloaded successfully.
-ERROR:root:An error occurred: [WinError 2] The system cannot find the file specified: 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\uploads\\sipoc_table2_9c4a6a16_subbubbles.pptx'
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 12:44:43] "GET /download_Sub_bubbles HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 12:48:52] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 12:48:52] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table2.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table2_d3dd7c65.csv
-INFO:root:Filename without extension: sipoc_table2_d3dd7c65
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 12:49:10] "POST /upload HTTP/1.1" 200 -
-INFO:root:Sub_bubbles pptx file path uploads\sipoc_table2_d3dd7c65_subbubbles.pptx
-INFO:root:Sub_bubbles pptx file downloaded successfully.
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 12:49:14] "GET /download_Sub_bubbles HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 12:55:56] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 12:55:56] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table2.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table2_0a00637e.csv
-INFO:root:Filename without extension: sipoc_table2_0a00637e
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 12:56:14] "POST /upload HTTP/1.1" 200 -
-INFO:root:files_to_download
-INFO:root:{'uploads\\sipoc_table2_0a00637e.pptx'}
-INFO:root:{'uploads\\sipoc_table2_0a00637e_verbs.pptx'}
-INFO:root:{'uploads\\sipoc_table2_0a00637e_decision-bubbles.pptx'}
-INFO:root:{'uploads\\sipoc_table2_0a00637e_subbubbles.pptx'}
-INFO:root:all files address:['uploads\\sipoc_table2_0a00637e.pptx', 'uploads\\sipoc_table2_0a00637e_verbs.pptx', 'uploads\\sipoc_table2_0a00637e_decision-bubbles.pptx', 'uploads\\sipoc_table2_0a00637e_subbubbles.pptx']
-INFO:root:All required files existttttttt.
-INFO:root:All files zipped successfully.
-INFO:root:ZIP file for download: <Response streamed [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 12:56:45] "GET /download_all_files HTTP/1.1" 200 -
-INFO:root:PowerPoint file downloaded successfully.
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 12:56:46] "GET /download_pptx HTTP/1.1" 200 -
-INFO:root:Sub_bubbles pptx file path uploads\sipoc_table2_0a00637e_subbubbles.pptx
-INFO:root:Sub_bubbles pptx file downloaded successfully.
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 12:56:47] "GET /download_Sub_bubbles HTTP/1.1" 200 -
-INFO:root:decision_bubbles pptx file downloaded successfully.
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 12:56:48] "GET /download_decision_bubbles HTTP/1.1" 200 -
-INFO:root:Verbs pptx file downloaded successfully.
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 12:56:48] "GET /download_verbs HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 14:12:45] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 14:12:45] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table-Uni.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table-Uni_70088622.csv
-INFO:root:Filename without extension: sipoc_table-Uni_70088622
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 14:13:03] "POST /upload HTTP/1.1" 200 -
-INFO:root:files_to_download
-INFO:root:{'uploads\\sipoc_table-Uni_70088622.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_70088622_verbs.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_70088622_decision-bubbles.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_70088622_subbubbles.pptx'}
-INFO:root:all files address:['uploads\\sipoc_table-Uni_70088622.pptx', 'uploads\\sipoc_table-Uni_70088622_verbs.pptx', 'uploads\\sipoc_table-Uni_70088622_decision-bubbles.pptx', 'uploads\\sipoc_table-Uni_70088622_subbubbles.pptx']
-INFO:root:All required files existttttttt.
-INFO:root:All files zipped successfully.
-INFO:root:ZIP file for download: <Response streamed [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 14:13:19] "GET /download_all_files HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:28:49] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:28:49] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:28:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table2.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table2_5caa6570.csv
-INFO:root:Filename without extension: sipoc_table2_5caa6570
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:29:12] "POST /upload HTTP/1.1" 200 -
-INFO:root:files_to_download
-INFO:root:{'uploads\\sipoc_table2_5caa6570.pptx'}
-INFO:root:{'uploads\\sipoc_table2_5caa6570_verbs.pptx'}
-INFO:root:{'uploads\\sipoc_table2_5caa6570_decision-bubbles.pptx'}
-INFO:root:{'uploads\\sipoc_table2_5caa6570_subbubbles.pptx'}
-INFO:root:all files address:['uploads\\sipoc_table2_5caa6570.pptx', 'uploads\\sipoc_table2_5caa6570_verbs.pptx', 'uploads\\sipoc_table2_5caa6570_decision-bubbles.pptx', 'uploads\\sipoc_table2_5caa6570_subbubbles.pptx']
-INFO:root:All required files existttttttt.
-INFO:root:All files zipped successfully.
-INFO:root:ZIP file for download: <Response streamed [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:29:16] "GET /download_all_files HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:30:18] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:30:18] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table2.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table2_367af474.csv
-INFO:root:Filename without extension: sipoc_table2_367af474
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:30:35] "POST /upload HTTP/1.1" 200 -
-INFO:root:files_to_download
-INFO:root:{'uploads\\sipoc_table2_367af474.pptx'}
-INFO:root:{'uploads\\sipoc_table2_367af474_verbs.pptx'}
-INFO:root:{'uploads\\sipoc_table2_367af474_decision-bubbles.pptx'}
-INFO:root:{'uploads\\sipoc_table2_367af474_subbubbles.pptx'}
-INFO:root:all files address:['uploads\\sipoc_table2_367af474.pptx', 'uploads\\sipoc_table2_367af474_verbs.pptx', 'uploads\\sipoc_table2_367af474_decision-bubbles.pptx', 'uploads\\sipoc_table2_367af474_subbubbles.pptx']
-INFO:root:All required files existttttttt.
-INFO:root:All files zipped successfully.
-INFO:root:ZIP file for download: <Response streamed [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:30:37] "GET /download_all_files HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:30:59] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:30:59] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table1.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table1_9a6a8fed.csv
-INFO:root:Filename without extension: sipoc_table1_9a6a8fed
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:31:20] "POST /upload HTTP/1.1" 200 -
-INFO:root:files_to_download
-INFO:root:{'uploads\\sipoc_table1_9a6a8fed.pptx'}
-INFO:root:{'uploads\\sipoc_table1_9a6a8fed_verbs.pptx'}
-INFO:root:{'uploads\\sipoc_table1_9a6a8fed_decision-bubbles.pptx'}
-INFO:root:{'uploads\\sipoc_table1_9a6a8fed_subbubbles.pptx'}
-INFO:root:all files address:['uploads\\sipoc_table1_9a6a8fed.pptx', 'uploads\\sipoc_table1_9a6a8fed_verbs.pptx', 'uploads\\sipoc_table1_9a6a8fed_decision-bubbles.pptx', 'uploads\\sipoc_table1_9a6a8fed_subbubbles.pptx']
-INFO:root:All required files existttttttt.
-INFO:root:All files zipped successfully.
-INFO:root:ZIP file for download: <Response streamed [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:31:22] "GET /download_all_files HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:35:32] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:35:32] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table2.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table2_8ec01029.csv
-INFO:root:Filename without extension: sipoc_table2_8ec01029
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:36:00] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:36:28] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:36:28] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:44:51] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:44:51] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:44:52] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:44:52] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:45:51] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:45:51] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:45:52] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:45:52] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:46:01] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:46:01] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:47:57] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:47:57] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:54:57] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 09:54:57] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:02:47] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:02:47] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:02:48] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:02:48] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table2.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table2_884686ed.csv
-INFO:root:Filename without extension: sipoc_table2_884686ed
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:03:07] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:03:12] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:03:12] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:11:33] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:11:33] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:11:38] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:11:38] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:11:55] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:11:55] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:11:59] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:11:59] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:13:40] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:13:40] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:13:42] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:13:42] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table1.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table1_24a4ba55.csv
-INFO:root:Filename without extension: sipoc_table1_24a4ba55
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:14:10] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:14:30] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:14:30] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:19:45] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:19:45] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:20:05] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:20:19] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:20:19] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:25:55] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:25:55] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table2.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table2_952e3b21.csv
-INFO:root:Filename without extension: sipoc_table2_952e3b21
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:26:15] "POST /upload HTTP/1.1" 200 -
-INFO:root:files_to_download
-INFO:root:{'uploads\\sipoc_table2_952e3b21.pptx'}
-INFO:root:{'uploads\\sipoc_table2_952e3b21_verbs.pptx'}
-INFO:root:{'uploads\\sipoc_table2_952e3b21_decision-bubbles.pptx'}
-INFO:root:{'uploads\\sipoc_table2_952e3b21_subbubbles.pptx'}
-INFO:root:all files address:['uploads\\sipoc_table2_952e3b21.pptx', 'uploads\\sipoc_table2_952e3b21_verbs.pptx', 'uploads\\sipoc_table2_952e3b21_decision-bubbles.pptx', 'uploads\\sipoc_table2_952e3b21_subbubbles.pptx']
-INFO:root:All required files existttttttt.
-INFO:root:All files zipped successfully.
-INFO:root:ZIP file for download: <Response streamed [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:26:17] "GET /download_all_files HTTP/1.1" 200 -
-INFO:root:PowerPoint file downloaded successfully.
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:26:20] "GET /download_pptx HTTP/1.1" 200 -
-INFO:root:Sub_bubbles pptx file path uploads\sipoc_table2_952e3b21_subbubbles.pptx
-INFO:root:Sub_bubbles pptx file downloaded successfully.
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:26:23] "GET /download_Sub_bubbles HTTP/1.1" 200 -
-INFO:root:decision_bubbles pptx file downloaded successfully.
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:26:25] "GET /download_decision_bubbles HTTP/1.1" 200 -
-INFO:root:Verbs pptx file downloaded successfully.
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:26:27] "GET /download_verbs HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:31:31] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:31:31] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:31:32] "GET /static/Sipoc-Table-Template.csv HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:31:34] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 10:31:34] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 11:53:58] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 11:53:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 11:58:26] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table_997af487.csv
-INFO:root:Filename without extension: sipoc_table_997af487
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 11:59:07] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 12:19:30] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 12:19:30] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table_6b0746af.csv
-INFO:root:Filename without extension: sipoc_table_6b0746af
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 12:19:58] "POST /upload HTTP/1.1" 200 -
-INFO:root:PowerPoint file downloaded successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 12:20:03] "GET /download_pptx HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 12:21:22] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 12:21:22] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table-Uni.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table-Uni_6e449d53.csv
-INFO:root:Filename without extension: sipoc_table-Uni_6e449d53
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 12:21:55] "POST /upload HTTP/1.1" 200 -
-INFO:root:PowerPoint file downloaded successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 12:21:56] "GET /download_pptx HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 12:41:27] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 12:41:27] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table-Uni.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table-Uni_42451f20.csv
-INFO:root:Filename without extension: sipoc_table-Uni_42451f20
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 12:41:44] "POST /upload HTTP/1.1" 200 -
-INFO:root:PowerPoint file downloaded successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 12:41:47] "GET /download_pptx HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 12:44:43] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 12:44:43] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table-Uni.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table-Uni_1a94cf08.csv
-INFO:root:Filename without extension: sipoc_table-Uni_1a94cf08
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 12:45:29] "POST /upload HTTP/1.1" 200 -
-INFO:root:PowerPoint file downloaded successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 12:45:30] "GET /download_pptx HTTP/1.1" 200 -
-INFO:root:Verbs pptx file downloaded successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 12:52:44] "GET /download_verbs HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 12:54:33] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 12:54:33] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table-Uni.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table-Uni_a3a419d2.csv
-INFO:root:Filename without extension: sipoc_table-Uni_a3a419d2
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 12:54:51] "POST /upload HTTP/1.1" 200 -
-INFO:root:Verbs pptx file downloaded successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 12:55:36] "GET /download_verbs HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 13:15:49] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 13:15:49] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table-Uni.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table-Uni_43ea8e69.csv
-INFO:root:Filename without extension: sipoc_table-Uni_43ea8e69
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 13:16:05] "POST /upload HTTP/1.1" 200 -
-INFO:root:Sub_bubbles pptx file path uploads\sipoc_table-Uni_43ea8e69_subbubbles.pptx
-INFO:root:Sub_bubbles pptx file downloaded successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 13:16:08] "GET /download_Sub_bubbles HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 13:28:02] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 13:28:02] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table-Uni.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table-Uni_9786f3dc.csv
-INFO:root:Filename without extension: sipoc_table-Uni_9786f3dc
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 13:28:18] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 13:29:15] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 13:29:15] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table-Uni.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table-Uni_6d6c5677.csv
-INFO:root:Filename without extension: sipoc_table-Uni_6d6c5677
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 13:29:31] "POST /upload HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 13:30:12] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 13:30:12] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table-Uni.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table-Uni_09943962.csv
-INFO:root:Filename without extension: sipoc_table-Uni_09943962
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 13:33:01] "POST /upload HTTP/1.1" 200 -
-INFO:root:decision_bubbles pptx file downloaded successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 13:33:09] "GET /download_decision_bubbles HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 13:35:57] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 13:35:58] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 13:35:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 13:36:00] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 13:36:00] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table-Uni - Copy.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table-Uni - Copy_12ba106f.csv
-INFO:root:Filename without extension: sipoc_table-Uni - Copy_12ba106f
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 13:36:54] "POST /upload HTTP/1.1" 200 -
-INFO:root:decision_bubbles pptx file downloaded successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 13:37:04] "GET /download_decision_bubbles HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 16:58:10] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 16:58:10] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table-Uni.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table-Uni_1948faaa.csv
-INFO:root:Filename without extension: sipoc_table-Uni_1948faaa
-INFO:root:calling your Python scripts.
+INFO:root:Uploaded filename: make car.csv
+INFO:root:Uploaded filepath: uploads\make car_5dd04182.csv
+INFO:root:Filename without extension: make car_5dd04182
+INFO:root:calling your python scripts.
 INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
 INFO:root:Non-Core-Process-Statement.py executed successfully.
 INFO:root:Seperate_verbs.py executed successfully.
 INFO:root:Bracket.py executed successfully.
 INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 16:58:50] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 13:11:05] "POST /upload HTTP/1.1" 200 -
+INFO:root:pptx_path: uploads\make car_5dd04182.pptx
+INFO:root:non_cp_statement_path: uploads\make car_5dd04182_non-cp-statement.pptx
+INFO:root:verbs_path: uploads\make car_5dd04182_verbs.pptx
+INFO:root:decision_bubbles_path: uploads\make car_5dd04182_decision-bubbles.pptx
+INFO:root:subbubbles_path: uploads\make car_5dd04182_subbubbles.pptx
+INFO:root:Adding slide from: uploads\make car_5dd04182.pptx
+ERROR:root:An error occurred while downloading all files: cannot identify image file <_io.BytesIO object at 0x0000028ECBEA9F80>
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 13:11:08] "GET /download_all_files HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 13:19:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 13:19:00] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: make car.csv
+INFO:root:Uploaded filepath: uploads\make car_d27a592c.csv
+INFO:root:Filename without extension: make car_d27a592c
+INFO:root:calling your python scripts.
+INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
+INFO:root:Non-Core-Process-Statement.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:root:Decision-Bubbles.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 13:19:22] "POST /upload HTTP/1.1" 200 -
+INFO:root:pptx_path: uploads\make car_d27a592c.pptx
+INFO:root:non_cp_statement_path: uploads\make car_d27a592c_non-cp-statement.pptx
+INFO:root:verbs_path: uploads\make car_d27a592c_verbs.pptx
+INFO:root:decision_bubbles_path: uploads\make car_d27a592c_decision-bubbles.pptx
+INFO:root:subbubbles_path: uploads\make car_d27a592c_subbubbles.pptx
+INFO:root:Adding slide from: uploads\make car_d27a592c.pptx
+ERROR:root:An error occurred while downloading all files: cannot identify image file <_io.BytesIO object at 0x000001EBD6FAE070>
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 13:19:32] "GET /download_all_files HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 13:54:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 13:54:25] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: make car.csv
+INFO:root:Uploaded filepath: uploads\make car_27ab729b.csv
+INFO:root:Filename without extension: make car_27ab729b
+INFO:root:calling your python scripts.
+INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
+INFO:root:Non-Core-Process-Statement.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:root:Decision-Bubbles.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 13:54:48] "POST /upload HTTP/1.1" 200 -
+INFO:root:PowerPoint file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 13:54:55] "GET /download_pptx HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 13:56:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 13:56:28] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 15:58:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 15:58:16] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: input.csv
+INFO:root:Uploaded filepath: uploads\input_a4d0a487.csv
+INFO:root:Filename without extension: input_a4d0a487
+INFO:root:calling your python scripts.
+INFO:root:Sipoc_to_pptx.py executed successfully.
+INFO:root:Non_Core_Process_Statement.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:root:Decision_Bubbles.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 15:58:58] "POST /upload HTTP/1.1" 200 -
+INFO:root:pptx_path: uploads\input_a4d0a487.pptx
+INFO:root:non_cp_statement_path: uploads\input_a4d0a487_non-cp-statement.pptx
+INFO:root:verbs_path: uploads\input_a4d0a487_verbs.pptx
+INFO:root:decision_bubbles_path: uploads\input_a4d0a487_decision-bubbles.pptx
+INFO:root:subbubbles_path: uploads\input_a4d0a487_subbubbles.pptx
+INFO:root:Adding slide from: uploads\input_a4d0a487.pptx
+ERROR:root:An error occurred while downloading all files: cannot identify image file <_io.BytesIO object at 0x00000162D8623DD0>
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 15:59:01] "GET /download_all_files HTTP/1.1" 200 -
+INFO:root:PowerPoint file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 15:59:04] "GET /download_pptx HTTP/1.1" 200 -
 INFO:root:Non-CP-Statement file downloaded successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 16:58:53] "GET /download_NC_Statement HTTP/1.1" 200 -
-INFO:root:files_to_download
-INFO:root:{'uploads\\sipoc_table-Uni_1948faaa.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_1948faaa_verbs.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_1948faaa_decision-bubbles.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_1948faaa_subbubbles.pptx'}
-INFO:root:all files address:['uploads\\sipoc_table-Uni_1948faaa.pptx', 'uploads\\sipoc_table-Uni_1948faaa_verbs.pptx', 'uploads\\sipoc_table-Uni_1948faaa_decision-bubbles.pptx', 'uploads\\sipoc_table-Uni_1948faaa_subbubbles.pptx']
-INFO:root:All required files existttttttt.
-INFO:root:All files zipped successfully.
-INFO:root:ZIP file for download: <Response streamed [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 16:59:01] "GET /download_all_files HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 15:59:05] "GET /download_NC_Statement HTTP/1.1" 200 -
+INFO:root:Sub_bubbles pptx file path uploads\input_a4d0a487_subbubbles.pptx
+INFO:root:Sub_bubbles pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 15:59:06] "GET /download_Sub_bubbles HTTP/1.1" 200 -
+INFO:root:decision_bubbles pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 15:59:06] "GET /download_decision_bubbles HTTP/1.1" 200 -
+INFO:root:Verbs pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 15:59:08] "GET /download_verbs HTTP/1.1" 200 -
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
  * Running on http://192.168.1.102:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 17:20:01] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 17:20:01] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 16:15:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 16:15:15] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
 INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table-Uni.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table-Uni_9ca2d1d6.csv
-INFO:root:Filename without extension: sipoc_table-Uni_9ca2d1d6
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Non-Core-Process-Statement.py executed successfully.
+INFO:root:Uploaded filename: input.csv
+INFO:root:Uploaded filepath: uploads\input_4f2fb453.csv
+INFO:root:Filename without extension: input_4f2fb453
+INFO:root:calling your python scripts.
+INFO:root:Sipoc_to_pptx.py executed successfully.
+INFO:root:Non_Core_Process_Statement.py executed successfully.
 INFO:root:Seperate_verbs.py executed successfully.
 INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 17:20:22] "POST /upload HTTP/1.1" 200 -
-INFO:root:files_to_download
-INFO:root:{'uploads\\sipoc_table-Uni_9ca2d1d6.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_9ca2d1d6Non-CP-Statement.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_9ca2d1d6_verbs.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_9ca2d1d6_decision-bubbles.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_9ca2d1d6_subbubbles.pptx'}
-INFO:root:all files address:['uploads\\sipoc_table-Uni_9ca2d1d6.pptx', 'uploads\\sipoc_table-Uni_9ca2d1d6Non-CP-Statement.pptx', 'uploads\\sipoc_table-Uni_9ca2d1d6_verbs.pptx', 'uploads\\sipoc_table-Uni_9ca2d1d6_decision-bubbles.pptx', 'uploads\\sipoc_table-Uni_9ca2d1d6_subbubbles.pptx']
-INFO:root:All required files existttttttt.
-INFO:root:All files zipped successfully.
-INFO:root:ZIP file for download: <Response streamed [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 17:20:29] "GET /download_all_files HTTP/1.1" 200 -
+INFO:root:Decision_Bubbles.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 16:15:36] "POST /upload HTTP/1.1" 200 -
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
  * Running on http://192.168.1.102:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 17:23:50] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 17:23:50] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 22:00:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 22:00:25] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
 INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table-Uni.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table-Uni_d0a2427f.csv
-INFO:root:Filename without extension: sipoc_table-Uni_d0a2427f
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Non-Core-Process-Statement.py executed successfully.
+INFO:root:Uploaded filename: make_car_d27a592c.csv
+INFO:root:Uploaded filepath: uploads\make_car_d27a592c_422a247c.csv
+INFO:root:Filename without extension: make_car_d27a592c_422a247c
+INFO:root:calling your python scripts.
+INFO:root:Sipoc_to_pptx.py executed successfully.
+INFO:root:Non_Core_Process_Statement.py executed successfully.
 INFO:root:Seperate_verbs.py executed successfully.
 INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 17:24:10] "POST /upload HTTP/1.1" 200 -
-INFO:root:files_to_download
-INFO:root:{'uploads\\sipoc_table-Uni_d0a2427f.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_d0a2427f_non-pc-statement.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_d0a2427f_verbs.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_d0a2427f_decision-bubbles.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_d0a2427f_subbubbles.pptx'}
-INFO:root:all files address:['uploads\\sipoc_table-Uni_d0a2427f.pptx', 'uploads\\sipoc_table-Uni_d0a2427f_non-pc-statement.pptx', 'uploads\\sipoc_table-Uni_d0a2427f_verbs.pptx', 'uploads\\sipoc_table-Uni_d0a2427f_decision-bubbles.pptx', 'uploads\\sipoc_table-Uni_d0a2427f_subbubbles.pptx']
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 17:24:46] "GET /download_all_files HTTP/1.1" 200 -
+INFO:root:Decision_Bubbles.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 22:01:07] "POST /upload HTTP/1.1" 200 -
+INFO:root:PowerPoint file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 22:01:34] "GET /download_pptx HTTP/1.1" 200 -
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
  * Running on http://192.168.1.102:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 17:26:37] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 17:26:37] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 09:38:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 09:38:53] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
 INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table-Uni.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table-Uni_4f63b770.csv
-INFO:root:Filename without extension: sipoc_table-Uni_4f63b770
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Non-Core-Process-Statement.py executed successfully.
+INFO:root:Uploaded filename: make_car_d27a592c.csv
+INFO:root:Uploaded filepath: uploads\make_car_d27a592c_2407a060.csv
+INFO:root:Filename without extension: make_car_d27a592c_2407a060
+INFO:root:calling your python scripts.
+INFO:root:Sipoc_to_pptx.py executed successfully.
+INFO:root:Non_Core_Process_Statement.py executed successfully.
 INFO:root:Seperate_verbs.py executed successfully.
 INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 17:26:57] "POST /upload HTTP/1.1" 200 -
-INFO:root:files_to_download
-INFO:root:{'uploads\\sipoc_table-Uni_4f63b770.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_4f63b770_non-pc-statement.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_4f63b770_verbs.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_4f63b770_decision-bubbles.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_4f63b770_subbubbles.pptx'}
-INFO:root:all files address:['uploads\\sipoc_table-Uni_4f63b770.pptx', 'uploads\\sipoc_table-Uni_4f63b770_non-pc-statement.pptx', 'uploads\\sipoc_table-Uni_4f63b770_verbs.pptx', 'uploads\\sipoc_table-Uni_4f63b770_decision-bubbles.pptx', 'uploads\\sipoc_table-Uni_4f63b770_subbubbles.pptx']
-INFO:root:All required files existttttttt.
-INFO:root:All files zipped successfully.
-INFO:root:ZIP file for download: <Response streamed [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 17:26:59] "GET /download_all_files HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.102:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 17:28:34] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 17:28:34] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table-Uni.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table-Uni_7a6de215.csv
-INFO:root:Filename without extension: sipoc_table-Uni_7a6de215
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Non-Core-Process-Statement.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 17:28:54] "POST /upload HTTP/1.1" 200 -
-INFO:root:files_to_download
-INFO:root:{'uploads\\sipoc_table-Uni_7a6de215.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_7a6de215_non-cp-statement.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_7a6de215_verbs.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_7a6de215_decision-bubbles.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_7a6de215_subbubbles.pptx'}
-INFO:root:all files address:['uploads\\sipoc_table-Uni_7a6de215.pptx', 'uploads\\sipoc_table-Uni_7a6de215_non-cp-statement.pptx', 'uploads\\sipoc_table-Uni_7a6de215_verbs.pptx', 'uploads\\sipoc_table-Uni_7a6de215_decision-bubbles.pptx', 'uploads\\sipoc_table-Uni_7a6de215_subbubbles.pptx']
-INFO:root:All required files existttttttt.
-INFO:root:All files zipped successfully.
-INFO:root:ZIP file for download: <Response streamed [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 17:28:56] "GET /download_all_files HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 22:02:29] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 22:02:29] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table-Uni.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table-Uni_b18a953c.csv
-INFO:root:Filename without extension: sipoc_table-Uni_b18a953c
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Non-Core-Process-Statement.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 22:03:09] "POST /upload HTTP/1.1" 200 -
-INFO:root:files_to_download
-INFO:root:{'uploads\\sipoc_table-Uni_b18a953c.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_b18a953c_non-cp-statement.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_b18a953c_verbs.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_b18a953c_decision-bubbles.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_b18a953c_subbubbles.pptx'}
-INFO:root:all files address:['uploads\\sipoc_table-Uni_b18a953c.pptx', 'uploads\\sipoc_table-Uni_b18a953c_non-cp-statement.pptx', 'uploads\\sipoc_table-Uni_b18a953c_verbs.pptx', 'uploads\\sipoc_table-Uni_b18a953c_decision-bubbles.pptx', 'uploads\\sipoc_table-Uni_b18a953c_subbubbles.pptx']
-INFO:root:All required files existttttttt.
-INFO:root:All files zipped successfully.
-INFO:root:ZIP file for download: <Response streamed [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 22:03:14] "GET /download_all_files HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 22:05:36] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 22:05:36] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
-INFO:root:CSV file saved successfully.
-INFO:root:Uploaded filename: sipoc_table-Uni.csv
-INFO:root:Uploaded filepath: uploads\sipoc_table-Uni_cc18531a.csv
-INFO:root:Filename without extension: sipoc_table-Uni_cc18531a
-INFO:root:calling your Python scripts.
-INFO:root:sipoc-to-pptx-4-Flask.py executed successfully.
-INFO:root:Non-Core-Process-Statement.py executed successfully.
-INFO:root:Seperate_verbs.py executed successfully.
-INFO:root:Bracket.py executed successfully.
-INFO:root:Decision-Bubbles.py executed successfully.
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 22:06:00] "POST /upload HTTP/1.1" 200 -
-INFO:root:files_to_download
-INFO:root:{'uploads\\sipoc_table-Uni_cc18531a.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_cc18531a_non-cp-statement.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_cc18531a_verbs.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_cc18531a_decision-bubbles.pptx'}
-INFO:root:{'uploads\\sipoc_table-Uni_cc18531a_subbubbles.pptx'}
-INFO:root:all files address:['uploads\\sipoc_table-Uni_cc18531a.pptx', 'uploads\\sipoc_table-Uni_cc18531a_non-cp-statement.pptx', 'uploads\\sipoc_table-Uni_cc18531a_verbs.pptx', 'uploads\\sipoc_table-Uni_cc18531a_decision-bubbles.pptx', 'uploads\\sipoc_table-Uni_cc18531a_subbubbles.pptx']
-INFO:root:All required files existttttttt.
-INFO:root:All files zipped successfully.
-INFO:root:ZIP file for download: <Response streamed [200 OK]>
-INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 22:06:02] "GET /download_all_files HTTP/1.1" 200 -
+INFO:root:Decision_Bubbles.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 09:39:09] "POST /upload HTTP/1.1" 200 -
