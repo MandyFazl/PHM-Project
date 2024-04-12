@@ -160,3 +160,707 @@ INFO:root:Seperate_verbs.py executed successfully.
 INFO:root:Bracket.py executed successfully.
 INFO:root:Decision_Bubbles.py executed successfully.
 INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 09:39:09] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2024 11:45:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2024 11:45:47] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2024 11:45:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: make car.csv
+INFO:root:Uploaded filepath: uploads\make car_3a783811.csv
+INFO:root:Filename without extension: make car_3a783811
+INFO:root:calling your python scripts.
+INFO:root:Sipoc_to_pptx.py executed successfully.
+INFO:root:Non_Core_Process_Statement.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:root:Decision_Bubbles.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2024 11:46:15] "POST /upload HTTP/1.1" 200 -
+INFO:root:PowerPoint file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2024 11:46:20] "GET /download_pptx HTTP/1.1" 200 -
+INFO:root:Non-CP-Statement file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2024 11:46:51] "GET /download_NC_Statement HTTP/1.1" 200 -
+INFO:root:Sub_bubbles pptx file path uploads\make car_3a783811_subbubbles.pptx
+INFO:root:Sub_bubbles pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2024 11:46:52] "GET /download_Sub_bubbles HTTP/1.1" 200 -
+INFO:root:decision_bubbles pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2024 11:46:53] "GET /download_decision_bubbles HTTP/1.1" 200 -
+INFO:root:Verbs pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2024 11:46:54] "GET /download_verbs HTTP/1.1" 200 -
+INFO:root:pptx_path: uploads\make car_3a783811.pptx
+INFO:root:non_cp_statement_path: uploads\make car_3a783811_non-cp-statement.pptx
+INFO:root:verbs_path: uploads\make car_3a783811_verbs.pptx
+INFO:root:decision_bubbles_path: uploads\make car_3a783811_decision-bubbles.pptx
+INFO:root:subbubbles_path: uploads\make car_3a783811_subbubbles.pptx
+INFO:root:Adding slide from: uploads\make car_3a783811.pptx
+ERROR:root:An error occurred while downloading all files: cannot identify image file <_io.BytesIO object at 0x000001F9BDDCDF80>
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2024 11:47:02] "GET /download_all_files HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2024 11:47:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2024 11:47:42] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: make car.csv
+INFO:root:Uploaded filepath: uploads\make car_4529278f.csv
+INFO:root:Filename without extension: make car_4529278f
+INFO:root:calling your python scripts.
+INFO:root:Sipoc_to_pptx.py executed successfully.
+INFO:root:Non_Core_Process_Statement.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:root:Decision_Bubbles.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2024 11:48:02] "POST /upload HTTP/1.1" 200 -
+INFO:root:pptx_path: uploads\make car_4529278f.pptx
+INFO:root:non_cp_statement_path: uploads\make car_4529278f_non-cp-statement.pptx
+INFO:root:verbs_path: uploads\make car_4529278f_verbs.pptx
+INFO:root:decision_bubbles_path: uploads\make car_4529278f_decision-bubbles.pptx
+INFO:root:subbubbles_path: uploads\make car_4529278f_subbubbles.pptx
+INFO:root:Adding slide from: uploads\make car_4529278f.pptx
+ERROR:root:An error occurred while downloading all files: cannot identify image file <_io.BytesIO object at 0x000001F9BEFA5850>
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2024 11:48:06] "GET /download_all_files HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2024 11:52:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2024 11:52:19] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: make car.csv
+INFO:root:Uploaded filepath: uploads\make car_a36f2797.csv
+INFO:root:Filename without extension: make car_a36f2797
+INFO:root:calling your python scripts.
+INFO:root:Sipoc_to_pptx.py executed successfully.
+INFO:root:Non_Core_Process_Statement.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:root:Decision_Bubbles.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2024 11:52:43] "POST /upload HTTP/1.1" 200 -
+INFO:root:PowerPoint file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2024 11:52:46] "GET /download_pptx HTTP/1.1" 200 -
+INFO:root:Non-CP-Statement file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2024 11:52:58] "GET /download_NC_Statement HTTP/1.1" 200 -
+INFO:root:Sub_bubbles pptx file path uploads\make car_a36f2797_subbubbles.pptx
+INFO:root:Sub_bubbles pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2024 11:52:59] "GET /download_Sub_bubbles HTTP/1.1" 200 -
+INFO:root:decision_bubbles pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2024 11:53:00] "GET /download_decision_bubbles HTTP/1.1" 200 -
+INFO:root:Verbs pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2024 11:53:00] "GET /download_verbs HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 14:28:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 14:28:34] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 14:28:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: make-car.csv
+INFO:root:Uploaded filepath: uploads\make-car_daebe68a.csv
+INFO:root:Filename without extension: make-car_daebe68a
+INFO:root:calling your python scripts.
+INFO:root:Sipoc_to_pptx.py executed successfully.
+INFO:root:Non_Core_Process_Statement.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:root:Decision_Bubbles.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 14:29:03] "POST /upload HTTP/1.1" 200 -
+INFO:root:PowerPoint file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 14:29:08] "GET /download_pptx HTTP/1.1" 200 -
+INFO:root:Non-CP-Statement file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 14:29:11] "GET /download_NC_Statement HTTP/1.1" 200 -
+INFO:root:Sub_bubbles pptx file path uploads\make-car_daebe68a_subbubbles.pptx
+INFO:root:Sub_bubbles pptx file downloaded successfully.
+ERROR:root:An error occurred: [WinError 2] The system cannot find the file specified: 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\uploads\\make-car_daebe68a_subbubbles.pptx'
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 14:29:15] "GET /download_Sub_bubbles HTTP/1.1" 200 -
+INFO:root:decision_bubbles pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 14:29:18] "GET /download_decision_bubbles HTTP/1.1" 200 -
+INFO:root:Verbs pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 14:29:21] "GET /download_verbs HTTP/1.1" 200 -
+INFO:root:Combined file
+INFO:root:{'uploads\\make-car_daebe68a_combined.pptx'}
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 14:29:28] "GET /download_all_files HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 14:42:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 14:42:51] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: input.csv
+INFO:root:Uploaded filepath: uploads\input_f1c96c65.csv
+INFO:root:Filename without extension: input_f1c96c65
+INFO:root:calling your python scripts.
+INFO:root:Sipoc_to_pptx.py executed successfully.
+INFO:root:Non_Core_Process_Statement.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:root:Decision_Bubbles.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 14:43:14] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sub_bubbles pptx file path uploads\input_f1c96c65_subbubbles.pptx
+INFO:root:Sub_bubbles pptx file downloaded successfully.
+ERROR:root:An error occurred: [WinError 2] The system cannot find the file specified: 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\uploads\\input_f1c96c65_subbubbles.pptx'
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 14:43:32] "GET /download_Sub_bubbles HTTP/1.1" 200 -
+INFO:root:Combined file
+INFO:root:{'uploads\\input_f1c96c65_combined.pptx'}
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 14:43:50] "GET /download_all_files HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 15:00:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 15:00:13] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: input.csv
+INFO:root:Uploaded filepath: uploads\input_10369386.csv
+INFO:root:Filename without extension: input_10369386
+INFO:root:calling your python scripts.
+INFO:root:Sipoc_to_pptx.py executed successfully.
+INFO:root:Non_Core_Process_Statement.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:root:Decision_Bubbles.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 15:00:37] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sub_bubbles pptx file path uploads\input_10369386_subbubbles.pptx
+INFO:root:Sub_bubbles pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2024 15:00:40] "GET /download_Sub_bubbles HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 08:31:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 08:31:37] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: input.csv
+INFO:root:Uploaded filepath: uploads\input_09be4729.csv
+INFO:root:Filename without extension: input_09be4729
+INFO:root:calling your python scripts.
+INFO:root:Sipoc_to_pptx.py executed successfully.
+INFO:root:Non_Core_Process_Statement.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:root:Decision_Bubbles.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 08:31:54] "POST /upload HTTP/1.1" 200 -
+INFO:root:Combined file
+INFO:root:{'uploads\\input_09be4729_combined.pptx'}
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 08:32:22] "GET /download_all_files HTTP/1.1" 200 -
+INFO:root:PowerPoint file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 08:32:25] "GET /download_pptx HTTP/1.1" 200 -
+INFO:root:Non-CP-Statement file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 08:32:27] "GET /download_NC_Statement HTTP/1.1" 200 -
+INFO:root:Sub_bubbles pptx file path uploads\input_09be4729_subbubbles.pptx
+INFO:root:Sub_bubbles pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 08:32:31] "GET /download_Sub_bubbles HTTP/1.1" 200 -
+INFO:root:decision_bubbles pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 08:32:33] "GET /download_decision_bubbles HTTP/1.1" 200 -
+INFO:root:Verbs pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 08:32:35] "GET /download_verbs HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 08:43:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 08:43:08] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: input.csv
+INFO:root:Uploaded filepath: uploads\input_1f343eed.csv
+INFO:root:Filename without extension: input_1f343eed
+INFO:root:calling your python scripts.
+INFO:root:Sipoc_to_pptx.py executed successfully.
+INFO:root:Non_Core_Process_Statement.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:root:Decision_Bubbles.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 08:43:24] "POST /upload HTTP/1.1" 200 -
+INFO:root:PowerPoint file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 08:43:38] "GET /download_pptx HTTP/1.1" 200 -
+INFO:root:Non-CP-Statement file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 08:43:39] "GET /download_NC_Statement HTTP/1.1" 200 -
+INFO:root:Combined file
+INFO:root:{'uploads\\input_1f343eed_combined.pptx'}
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 08:43:39] "GET /download_all_files HTTP/1.1" 200 -
+INFO:root:Sub_bubbles pptx file path uploads\input_1f343eed_subbubbles.pptx
+INFO:root:Sub_bubbles pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 08:43:40] "GET /download_Sub_bubbles HTTP/1.1" 200 -
+INFO:root:decision_bubbles pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 08:43:42] "GET /download_decision_bubbles HTTP/1.1" 200 -
+INFO:root:Verbs pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 08:43:43] "GET /download_verbs HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 08:54:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 08:54:37] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: make-car.csv
+INFO:root:Uploaded filepath: uploads\make-car_fd218bec.csv
+INFO:root:Filename without extension: make-car_fd218bec
+INFO:root:calling your python3 scripts.
+INFO:root:Sipoc_to_pptx.py executed successfully.
+INFO:root:Non_Core_Process_Statement.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:root:Decision_Bubbles.py executed successfully.
+INFO:root:RunAll.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 08:54:59] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 08:55:03] "GET /download_all_files HTTP/1.1" 200 -
+INFO:root:PowerPoint file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 08:55:06] "GET /download_pptx HTTP/1.1" 200 -
+INFO:root:Non-CP-Statement file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 08:55:07] "GET /download_NC_Statement HTTP/1.1" 200 -
+INFO:root:Sub_bubbles pptx file path uploads\make-car_fd218bec_subbubbles.pptx
+INFO:root:Sub_bubbles pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 08:55:08] "GET /download_Sub_bubbles HTTP/1.1" 200 -
+INFO:root:decision_bubbles pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 08:55:10] "GET /download_decision_bubbles HTTP/1.1" 200 -
+INFO:root:Verbs pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 08:55:11] "GET /download_verbs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 09:00:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 09:00:01] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: make-car2.csv
+INFO:root:Uploaded filepath: uploads\make-car2_e05fb8b8.csv
+INFO:root:Filename without extension: make-car2_e05fb8b8
+INFO:root:calling your python3 scripts.
+INFO:root:Sipoc_to_pptx.py executed successfully.
+INFO:root:Non_Core_Process_Statement.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:root:Decision_Bubbles.py executed successfully.
+INFO:root:RunAll.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 09:00:26] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 09:00:39] "GET /download_all_files HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 09:07:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 09:07:30] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 09:07:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 09:07:37] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: input.csv
+INFO:root:Uploaded filepath: uploads\input_bd1e4f66.csv
+INFO:root:Filename without extension: input_bd1e4f66
+INFO:root:calling your python3 scripts.
+INFO:root:Sipoc_to_pptx.py executed successfully.
+INFO:root:Non_Core_Process_Statement.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:root:Decision_Bubbles.py executed successfully.
+INFO:root:RunAll.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 09:07:57] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 09:07:59] "GET /download_all_files HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 09:10:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 09:10:04] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: input.csv
+INFO:root:Uploaded filepath: uploads\input_289be013.csv
+INFO:root:Filename without extension: input_289be013
+INFO:root:calling your python3 scripts.
+INFO:root:Sipoc_to_pptx.py executed successfully.
+INFO:root:Non_Core_Process_Statement.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:root:Decision_Bubbles.py executed successfully.
+INFO:root:RunAll.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 09:10:21] "POST /upload HTTP/1.1" 200 -
+INFO:root:Combined file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 09:10:24] "GET /download_all_files HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 11:17:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 11:17:24] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 11:17:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 12:44:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 12:44:37] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 12:45:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 12:45:04] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 12:45:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 12:45:05] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 12:45:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 12:45:18] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 12:47:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 12:47:08] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 12:48:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 12:48:29] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 12:48:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 12:48:35] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:01:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:01:23] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:02:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:02:13] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:05:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:05:12] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:06:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:06:12] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: sipoc_table.csv
+INFO:root:Uploaded filepath: uploads\sipoc_table_91b87af1.csv
+INFO:root:Filename without extension: sipoc_table_91b87af1
+INFO:root:calling your python3 scripts.
+INFO:root:Sipoc_to_pptx.py executed successfully.
+INFO:root:Non_Core_Process_Statement.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:root:Decision_Bubbles.py executed successfully.
+INFO:root:RunAll.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:07:37] "POST /upload HTTP/1.1" 200 -
+INFO:root:Combined file downloaded successfully.
+ERROR:root:An error occurred while downloading all files: [WinError 2] The system cannot find the file specified: 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\uploads\\sipoc_table_91b87af1_combined.pptx'
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:07:45] "GET /download_all_files HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:08:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:08:10] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: make car.csv
+INFO:root:Uploaded filepath: uploads\make car_4cd3c1d3.csv
+INFO:root:Filename without extension: make car_4cd3c1d3
+INFO:root:calling your python3 scripts.
+INFO:root:Sipoc_to_pptx.py executed successfully.
+INFO:root:Non_Core_Process_Statement.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:root:Decision_Bubbles.py executed successfully.
+INFO:root:RunAll.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:08:22] "POST /upload HTTP/1.1" 200 -
+INFO:root:Combined file downloaded successfully.
+ERROR:root:An error occurred while downloading all files: [WinError 2] The system cannot find the file specified: 'C:\\Users\\m_faz\\OneDrive\\Documents\\GitHub\\MandyFazl-Portfolio\\PHM-Project\\PrOH-Modeller\\Pro-python\\uploads\\make car_4cd3c1d3_combined.pptx'
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:08:23] "GET /download_all_files HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:09:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:09:09] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: make car.csv
+INFO:root:Uploaded filepath: uploads\make car_006c28f3.csv
+INFO:root:Filename without extension: make car_006c28f3
+INFO:root:calling your python3 scripts.
+INFO:root:Sipoc_to_pptx.py executed successfully.
+INFO:root:Non_Core_Process_Statement.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:root:Decision_Bubbles.py executed successfully.
+INFO:root:RunAll.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:09:41] "POST /upload HTTP/1.1" 200 -
+INFO:root:Combined file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:09:52] "GET /download_all_files HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:10:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:10:52] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:11:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:11:46] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:13:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:13:18] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:37:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:37:48] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:38:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:38:12] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:40:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:40:46] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:40:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:40:48] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:40:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:40:49] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:40:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:40:55] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:40:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:40:57] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:41:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:41:45] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:57:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 15:57:33] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:00:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:00:48] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:00:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:00:50] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:00:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:00:51] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:00:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:00:52] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:02:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:02:12] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:02:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:02:13] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:02:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:02:14] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:02:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:02:53] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:13:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:13:29] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:14:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:14:08] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:14:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:14:58] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:15:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:15:26] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:17:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:17:04] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:18:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:18:07] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:18:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:18:54] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:18:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:18:55] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:18:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:18:56] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:19:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:19:39] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:22:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 16:22:20] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 22:29:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 22:29:36] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: MakeCarPlus.csv
+INFO:root:Uploaded filepath: uploads\MakeCarPlus_65ba48bc.csv
+INFO:root:Filename without extension: MakeCarPlus_65ba48bc
+INFO:root:calling your python3 scripts.
+INFO:root:Sipoc_to_pptx.py executed successfully.
+INFO:root:Non_Core_Process_Statement.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:root:Decision_Bubbles.py executed successfully.
+INFO:root:RunAll.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 22:30:06] "POST /upload HTTP/1.1" 200 -
+INFO:root:Combined file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 22:30:11] "GET /download_all_files HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 22:41:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 22:41:50] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2024 15:22:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2024 15:22:17] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: MakeCarPlus.csv
+INFO:root:Uploaded filepath: uploads\MakeCarPlus_73cc6bdc.csv
+INFO:root:Filename without extension: MakeCarPlus_73cc6bdc
+INFO:root:calling your python3 scripts.
+INFO:root:Sipoc_to_pptx.py executed successfully.
+INFO:root:Non_Core_Process_Statement.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:root:Decision_Bubbles.py executed successfully.
+INFO:root:RunAll.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2024 15:23:22] "POST /upload HTTP/1.1" 200 -
+INFO:root:Combined file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2024 15:23:26] "GET /download_all_files HTTP/1.1" 200 -
+INFO:root:PowerPoint file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2024 15:23:31] "GET /download_pptx HTTP/1.1" 200 -
+INFO:root:Non-CP-Statement file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2024 15:23:33] "GET /download_NC_Statement HTTP/1.1" 200 -
+INFO:root:Sub_bubbles pptx file path uploads\MakeCarPlus_73cc6bdc_subbubbles.pptx
+INFO:root:Sub_bubbles pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2024 15:23:35] "GET /download_Sub_bubbles HTTP/1.1" 200 -
+INFO:root:decision_bubbles pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2024 15:23:37] "GET /download_decision_bubbles HTTP/1.1" 200 -
+INFO:root:Verbs pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2024 15:23:39] "GET /download_verbs HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2024 21:55:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2024 21:55:28] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: MakeCarPlus.csv
+INFO:root:Uploaded filepath: uploads\MakeCarPlus_3c7159a6.csv
+INFO:root:Filename without extension: MakeCarPlus_3c7159a6
+INFO:root:calling your python3 scripts.
+INFO:root:Sipoc_to_pptx.py executed successfully.
+INFO:root:Non_Core_Process_Statement.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:root:Decision_Bubbles.py executed successfully.
+INFO:root:RunAll.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2024 21:55:53] "POST /upload HTTP/1.1" 200 -
+INFO:root:PowerPoint file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2024 21:56:14] "GET /download_pptx HTTP/1.1" 200 -
+INFO:root:Non-CP-Statement file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2024 21:56:16] "GET /download_NC_Statement HTTP/1.1" 200 -
+INFO:root:Sub_bubbles pptx file path uploads\MakeCarPlus_3c7159a6_subbubbles.pptx
+INFO:root:Sub_bubbles pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2024 21:56:17] "GET /download_Sub_bubbles HTTP/1.1" 200 -
+INFO:root:decision_bubbles pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2024 21:56:18] "GET /download_decision_bubbles HTTP/1.1" 200 -
+INFO:root:Verbs pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2024 21:56:18] "GET /download_verbs HTTP/1.1" 200 -
+INFO:root:Combined file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2024 22:02:42] "GET /download_all_files HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2024 22:05:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2024 22:05:41] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: make-car.csv
+INFO:root:Uploaded filepath: uploads\make-car_4fc57d6f.csv
+INFO:root:Filename without extension: make-car_4fc57d6f
+INFO:root:calling your python3 scripts.
+INFO:root:Sipoc_to_pptx.py executed successfully.
+INFO:root:Non_Core_Process_Statement.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:root:Decision_Bubbles.py executed successfully.
+INFO:root:RunAll.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2024 22:06:00] "POST /upload HTTP/1.1" 200 -
+INFO:root:Combined file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2024 22:06:02] "GET /download_all_files HTTP/1.1" 200 -
+INFO:root:PowerPoint file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2024 22:06:24] "GET /download_pptx HTTP/1.1" 200 -
+INFO:root:Non-CP-Statement file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2024 22:06:25] "GET /download_NC_Statement HTTP/1.1" 200 -
+INFO:root:Sub_bubbles pptx file path uploads\make-car_4fc57d6f_subbubbles.pptx
+INFO:root:Sub_bubbles pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2024 22:06:25] "GET /download_Sub_bubbles HTTP/1.1" 200 -
+INFO:root:decision_bubbles pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2024 22:06:26] "GET /download_decision_bubbles HTTP/1.1" 200 -
+INFO:root:Verbs pptx file downloaded successfully.
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2024 22:06:27] "GET /download_verbs HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 09:39:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 09:39:01] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:root:CSV file saved successfully.
+INFO:root:Uploaded filename: MakeCarPlus.csv
+INFO:root:Uploaded filepath: uploads\MakeCarPlus_2a694b4e.csv
+INFO:root:Filename without extension: MakeCarPlus_2a694b4e
+INFO:root:calling your python3 scripts.
+INFO:root:Sipoc_to_pptx.py executed successfully.
+INFO:root:Non_Core_Process_Statement.py executed successfully.
+INFO:root:Seperate_verbs.py executed successfully.
+INFO:root:Bracket.py executed successfully.
+INFO:root:Decision_Bubbles.py executed successfully.
+INFO:root:RunAll.py executed successfully.
+INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 09:39:35] "POST /upload HTTP/1.1" 200 -

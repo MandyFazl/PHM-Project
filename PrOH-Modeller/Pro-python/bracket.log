@@ -666,3 +666,72 @@
 2024-03-28 09:39:06,822 - INFO - filename_with_identifier: uploads\make_car_d27a592c_2407a060_subbubbles.csv
 2024-03-28 09:39:06,822 - INFO - filename_without_extension: uploads\make_car_d27a592c_2407a060_subbubbles
 2024-03-28 09:39:06,822 - INFO - output_file uploads\make_car_d27a592c_2407a060_subbubbles.pptx
+2024-04-02 11:46:11,329 - INFO - Words between parentheses have been saved to 'uploads\make car_3a783811_subbubbles.csv'
+2024-04-02 11:46:11,862 - INFO - start try
+2024-04-02 11:46:11,862 - INFO - Bracket-pptx.py :Input CSV file name.
+2024-04-02 11:46:11,862 - INFO - filename_with_identifier: uploads\make car_3a783811_subbubbles.csv
+2024-04-02 11:46:11,862 - INFO - filename_without_extension: uploads\make car_3a783811_subbubbles
+2024-04-02 11:46:11,862 - INFO - output_file uploads\make car_3a783811_subbubbles.pptx
+2024-04-02 11:47:57,827 - INFO - Words between parentheses have been saved to 'uploads\make car_4529278f_subbubbles.csv'
+2024-04-02 11:47:58,377 - INFO - start try
+2024-04-02 11:47:58,377 - INFO - Bracket-pptx.py :Input CSV file name.
+2024-04-02 11:47:58,377 - INFO - filename_with_identifier: uploads\make car_4529278f_subbubbles.csv
+2024-04-02 11:47:58,377 - INFO - filename_without_extension: uploads\make car_4529278f_subbubbles
+2024-04-02 11:47:58,377 - INFO - output_file uploads\make car_4529278f_subbubbles.pptx
+2024-04-02 11:52:39,256 - INFO - Words between parentheses have been saved to 'uploads\make car_a36f2797_subbubbles.csv'
+2024-04-02 11:52:39,813 - INFO - start try
+2024-04-02 11:52:39,813 - INFO - Bracket-pptx.py :Input CSV file name.
+2024-04-02 11:52:39,813 - INFO - filename_with_identifier: uploads\make car_a36f2797_subbubbles.csv
+2024-04-02 11:52:39,813 - INFO - filename_without_extension: uploads\make car_a36f2797_subbubbles
+2024-04-02 11:52:39,813 - INFO - output_file uploads\make car_a36f2797_subbubbles.pptx
+2024-04-04 10:13:53,684 - INFO - start try
+2024-04-04 10:13:53,686 - INFO - Bracket-pptx.py :Input CSV file name.
+2024-04-04 10:13:53,687 - INFO - filename_with_identifier: uploads\make-car_subbubbles.csv
+2024-04-04 10:13:53,687 - INFO - filename_without_extension: uploads\make-car_subbubbles
+2024-04-04 10:13:53,687 - INFO - output_file uploads\make-car_subbubbles.pptx
+2024-04-04 11:14:58,735 - ERROR - An error occurred: name 're' is not defined
+2024-04-04 11:17:15,969 - INFO - Words between parentheses have been saved to 'uploads\make-car_subbubbles.csv'
+2024-04-04 11:17:16,011 - INFO - PPTX file with editable text boxes for words between parentheses has been created: 'uploads\make-car.pptx'
+2024-04-04 11:19:17,341 - INFO - Words between parentheses have been saved to 'uploads\make-car_subbubbles.csv'
+2024-04-04 11:19:17,372 - INFO - PPTX file with editable text boxes for words between parentheses has been created: 'uploads\make-car.pptx'
+2024-04-04 11:42:15,149 - ERROR - An error occurred: name 'verbs_data' is not defined
+2024-04-04 11:44:12,227 - INFO - Words between parentheses have been saved to 'uploads\make-car_subbubbles.csv'
+2024-04-04 11:44:12,262 - INFO - PPTX file with editable elliptical nodes for unique values has been created: 'uploads\make-car.pptx'
+2024-04-04 11:45:57,990 - INFO - Words between parentheses have been saved to 'uploads\input_subbubbles.csv'
+2024-04-04 11:45:58,062 - INFO - PPTX file with editable elliptical nodes for unique values has been created: 'uploads\input.pptx'
+2024-04-04 14:29:01,134 - INFO - Words between parentheses have been saved to 'uploads\make-car_daebe68a_subbubbles.csv'
+2024-04-04 14:29:01,199 - INFO - PPTX file with editable elliptical nodes for unique values has been created: 'uploads\make-car_daebe68a.pptx'
+2024-04-04 14:43:11,607 - INFO - Words between parentheses have been saved to 'uploads\input_f1c96c65_subbubbles.csv'
+2024-04-04 14:43:11,689 - INFO - PPTX file with editable elliptical nodes for unique values has been created: 'uploads\input_f1c96c65.pptx'
+2024-04-04 14:48:26,795 - INFO - Words between parentheses have been saved to 'uploads\input_subbubbles.csv'
+2024-04-04 14:48:26,842 - INFO - PPTX file with editable elliptical nodes for unique values has been created: 'uploads\input.pptx'
+2024-04-04 14:57:51,466 - INFO - Words between parentheses have been saved to 'uploads\input_subbubbles.csv'
+2024-04-04 14:57:51,498 - ERROR - An error occurred: [Errno 2] No such file or directory: 'uploads\\uploads\\input_subbubbles.pptx'
+2024-04-04 14:59:53,315 - INFO - Words between parentheses have been saved to 'uploads\input_subbubbles.csv'
+2024-04-04 14:59:53,374 - INFO - PPTX file with editable elliptical nodes for unique values has been created: 'uploads\input_subbubbles.pptx'
+2024-04-04 15:00:34,482 - INFO - Words between parentheses have been saved to 'uploads\input_10369386_subbubbles.csv'
+2024-04-04 15:00:34,549 - INFO - PPTX file with editable elliptical nodes for unique values has been created: 'uploads\input_10369386_subbubbles.pptx'
+2024-04-05 08:31:51,881 - INFO - Words between parentheses have been saved to 'uploads\input_09be4729_subbubbles.csv'
+2024-04-05 08:31:51,922 - INFO - PPTX file with editable elliptical nodes for unique values has been created: 'uploads\input_09be4729_subbubbles.pptx'
+2024-04-05 08:43:22,607 - INFO - Words between parentheses have been saved to 'uploads\input_1f343eed_subbubbles.csv'
+2024-04-05 08:43:22,651 - INFO - PPTX file with editable elliptical nodes for unique values has been created: 'uploads\input_1f343eed_subbubbles.pptx'
+2024-04-05 08:54:53,950 - INFO - Words between parentheses have been saved to 'uploads\make-car_fd218bec_subbubbles.csv'
+2024-04-05 08:54:53,981 - INFO - PPTX file with editable elliptical nodes for unique values has been created: 'uploads\make-car_fd218bec_subbubbles.pptx'
+2024-04-05 09:00:20,058 - INFO - Words between parentheses have been saved to 'uploads\make-car2_e05fb8b8_subbubbles.csv'
+2024-04-05 09:00:20,090 - INFO - PPTX file with editable elliptical nodes for unique values has been created: 'uploads\make-car2_e05fb8b8_subbubbles.pptx'
+2024-04-05 09:07:50,663 - INFO - Words between parentheses have been saved to 'uploads\input_bd1e4f66_subbubbles.csv'
+2024-04-05 09:07:50,721 - INFO - PPTX file with editable elliptical nodes for unique values has been created: 'uploads\input_bd1e4f66_subbubbles.pptx'
+2024-04-05 09:10:15,943 - INFO - Words between parentheses have been saved to 'uploads\input_289be013_subbubbles.csv'
+2024-04-05 09:10:15,993 - INFO - PPTX file with editable elliptical nodes for unique values has been created: 'uploads\input_289be013_subbubbles.pptx'
+2024-04-08 15:09:36,222 - INFO - Words between parentheses have been saved to 'uploads\make car_006c28f3_subbubbles.csv'
+2024-04-08 15:09:36,256 - INFO - PPTX file with editable elliptical nodes for unique values has been created: 'uploads\make car_006c28f3_subbubbles.pptx'
+2024-04-09 22:29:58,985 - INFO - Words between parentheses have been saved to 'uploads\MakeCarPlus_65ba48bc_subbubbles.csv'
+2024-04-09 22:29:59,031 - INFO - PPTX file with editable elliptical nodes for unique values has been created: 'uploads\MakeCarPlus_65ba48bc_subbubbles.pptx'
+2024-04-11 15:23:17,042 - INFO - Words between parentheses have been saved to 'uploads\MakeCarPlus_73cc6bdc_subbubbles.csv'
+2024-04-11 15:23:17,072 - INFO - PPTX file with editable elliptical nodes for unique values has been created: 'uploads\MakeCarPlus_73cc6bdc_subbubbles.pptx'
+2024-04-11 21:55:48,237 - INFO - Words between parentheses have been saved to 'uploads\MakeCarPlus_3c7159a6_subbubbles.csv'
+2024-04-11 21:55:48,271 - INFO - PPTX file with editable elliptical nodes for unique values has been created: 'uploads\MakeCarPlus_3c7159a6_subbubbles.pptx'
+2024-04-11 22:05:54,944 - INFO - Words between parentheses have been saved to 'uploads\make-car_4fc57d6f_subbubbles.csv'
+2024-04-11 22:05:54,977 - INFO - PPTX file with editable elliptical nodes for unique values has been created: 'uploads\make-car_4fc57d6f_subbubbles.pptx'
+2024-04-12 09:39:27,586 - INFO - Words between parentheses have been saved to 'uploads\MakeCarPlus_2a694b4e_subbubbles.csv'
+2024-04-12 09:39:27,703 - INFO - PPTX file with editable elliptical nodes for unique values has been created: 'uploads\MakeCarPlus_2a694b4e_subbubbles.pptx'

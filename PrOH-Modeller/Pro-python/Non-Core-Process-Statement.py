@@ -43,9 +43,8 @@ try:
     with open(file_path, 'r') as csv_file:
         csv_reader = csv.reader(csv_file)
         rows = list(csv_reader)
-
-    # Remove first two rows
-    rows = rows[2:]
+        # Remove first two rows
+        rows = rows[2:]
 
     # Create a PowerPoint presentation
     presentation = Presentation()
@@ -56,66 +55,59 @@ try:
 
     # Define position and size for oval shapes
     num_cells = len(rows[0])
-    oval_width = Inches(2)
-    oval_height = Inches(0.8)
+    node_width = Inches(2)
+    node_height = Inches(0.8)
     text_font_size = Pt(18)
+    top_margin = Inches(1.0)
+    left_margin = Inches(0.5)
+    left = left_margin
+    top = top_margin
     slide_width = presentation.slide_width
     slide_height = presentation.slide_height
 
-    # Calculate the diagonal line positions
-    diagonal_length = (slide_width ** 2 + slide_height ** 2) ** 0.5
+# Calculate the diagonal line positions
+    # diagonal_length = (slide_width ** 2 + slide_height ** 2) ** 0.5
     x_step = slide_width / num_cells
     y_step = slide_height / num_cells
-
+    
     # Create oval shapes and add text to them with specified font and background colors
-    for i, cell in enumerate(rows[0]):
-        if i not in [0, 3, 5]:  # Ignore columns A, D, F
-            left = i * x_step
-            top = i * y_step
-            oval = slide.shapes.add_shape(MSO_SHAPE.OVAL, left, top, oval_width, oval_height)
-
-            if i % 2 == 0:  # Even columns (0-based index)
+    j = 0
+    while j< len(rows):
+        row=rows[j]  
+        for i, cell in enumerate(row):
+            if not cell or i==0 or i==3 or i==5  or '(' in cell: 
+                continue
+            if i==1 or i==4:
+                # Create oval shape with Green background
+                oval = slide.shapes.add_shape(MSO_SHAPE.OVAL, left, top, node_width, node_height)
+                oval.fill.solid()
+                oval.fill.fore_color.rgb = RGBColor(0, 255, 0) 
+                text_frame = oval.text_frame
+                text_frame.text = cell
+                text_frame.paragraphs[0].font.size = text_font_size
+                text_frame.paragraphs[0].font.color.rgb = RGBColor(0, 0, 0)  # Black font color
+                text_frame.paragraphs[0].alignment = PP_ALIGN.CENTER
+                left += node_width
+                if left + node_width > Inches(10):
+                    left = left_margin
+                    top += node_height
+                    
+            if i==2:
+                # Create oval shape with Green background
+                oval = slide.shapes.add_shape(MSO_SHAPE.OVAL, left, top, node_width, node_height)
                 oval.fill.solid()
                 oval.fill.fore_color.rgb = RGBColor(255, 0, 0)  # Red background
-            else:
-                oval.fill.solid()
-                oval.fill.fore_color.rgb = RGBColor(0, 255, 0)  # Green background
-
-            # Remove anything between parentheses
-            cell = re.sub(r'\([^)]*\)', '', cell)
-
-            text_frame = oval.text_frame
-            text_frame.text = cell
-            text_frame.paragraphs[0].font.size = text_font_size
-            text_frame.paragraphs[0].font.color.rgb = RGBColor(0, 0, 0)  # Black font color
-            text_frame.paragraphs[0].alignment = PP_ALIGN.CENTER
-
-    # Use spaCy to extract verbs from the second row
-    verbs = []
-    for cell in rows[1]:
-        # Remove anything between parentheses
-        cell = re.sub(r'\([^)]*\)', '', cell)
-        doc = nlp(cell)
-        verbs.extend([token.text for token in doc if token.pos_ == "VERB"])
-
-    # Create nodes for verbs with no border and background at the bottom of the slide
-    for i, verb in enumerate(verbs):
-        left = i * x_step
-        top = slide_height - oval_height - Inches(0.2)
-        verb_oval = slide.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, left, top, oval_width, oval_height)
-        verb_oval.line.fill.solid()
-        verb_oval.line.fill.fore_color.rgb = RGBColor(255, 255, 255)  # No border
-        verb_oval.line.width = Pt(0)  # No border width
-        verb_oval.shadow.inherit = False  # No shadow
-        verb_oval.fill.solid()
-        verb_oval.fill.fore_color.rgb = RGBColor(255, 255, 255)  # No background
-        verb_text_frame = verb_oval.text_frame
-        p = verb_text_frame.add_paragraph()
-        p.text = verb
-        p.font.size = text_font_size
-        p.font.color.rgb = RGBColor(0, 0, 0)  # Black font color
-        p.alignment = PP_ALIGN.CENTER
-
+                text_frame = oval.text_frame
+                text_frame.text = cell
+                text_frame.paragraphs[0].font.size = text_font_size
+                text_frame.paragraphs[0].font.color.rgb = RGBColor(0, 0, 0)  # Black font color
+                text_frame.paragraphs[0].alignment = PP_ALIGN.CENTER
+                left += node_width
+                if left + node_width > Inches(10):
+                    left = left_margin
+                    top += node_height
+        j += 1      
+   
     # Save the PowerPoint presentation with the same identifier
     pptx_filename = os.path.join(filename_without_extension +'_non-cp-statement'+'.pptx')
     presentation.save(pptx_filename)

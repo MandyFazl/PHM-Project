@@ -53,7 +53,7 @@ try:
 
     # Define initial positions for ovals
     left = Inches(0.5)
-    top = Inches(5)
+    top = Inches(1.5)
 
     # Iterate over all cells in the CSV file
     for row in rows:
