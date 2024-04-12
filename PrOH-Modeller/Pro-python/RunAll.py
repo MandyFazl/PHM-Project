@@ -483,11 +483,6 @@ def process_script5(filename_with_identifier, combined_presentation): # Script5:
             textbox.text_frame.text = cell
             textbox.text_frame.paragraphs[0].alignment = PP_ALIGN.CENTER  # Center align text
             left += cell_width
-
-        # Save the PowerPoint presentation
-        output_pptx_file = filename_without_extension + '_verbs.pptx'
-        combined_presentation.save(output_pptx_file)
-        print(f"PPTX file with cells containing verbs has been created: '{output_pptx_file}'")
         
     except Exception as e:
         logging.error(f'An error occurred: {str(e)}')
