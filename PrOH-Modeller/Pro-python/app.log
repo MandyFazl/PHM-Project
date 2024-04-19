@@ -864,3 +864,127 @@ INFO:root:Bracket.py executed successfully.
 INFO:root:Decision_Bubbles.py executed successfully.
 INFO:root:RunAll.py executed successfully.
 INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 09:39:35] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 11:59:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 11:59:38] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 11:59:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 11:59:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 11:59:40] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 11:59:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 11:59:41] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 12:01:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 12:01:44] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 12:02:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 12:02:25] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 12:02:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 12:02:26] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 12:02:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 12:02:27] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 12:02:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 12:02:33] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 12:02:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 12:02:50] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 12:03:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 12:03:19] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 13:51:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 13:51:18] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 13:51:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 13:51:20] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 13:51:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 13:51:29] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 13:51:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 13:51:31] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:25:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:25:21] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:25:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:25:22] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:25:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:25:24] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:25:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:25:26] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:25:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:25:28] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:25:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:25:29] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:25:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:25:40] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:25:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:25:41] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:25:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:25:42] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:25:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:25:44] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:25:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:25:45] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:26:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:26:08] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:26:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:26:08] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:26:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:26:28] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:48:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:48:59] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:49:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:49:11] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:49:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:49:12] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:49:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:49:12] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:49:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:49:15] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:49:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:55:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:55:05] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:55:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:55:06] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:56:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 09:56:54] "[33mGET /assets/js/color-modes.js HTTP/1.1[0m" 404 -
