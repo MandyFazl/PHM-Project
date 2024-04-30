@@ -508,3 +508,28 @@ start2024-03-08 12:28:16,071 - INFO - looking for the filepath
 2024-04-12 09:39:30,903 - INFO - Uploaded filepath: uploads\MakeCarPlus_2a694b4e.csv
 2024-04-12 09:39:30,966 - INFO - output_presentation is saved successfully.
 2024-04-12 09:39:30,966 - INFO - output_presentation path: uploads\MakeCarPlus_2a694b4e_decision-bubbles.pptx
+2024-04-23 17:48:32,157 - INFO - looking for the filepath
+2024-04-23 17:48:32,168 - INFO - Filename without extension: uploads\Sipoc-Table-Template (1)_12a1a889
+2024-04-23 17:48:32,168 - INFO - Uploaded filepath: uploads\Sipoc-Table-Template (1)_12a1a889.csv
+2024-04-23 17:48:32,216 - INFO - output_presentation is saved successfully.
+2024-04-23 17:48:32,216 - INFO - output_presentation path: uploads\Sipoc-Table-Template (1)_12a1a889_decision-bubbles.pptx
+2024-04-23 17:57:49,854 - INFO - looking for the filepath
+2024-04-23 17:57:49,854 - INFO - Filename without extension: uploads\make-car_7ae55a43
+2024-04-23 17:57:49,854 - INFO - Uploaded filepath: uploads\make-car_7ae55a43.csv
+2024-04-23 17:57:49,894 - INFO - output_presentation is saved successfully.
+2024-04-23 17:57:49,894 - INFO - output_presentation path: uploads\make-car_7ae55a43_decision-bubbles.pptx
+2024-04-23 18:05:41,800 - INFO - looking for the filepath
+2024-04-23 18:05:41,809 - INFO - Filename without extension: uploads\MakeCarPlus_707602b8
+2024-04-23 18:05:41,809 - INFO - Uploaded filepath: uploads\MakeCarPlus_707602b8.csv
+2024-04-23 18:05:41,849 - INFO - output_presentation is saved successfully.
+2024-04-23 18:05:41,858 - INFO - output_presentation path: uploads\MakeCarPlus_707602b8_decision-bubbles.pptx
+2024-04-23 22:35:02,278 - INFO - looking for the filepath
+2024-04-23 22:35:02,278 - INFO - Filename without extension: uploads\MakeCarPlus_707602b8_088d4c80
+2024-04-23 22:35:02,278 - INFO - Uploaded filepath: uploads\MakeCarPlus_707602b8_088d4c80.csv
+2024-04-23 22:35:02,310 - INFO - output_presentation is saved successfully.
+2024-04-23 22:35:02,310 - INFO - output_presentation path: uploads\MakeCarPlus_707602b8_088d4c80_decision-bubbles.pptx
+2024-04-24 14:19:50,376 - INFO - looking for the filepath
+2024-04-24 14:19:50,387 - INFO - Filename without extension: uploads\MakeCarPlus_5b8c7175
+2024-04-24 14:19:50,387 - INFO - Uploaded filepath: uploads\MakeCarPlus_5b8c7175.csv
+2024-04-24 14:19:50,448 - INFO - output_presentation is saved successfully.
+2024-04-24 14:19:50,448 - INFO - output_presentation path: uploads\MakeCarPlus_5b8c7175_decision-bubbles.pptx

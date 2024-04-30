@@ -425,67 +425,61 @@ def process_script4(filename_with_identifier, combined_presentation): # Script4:
 
 def process_script5(filename_with_identifier, combined_presentation): # Script5: Seperate_verbs.py
     filename_without_extension = os.path.splitext(filename_with_identifier)[0]
+    file_path = os.path.join(filename_with_identifier)
+    temp_csv_filename = filename_without_extension + '_verbs.csv'
     try:
-        filename_with_identifier = sys.argv[1]
-        filename_without_extension = os.path.splitext(filename_with_identifier)[0]
-        file_path = os.path.join(filename_with_identifier)
-        temp_csv_filename = filename_without_extension + '_verbs.csv'
-        
         with open(file_path, 'r') as csv_file:
             csv_reader = csv.reader(csv_file)
             rows = list(csv_reader)
+
             # Remove first two rows
             rows = rows[2:]
             # Read the CSV file and extract verbs and their respective cells
-            verb_data = []  # Use spaCy to extract verbs
-            j = 0
-            while j< len(rows):
-                row=rows[j]  
+            # Extract verbs and non-empty cells from column D
+            data = []
+            for row in rows:
                 for i, cell in enumerate(row):
-                    if  i==0 or i==5:
-                        continue 
+                    if i == 0 or i == 5:
+                        continue   
                     # Split the cell content into individual words
                     words = word_tokenize(cell)
                     # Part-of-speech tagging
                     tagged_words = pos_tag(words)
                     # Check if the cell contains a verb
                     if any(tag.startswith('VB') for _, tag in tagged_words):
-                        verb_data.append((cell,))
-            
-                # Write verbs and their respective cells to the temporary CSV file
-                with open(temp_csv_filename, 'w', newline='') as temp_csv_file:
-                    writer = csv.writer(temp_csv_file)
-                    writer.writerow(['Cell'])  # Header
-                    writer.writerows(verb_data)
-                j += 1
-
-        slide_layout = combined_presentation.slide_layouts[5]
+                        data.append(('Verb', cell))
+                    # Extract non-empty data from column D
+                    if i == 3 and cell.strip():  # Check if cell is not empty
+                        data.append(('Column D', cell))
+        # Create a blank slide
+        slide_layout = combined_presentation.slide_layouts[5]  # Blank slide layout
         slide = combined_presentation.slides.add_slide(slide_layout)
-
+            
         # Calculate the positions to fit all cells within the slide
         max_cells_per_row = 5
-        num_cells = len(verb_data)
+        num_cells = len(data)
         num_rows = (num_cells + max_cells_per_row - 1) // max_cells_per_row
-        cell_width = Inches(1.5)
+        cell_width = Inches(2.5)
         cell_height = Inches(0.5)
         left_margin = Inches(0.5)
         top_margin = Inches(1)
 
-        # Create shapes in PowerPoint
+        # Create shapes in PowerPoint for data
         left = left_margin
         top = top_margin
-        for cell_content in verb_data:
-            cell = cell_content[0]
-            if left + cell_width > Inches(10):
-                left = left_margin
-                top += cell_height
+        for row in data:
+            cell_type, cell_content = row
+            if top + cell_height > Inches(10):
+                top = top_margin
+                left += cell_width
             textbox = slide.shapes.add_textbox(left, top, cell_width, cell_height)
-            textbox.text_frame.text = cell
+            textbox.text_frame.text = cell_content
             textbox.text_frame.paragraphs[0].alignment = PP_ALIGN.CENTER  # Center align text
-            left += cell_width
+            top += cell_height
         
     except Exception as e:
         logging.error(f'An error occurred: {str(e)}')
+
 
     # Main function
 if __name__ == "__main__":
