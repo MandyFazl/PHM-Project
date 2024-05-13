@@ -14,3 +14,5 @@ ERROR:root:An error occurred: string index out of range
 ERROR:root:An error occurred: string index out of range
 ERROR:root:An error occurred: string index out of range
 ERROR:root:An error occurred: [Errno 13] Permission denied: 'uploads\\sipoc_table-Uni_verbs.pptx'
+ERROR:root:An error occurred: 'charmap' codec can't decode byte 0x9d in position 16: character maps to <undefined>
+ERROR:root:An error occurred: 'charmap' codec can't decode byte 0x9d in position 16: character maps to <undefined>

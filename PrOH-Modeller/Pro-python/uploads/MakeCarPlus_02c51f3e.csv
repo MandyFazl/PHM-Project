@@ -1,0 +1,8 @@
+PREVIOUS KEY HUMAN RESOURCE AND ACTIVITY,INPUT,KEY HUMAN RESOURCE,PERFORMS AN ACTIVITY,OUTPUT,NEXT HUMAN RESOURCE AND ACTIVITY
+supplier makes metal,metal,manager,makes,car,user drives car
+supplier makes metal,metal ,engineer,cuts,parts,assembler puts together assemblies
+engineer cuts parts,parts ,assembler ,puts  together,assemblies,owner decides good or bad quality
+assembler puts together assemblies,assemblies,owner,decides good or bad quality,OR: Quality (good),salesman sells car
+,,,,OR: Quality (bad),manager remakes car
+owner decides good or bad quality,OR: Quality (good),salesman ,sells car,sold car,user drives car
+,OR: Quality (bad),manager ,remakes car,car with errors,assembler puts together assemblies

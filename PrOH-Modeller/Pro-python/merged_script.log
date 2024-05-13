@@ -329,3 +329,99 @@
 2024-04-25 18:38:21,369 - INFO - Uploaded filepath: uploads\MakeCarPlus2.csv
 2024-04-25 18:38:21,377 - INFO - script3 executed successfully.
 2024-04-25 18:38:21,505 - INFO - Combined presentation saved successfully: uploads\MakeCarPlus2_combined.pptx
+2024-05-03 08:47:41,644 - INFO - Processing Script 1
+2024-05-03 08:47:41,645 - INFO - Filename without extension: uploads\make-car_64008c00
+2024-05-03 08:47:41,646 - INFO - Uploaded filepath: uploads\make-car_64008c00.xlsx
+2024-05-03 08:47:41,647 - INFO - looking for the filepath
+2024-05-03 08:47:41,647 - INFO - Filename without extension: uploads\make-car_64008c00
+2024-05-03 08:47:41,648 - INFO - Uploaded filepath: uploads\make-car_64008c00.xlsx
+2024-05-03 08:47:41,649 - INFO - Processing Script 3
+2024-05-03 08:47:41,649 - ERROR - An error occurred: 'charmap' codec can't decode byte 0x9d in position 16: character maps to <undefined>
+2024-05-03 08:47:41,650 - INFO - Processing script4
+2024-05-03 08:47:41,650 - INFO - Filename without extension: uploads\make-car_64008c00
+2024-05-03 08:47:41,651 - INFO - Uploaded filepath: uploads\make-car_64008c00.xlsx
+2024-05-03 08:47:41,670 - INFO - Combined presentation saved successfully: uploads\make-car_64008c00_combined.pptx
+2024-05-03 08:50:24,934 - INFO - Processing Script 1
+2024-05-03 08:50:24,934 - INFO - Filename without extension: uploads\make-car_528750a1
+2024-05-03 08:50:24,934 - INFO - Uploaded filepath: uploads\make-car_528750a1.xlsx
+2024-05-03 08:50:24,935 - INFO - looking for the filepath
+2024-05-03 08:50:24,936 - INFO - Filename without extension: uploads\make-car_528750a1
+2024-05-03 08:50:24,954 - INFO - Uploaded filepath: uploads\make-car_528750a1.xlsx
+2024-05-03 08:50:24,955 - INFO - Processing Script 3
+2024-05-03 08:50:24,956 - ERROR - An error occurred: 'charmap' codec can't decode byte 0x9d in position 16: character maps to <undefined>
+2024-05-03 08:50:24,956 - INFO - Processing script4
+2024-05-03 08:50:24,957 - INFO - Filename without extension: uploads\make-car_528750a1
+2024-05-03 08:50:24,957 - INFO - Uploaded filepath: uploads\make-car_528750a1.xlsx
+2024-05-03 08:50:24,974 - INFO - Combined presentation saved successfully: uploads\make-car_528750a1_combined.pptx
+2024-05-03 09:09:29,955 - INFO - Processing Script 1
+2024-05-03 09:09:29,956 - INFO - Filename without extension: uploads\make-car_3a8d0530
+2024-05-03 09:09:29,956 - INFO - Uploaded filepath: uploads\make-car_3a8d0530.csv
+2024-05-03 09:09:30,438 - INFO - looking for the filepath
+2024-05-03 09:09:30,438 - INFO - Filename without extension: uploads\make-car_3a8d0530
+2024-05-03 09:09:30,439 - INFO - Uploaded filepath: uploads\make-car_3a8d0530.csv
+2024-05-03 09:09:30,446 - INFO - Processing Script 3
+2024-05-03 09:09:30,452 - INFO - Processing script4
+2024-05-03 09:09:30,452 - INFO - Filename without extension: uploads\make-car_3a8d0530
+2024-05-03 09:09:30,452 - INFO - Uploaded filepath: uploads\make-car_3a8d0530.csv
+2024-05-03 09:09:30,459 - INFO - script3 executed successfully.
+2024-05-03 09:09:30,571 - INFO - Combined presentation saved successfully: uploads\make-car_3a8d0530_combined.pptx
+2024-05-03 09:15:54,744 - INFO - Processing Script 1
+2024-05-03 09:15:54,744 - INFO - Filename without extension: uploads\MakeCarPlus_3be6bb8e
+2024-05-03 09:15:54,744 - INFO - Uploaded filepath: uploads\MakeCarPlus_3be6bb8e.csv
+2024-05-03 09:15:55,259 - INFO - looking for the filepath
+2024-05-03 09:15:55,259 - INFO - Filename without extension: uploads\MakeCarPlus_3be6bb8e
+2024-05-03 09:15:55,260 - INFO - Uploaded filepath: uploads\MakeCarPlus_3be6bb8e.csv
+2024-05-03 09:15:55,270 - INFO - Processing Script 3
+2024-05-03 09:15:55,276 - INFO - Processing script4
+2024-05-03 09:15:55,276 - INFO - Filename without extension: uploads\MakeCarPlus_3be6bb8e
+2024-05-03 09:15:55,276 - INFO - Uploaded filepath: uploads\MakeCarPlus_3be6bb8e.csv
+2024-05-03 09:15:55,284 - INFO - script3 executed successfully.
+2024-05-03 09:15:55,474 - INFO - Combined presentation saved successfully: uploads\MakeCarPlus_3be6bb8e_combined.pptx
+2024-05-08 13:10:41,046 - INFO - Processing Script 1
+2024-05-08 13:10:41,057 - INFO - Filename without extension: uploads\make-car_db276dcf
+2024-05-08 13:10:41,057 - INFO - Uploaded filepath: uploads\make-car_db276dcf.csv
+2024-05-08 13:10:41,977 - INFO - looking for the filepath
+2024-05-08 13:10:41,977 - INFO - Filename without extension: uploads\make-car_db276dcf
+2024-05-08 13:10:41,977 - INFO - Uploaded filepath: uploads\make-car_db276dcf.csv
+2024-05-08 13:10:41,994 - INFO - Processing Script 3
+2024-05-08 13:10:42,002 - INFO - Processing script4
+2024-05-08 13:10:42,002 - INFO - Filename without extension: uploads\make-car_db276dcf
+2024-05-08 13:10:42,002 - INFO - Uploaded filepath: uploads\make-car_db276dcf.csv
+2024-05-08 13:10:42,010 - INFO - script3 executed successfully.
+2024-05-08 13:10:42,240 - INFO - Combined presentation saved successfully: uploads\make-car_db276dcf_combined.pptx
+2024-05-08 13:20:04,362 - INFO - Processing Script 1
+2024-05-08 13:20:04,365 - INFO - Filename without extension: uploads\sipoc_table-Uni - Copy_1546c846
+2024-05-08 13:20:04,365 - INFO - Uploaded filepath: uploads\sipoc_table-Uni - Copy_1546c846.csv
+2024-05-08 13:20:05,477 - INFO - looking for the filepath
+2024-05-08 13:20:05,477 - INFO - Filename without extension: uploads\sipoc_table-Uni - Copy_1546c846
+2024-05-08 13:20:05,477 - INFO - Uploaded filepath: uploads\sipoc_table-Uni - Copy_1546c846.csv
+2024-05-08 13:20:05,479 - INFO - Processing Script 3
+2024-05-08 13:20:05,509 - INFO - Processing script4
+2024-05-08 13:20:05,509 - INFO - Filename without extension: uploads\sipoc_table-Uni - Copy_1546c846
+2024-05-08 13:20:05,509 - INFO - Uploaded filepath: uploads\sipoc_table-Uni - Copy_1546c846.csv
+2024-05-08 13:20:05,534 - INFO - script3 executed successfully.
+2024-05-08 13:20:05,781 - INFO - Combined presentation saved successfully: uploads\sipoc_table-Uni - Copy_1546c846_combined.pptx
+2024-05-08 13:33:11,503 - INFO - Processing Script 1
+2024-05-08 13:33:11,503 - INFO - Filename without extension: uploads\sipoc_table-Uni - Copy_37af8a7d
+2024-05-08 13:33:11,503 - INFO - Uploaded filepath: uploads\sipoc_table-Uni - Copy_37af8a7d.csv
+2024-05-08 13:33:12,587 - INFO - looking for the filepath
+2024-05-08 13:33:12,587 - INFO - Filename without extension: uploads\sipoc_table-Uni - Copy_37af8a7d
+2024-05-08 13:33:12,587 - INFO - Uploaded filepath: uploads\sipoc_table-Uni - Copy_37af8a7d.csv
+2024-05-08 13:33:12,587 - INFO - Processing Script 3
+2024-05-08 13:33:12,627 - INFO - Processing script4
+2024-05-08 13:33:12,627 - INFO - Filename without extension: uploads\sipoc_table-Uni - Copy_37af8a7d
+2024-05-08 13:33:12,627 - INFO - Uploaded filepath: uploads\sipoc_table-Uni - Copy_37af8a7d.csv
+2024-05-08 13:33:12,660 - INFO - script3 executed successfully.
+2024-05-08 13:33:12,859 - INFO - Combined presentation saved successfully: uploads\sipoc_table-Uni - Copy_37af8a7d_combined.pptx
+2024-05-08 15:22:49,251 - INFO - Processing Script 1
+2024-05-08 15:22:49,252 - INFO - Filename without extension: uploads\MakeCarPlus_02c51f3e
+2024-05-08 15:22:49,252 - INFO - Uploaded filepath: uploads\MakeCarPlus_02c51f3e.csv
+2024-05-08 15:22:49,730 - INFO - looking for the filepath
+2024-05-08 15:22:49,731 - INFO - Filename without extension: uploads\MakeCarPlus_02c51f3e
+2024-05-08 15:22:49,731 - INFO - Uploaded filepath: uploads\MakeCarPlus_02c51f3e.csv
+2024-05-08 15:22:49,741 - INFO - Processing Script 3
+2024-05-08 15:22:49,746 - INFO - Processing script4
+2024-05-08 15:22:49,747 - INFO - Filename without extension: uploads\MakeCarPlus_02c51f3e
+2024-05-08 15:22:49,747 - INFO - Uploaded filepath: uploads\MakeCarPlus_02c51f3e.csv
+2024-05-08 15:22:49,756 - INFO - script3 executed successfully.
+2024-05-08 15:22:49,866 - INFO - Combined presentation saved successfully: uploads\MakeCarPlus_02c51f3e_combined.pptx

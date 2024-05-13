@@ -1061,3 +1061,75 @@
 2024-04-24 14:19:43,289 - INFO - Uploaded filepath: uploads\MakeCarPlus_5b8c7175.csv
 2024-04-24 14:19:43,372 - INFO - output_presentation is saved successfully.
 2024-04-24 14:19:43,372 - INFO - output_presentation path: uploads\MakeCarPlus_5b8c7175_non-cp-statement.pptx
+2024-05-03 08:47:34,560 - INFO - Looking for the filepath
+2024-05-03 08:47:34,561 - INFO - Filename without extension: uploads\make-car_64008c00
+2024-05-03 08:47:34,562 - INFO - Uploaded filepath: uploads\make-car_64008c00.xlsx
+2024-05-03 08:47:36,593 - INFO - looking for the filepath
+2024-05-03 08:47:36,593 - INFO - Filename without extension: uploads\make-car_64008c00
+2024-05-03 08:47:36,593 - INFO - Uploaded filepath: uploads\make-car_64008c00.xlsx
+2024-05-03 08:50:17,906 - INFO - Looking for the filepath
+2024-05-03 08:50:17,907 - INFO - Filename without extension: uploads\make-car_528750a1
+2024-05-03 08:50:17,907 - INFO - Uploaded filepath: uploads\make-car_528750a1.xlsx
+2024-05-03 08:50:19,668 - INFO - looking for the filepath
+2024-05-03 08:50:19,668 - INFO - Filename without extension: uploads\make-car_528750a1
+2024-05-03 08:50:19,668 - INFO - Uploaded filepath: uploads\make-car_528750a1.xlsx
+2024-05-03 09:09:22,266 - INFO - Looking for the filepath
+2024-05-03 09:09:22,267 - INFO - Filename without extension: uploads\make-car_3a8d0530
+2024-05-03 09:09:22,267 - INFO - Uploaded filepath: uploads\make-car_3a8d0530.csv
+2024-05-03 09:09:22,939 - INFO - Output presentation is saved successfully.
+2024-05-03 09:09:22,939 - INFO - Output presentation path: uploads\make-car_3a8d0530.pptx
+2024-05-03 09:09:24,792 - INFO - looking for the filepath
+2024-05-03 09:09:24,793 - INFO - Filename without extension: uploads\make-car_3a8d0530
+2024-05-03 09:09:24,793 - INFO - Uploaded filepath: uploads\make-car_3a8d0530.csv
+2024-05-03 09:09:24,825 - INFO - output_presentation is saved successfully.
+2024-05-03 09:09:24,825 - INFO - output_presentation path: uploads\make-car_3a8d0530_non-cp-statement.pptx
+2024-05-03 09:15:47,290 - INFO - Looking for the filepath
+2024-05-03 09:15:47,290 - INFO - Filename without extension: uploads\MakeCarPlus_3be6bb8e
+2024-05-03 09:15:47,290 - INFO - Uploaded filepath: uploads\MakeCarPlus_3be6bb8e.csv
+2024-05-03 09:15:47,908 - INFO - Output presentation is saved successfully.
+2024-05-03 09:15:47,909 - INFO - Output presentation path: uploads\MakeCarPlus_3be6bb8e.pptx
+2024-05-03 09:15:49,726 - INFO - looking for the filepath
+2024-05-03 09:15:49,727 - INFO - Filename without extension: uploads\MakeCarPlus_3be6bb8e
+2024-05-03 09:15:49,727 - INFO - Uploaded filepath: uploads\MakeCarPlus_3be6bb8e.csv
+2024-05-03 09:15:49,758 - INFO - output_presentation is saved successfully.
+2024-05-03 09:15:49,758 - INFO - output_presentation path: uploads\MakeCarPlus_3be6bb8e_non-cp-statement.pptx
+2024-05-08 13:10:21,651 - INFO - Looking for the filepath
+2024-05-08 13:10:21,660 - INFO - Filename without extension: uploads\make-car_db276dcf
+2024-05-08 13:10:21,660 - INFO - Uploaded filepath: uploads\make-car_db276dcf.csv
+2024-05-08 13:10:24,149 - INFO - Output presentation is saved successfully.
+2024-05-08 13:10:24,149 - INFO - Output presentation path: uploads\make-car_db276dcf.pptx
+2024-05-08 13:10:27,921 - INFO - looking for the filepath
+2024-05-08 13:10:27,928 - INFO - Filename without extension: uploads\make-car_db276dcf
+2024-05-08 13:10:27,928 - INFO - Uploaded filepath: uploads\make-car_db276dcf.csv
+2024-05-08 13:10:28,011 - INFO - output_presentation is saved successfully.
+2024-05-08 13:10:28,014 - INFO - output_presentation path: uploads\make-car_db276dcf_non-cp-statement.pptx
+2024-05-08 13:19:44,950 - INFO - Looking for the filepath
+2024-05-08 13:19:44,950 - INFO - Filename without extension: uploads\sipoc_table-Uni - Copy_1546c846
+2024-05-08 13:19:44,953 - INFO - Uploaded filepath: uploads\sipoc_table-Uni - Copy_1546c846.csv
+2024-05-08 13:19:46,336 - INFO - Output presentation is saved successfully.
+2024-05-08 13:19:46,337 - INFO - Output presentation path: uploads\sipoc_table-Uni - Copy_1546c846.pptx
+2024-05-08 13:19:51,291 - INFO - looking for the filepath
+2024-05-08 13:19:51,291 - INFO - Filename without extension: uploads\sipoc_table-Uni - Copy_1546c846
+2024-05-08 13:19:51,291 - INFO - Uploaded filepath: uploads\sipoc_table-Uni - Copy_1546c846.csv
+2024-05-08 13:19:51,350 - INFO - output_presentation is saved successfully.
+2024-05-08 13:19:51,350 - INFO - output_presentation path: uploads\sipoc_table-Uni - Copy_1546c846_non-cp-statement.pptx
+2024-05-08 13:32:55,325 - INFO - Looking for the filepath
+2024-05-08 13:32:55,325 - INFO - Filename without extension: uploads\sipoc_table-Uni - Copy_37af8a7d
+2024-05-08 13:32:55,325 - INFO - Uploaded filepath: uploads\sipoc_table-Uni - Copy_37af8a7d.csv
+2024-05-08 13:32:56,607 - INFO - Output presentation is saved successfully.
+2024-05-08 13:32:56,607 - INFO - Output presentation path: uploads\sipoc_table-Uni - Copy_37af8a7d.pptx
+2024-05-08 13:33:00,263 - INFO - looking for the filepath
+2024-05-08 13:33:00,263 - INFO - Filename without extension: uploads\sipoc_table-Uni - Copy_37af8a7d
+2024-05-08 13:33:00,263 - INFO - Uploaded filepath: uploads\sipoc_table-Uni - Copy_37af8a7d.csv
+2024-05-08 13:33:00,304 - INFO - output_presentation is saved successfully.
+2024-05-08 13:33:00,304 - INFO - output_presentation path: uploads\sipoc_table-Uni - Copy_37af8a7d_non-cp-statement.pptx
+2024-05-08 15:22:41,365 - INFO - Looking for the filepath
+2024-05-08 15:22:41,366 - INFO - Filename without extension: uploads\MakeCarPlus_02c51f3e
+2024-05-08 15:22:41,366 - INFO - Uploaded filepath: uploads\MakeCarPlus_02c51f3e.csv
+2024-05-08 15:22:42,032 - INFO - Output presentation is saved successfully.
+2024-05-08 15:22:42,032 - INFO - Output presentation path: uploads\MakeCarPlus_02c51f3e.pptx
+2024-05-08 15:22:43,796 - INFO - looking for the filepath
+2024-05-08 15:22:43,796 - INFO - Filename without extension: uploads\MakeCarPlus_02c51f3e
+2024-05-08 15:22:43,796 - INFO - Uploaded filepath: uploads\MakeCarPlus_02c51f3e.csv
+2024-05-08 15:22:43,829 - INFO - output_presentation is saved successfully.
+2024-05-08 15:22:43,829 - INFO - output_presentation path: uploads\MakeCarPlus_02c51f3e_non-cp-statement.pptx

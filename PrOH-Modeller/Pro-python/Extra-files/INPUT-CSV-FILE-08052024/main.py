@@ -1,9 +1,8 @@
-from flask import Flask, render_template, request, send_file, jsonify, session
+from flask import Flask, render_template, request, send_file, jsonify, session, make_response
 import subprocess
 import os
 import logging
 import uuid  # for generating unique identifiers
-import pandas as pd # for importing xlsx file
 
 app = Flask(__name__)
 app.secret_key = os.urandom(24)  # Secret key for session
@@ -21,18 +20,15 @@ def index():
     return render_template('index.html', upload_status="")
 
 
-
 @app.route('/upload', methods=['POST'])
 def upload():
     try:
         if 'file' not in request.files:
-            return jsonify({'No file selected'}), 400
+            return jsonify({'error': 'No file selected'}), 400
 
         file = request.files['file']
         if file.filename == '':
-            return jsonify({'No file selected'}), 400
-        if not file.filename.endswith('.xlsx') and not file.filename.endswith('.xls'):
-            return jsonify({'File must be in Excel format (.xlsx or .xls)'}), 400
+            return jsonify({'error': 'No file selected'}), 400
 
         # Generate a unique identifier
         unique_identifier = str(uuid.uuid4())[:8]  # Adjust the length of the unique code as needed
@@ -46,20 +42,13 @@ def upload():
         # Save the file with the new filename
         file_path = os.path.join('uploads', filename_with_identifier)
         file.save(file_path)
-        logging.info("Excel file saved successfully.")
-
-        # Convert Excel to CSV
-        excel_df = pd.read_excel(file_path)
-        csv_filename = f"{filename}_{unique_identifier}.csv"
-        csv_file_path = os.path.join('uploads', csv_filename)
-        excel_df.to_csv(csv_file_path, index=False)
         logging.info("CSV file saved successfully.")
 
         # Store the file path in session
-        session['file_path'] = csv_file_path
+        session['file_path'] = file_path
 
         logging.info(f"Uploaded filename: {file.filename}")
-        logging.info(f"Uploaded filepath: {csv_file_path}")
+        logging.info(f"Uploaded filepath: {file_path}")
 
         # Construct the filename without the extension
         filename_without_extension = os.path.splitext(filename_with_identifier)[0]
@@ -67,17 +56,17 @@ def upload():
 
         # Call your python3 scripts with the uploaded file as an argument
         logging.info("calling your python3 scripts.")
-        subprocess.run(['python', 'Sipoc_to_pptx.py', csv_file_path])
+        subprocess.run(['python3', 'Sipoc_to_pptx.py', file_path])
         logging.info("Sipoc_to_pptx.py executed successfully.")
-        subprocess.run(['python', 'Non-Core-Process-Statement.py', csv_file_path])
+        subprocess.run(['python3', 'Non-Core-Process-Statement.py', file_path])
         logging.info("Non_Core_Process_Statement.py executed successfully.")
-        subprocess.run(['python', 'Seperate_verbs.py', csv_file_path])
+        subprocess.run(['python3', 'Seperate_verbs.py', file_path])
         logging.info("Seperate_verbs.py executed successfully.")
-        subprocess.run(['python', 'Bracket.py', csv_file_path])
+        subprocess.run(['python3', 'Bracket.py', file_path])
         logging.info("Bracket.py executed successfully.")
-        subprocess.run(['python', 'Decision-Bubbles.py', csv_file_path])
+        subprocess.run(['python3', 'Decision-Bubbles.py', file_path])
         logging.info("Decision_Bubbles.py executed successfully.")
-        subprocess.run(['python', 'RunAll.py', csv_file_path])
+        subprocess.run(['python3', 'RunAll.py', file_path])
         logging.info("RunAll.py executed successfully.")
 
         return jsonify({'message': 'Upload successful'}), 200

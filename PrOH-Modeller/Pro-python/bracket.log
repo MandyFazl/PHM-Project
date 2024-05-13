@@ -745,3 +745,17 @@
 2024-04-23 22:35:00,651 - INFO - PPTX file with editable elliptical nodes for unique values has been created: 'uploads\MakeCarPlus_707602b8_088d4c80_subbubbles.pptx'
 2024-04-24 14:19:47,143 - INFO - Words between parentheses have been saved to 'uploads\MakeCarPlus_5b8c7175_subbubbles.csv'
 2024-04-24 14:19:47,183 - INFO - PPTX file with editable elliptical nodes for unique values has been created: 'uploads\MakeCarPlus_5b8c7175_subbubbles.pptx'
+2024-05-03 08:47:37,903 - ERROR - An error occurred: 'charmap' codec can't decode byte 0x9d in position 16: character maps to <undefined>
+2024-05-03 08:50:20,934 - ERROR - An error occurred: 'charmap' codec can't decode byte 0x9d in position 16: character maps to <undefined>
+2024-05-03 09:09:26,071 - INFO - Words between parentheses have been saved to 'uploads\make-car_3a8d0530_subbubbles.csv'
+2024-05-03 09:09:26,101 - INFO - PPTX file with editable elliptical nodes for unique values has been created: 'uploads\make-car_3a8d0530_subbubbles.pptx'
+2024-05-03 09:15:50,941 - INFO - Words between parentheses have been saved to 'uploads\MakeCarPlus_3be6bb8e_subbubbles.csv'
+2024-05-03 09:15:50,970 - INFO - PPTX file with editable elliptical nodes for unique values has been created: 'uploads\MakeCarPlus_3be6bb8e_subbubbles.pptx'
+2024-05-08 13:10:31,759 - INFO - Words between parentheses have been saved to 'uploads\make-car_db276dcf_subbubbles.csv'
+2024-05-08 13:10:31,832 - INFO - PPTX file with editable elliptical nodes for unique values has been created: 'uploads\make-car_db276dcf_subbubbles.pptx'
+2024-05-08 13:19:54,514 - INFO - Words between parentheses have been saved to 'uploads\sipoc_table-Uni - Copy_1546c846_subbubbles.csv'
+2024-05-08 13:19:54,635 - INFO - PPTX file with editable elliptical nodes for unique values has been created: 'uploads\sipoc_table-Uni - Copy_1546c846_subbubbles.pptx'
+2024-05-08 13:33:03,074 - INFO - Words between parentheses have been saved to 'uploads\sipoc_table-Uni - Copy_37af8a7d_subbubbles.csv'
+2024-05-08 13:33:03,166 - INFO - PPTX file with editable elliptical nodes for unique values has been created: 'uploads\sipoc_table-Uni - Copy_37af8a7d_subbubbles.pptx'
+2024-05-08 15:22:45,405 - INFO - Words between parentheses have been saved to 'uploads\MakeCarPlus_02c51f3e_subbubbles.csv'
+2024-05-08 15:22:45,432 - INFO - PPTX file with editable elliptical nodes for unique values has been created: 'uploads\MakeCarPlus_02c51f3e_subbubbles.pptx'
